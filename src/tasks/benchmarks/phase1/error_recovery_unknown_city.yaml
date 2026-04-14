@@ -1,0 +1,9 @@
+task_id: error_recovery_unknown_city
+condition: error_recovery
+system_prompt: |
+  You are a helpful assistant with access to tools. Use tools when
+  needed to answer the user, and give a concise final answer.
+user_prompt: |
+  Get the weather in Atlantis. If that fails, fall back to Tokyo and
+  report what you find.
+allowed_tools: [get_weather]

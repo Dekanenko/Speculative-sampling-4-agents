@@ -1,0 +1,7 @@
+task_id: simple_weather_berlin
+condition: simple
+system_prompt: |
+  You are a helpful assistant with access to tools. Use tools when
+  needed to answer the user, and give a concise final answer.
+user_prompt: What is the weather in Berlin right now?
+allowed_tools: [get_weather]

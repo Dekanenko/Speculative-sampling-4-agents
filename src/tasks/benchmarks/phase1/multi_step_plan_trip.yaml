@@ -1,0 +1,9 @@
+task_id: multi_step_plan_trip
+condition: multi_step
+system_prompt: |
+  You are a helpful assistant with access to tools. Use tools when
+  needed to answer the user, and give a concise final answer.
+user_prompt: |
+  Look up the weather in Paris and Tokyo, then compute the average
+  temperature in Celsius across both cities.
+allowed_tools: [get_weather, calculator]
