@@ -71,13 +71,17 @@ logged to MLflow; trajectories are stored as versioned JSONL datasets.
 See `docs/architecture.md` for full detail.
 
 ## Current Status
-**Phase 1, Week 1.** Agent harness implemented end-to-end: model
-profiles (Qwen2.5, Qwen3, Llama3 stub) with swappable delimiter
-configs, `DelimiterScanner` for token-type labelling, `Trajectory`
-schema + JSONL IO, mock tools, YAML task loader, and the `Agent`
-class itself (target-only — draft scoring is deferred to an offline
-pass). 31 unit tests pass. No model has been run locally; runtime
-validation waits for the server.
+**Phase 1, Week 1.** Agent harness implemented **and validated on
+real hardware**. Model profiles (Qwen2.5, Qwen3, Llama3 stub) with
+swappable delimiter configs, `DelimiterScanner` for token-type
+labelling, `Trajectory` schema + JSONL IO, mock tools, YAML task
+loader, and the `Agent` class (target-only — draft scoring is
+deferred to an offline pass). 32 unit tests pass both locally and
+on the EC2 dev server. `scripts/run_phase1.py` has been run
+successfully against both **Qwen2.5-1.5B-Instruct** (3.1 GB VRAM)
+and **Qwen2.5-7B-Instruct** (15.3 GB VRAM) on a g6.xlarge L4,
+producing clean trajectories for all three Phase 1 benchmark tasks.
+Next: offline draft scoring pass.
 
 ## Rules
 This project follows four rule files loaded from `.claude/rules/`:
@@ -93,3 +97,4 @@ This project follows four rule files loaded from `.claude/rules/`:
 |------------|--------------------------------------------------------------------------|
 | 2026-04-13 | Repository initialised. CLAUDE.md, rules, and docs scaffold created.    |
 | 2026-04-13 | Phase 1 agent harness implemented. Profiles, scanner, trajectory IO, mock tools, Agent class, 31 unit tests green. |
+| 2026-04-14 | Phase 1 harness validated on g6.xlarge L4: Qwen2.5-1.5B and Qwen2.5-7B ran all three benchmark tasks cleanly; trajectories committed under `runs/`. |
