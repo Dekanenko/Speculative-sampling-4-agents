@@ -209,6 +209,11 @@ class Agent:
             seed=self.seed,
             generation_kwargs=self.generation_kwargs.as_dict(),
             dataset_version=dataset_version,
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+            tool_schemas=self._tools.schemas(
+                self._profile.tool_schema_formatter
+            ),
         )
         trajectory = Trajectory(metadata=metadata)
 

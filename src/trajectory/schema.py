@@ -78,6 +78,13 @@ class TrajectoryStep:
 class TrajectoryMetadata:
     """Metadata header written as the first line of a trajectory JSONL file.
 
+    The ``system_prompt`` / ``user_prompt`` / ``tool_schemas`` triple
+    exists so that the offline draft-scoring pass can rebuild the
+    **exact** prompt prefix the target model saw, without having to
+    reload the task YAML or the mock tool registry. A trajectory file
+    is therefore self-contained: load it, hand it to the draft
+    tokenizer, and replay — no external state required.
+
     Attributes:
         task_id: ID of the task this trajectory belongs to.
         condition: Experimental condition label.
@@ -86,6 +93,12 @@ class TrajectoryMetadata:
         seed: Master seed.
         generation_kwargs: Full generation kwargs dict used for ``generate``.
         dataset_version: Version tag of the task set this task came from.
+        system_prompt: The system message passed to ``Agent.run``.
+        user_prompt: The initial user message passed to ``Agent.run``.
+        tool_schemas: The exact tool schema list that was rendered into
+            the system prompt's ``<tools>`` block at runtime, in the
+            family-specific format returned by the profile's
+            ``tool_schema_formatter``.
         git_commit_sha: Git commit SHA at run time, or None if unavailable.
         docker_image_tag: Docker image tag, or None if not running in Docker.
     """
@@ -97,6 +110,9 @@ class TrajectoryMetadata:
     seed: int
     generation_kwargs: dict[str, Any]
     dataset_version: str
+    system_prompt: str
+    user_prompt: str
+    tool_schemas: list[dict[str, Any]]
     git_commit_sha: str | None = None
     docker_image_tag: str | None = None
 

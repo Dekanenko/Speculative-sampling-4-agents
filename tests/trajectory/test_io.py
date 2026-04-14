@@ -19,6 +19,9 @@ def _trajectory() -> Trajectory:
         seed=7,
         generation_kwargs={"max_new_tokens": 8},
         dataset_version="phase1-v0",
+        system_prompt="sys",
+        user_prompt="hello",
+        tool_schemas=[{"name": "mock", "description": "d", "parameters": {}}],
     )
     traj = Trajectory(metadata=meta)
     traj.append(
