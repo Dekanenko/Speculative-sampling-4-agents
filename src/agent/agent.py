@@ -114,9 +114,12 @@ class Agent:
         self._tokenizer = AutoTokenizer.from_pretrained(
             model_name, trust_remote_code=trust_remote_code
         )
+        # transformers >=5 renamed `torch_dtype` to `dtype`; the old
+        # kwarg still works but emits a deprecation warning, so pass
+        # the new name explicitly.
         self._model = AutoModelForCausalLM.from_pretrained(
             model_name,
-            torch_dtype=torch_dtype,
+            dtype=torch_dtype,
             trust_remote_code=trust_remote_code,
         ).to(device)
         self._model.eval()
