@@ -228,15 +228,25 @@ def score_trajectory(
     draft_model_name: str,
     device: str,
 ) -> Trajectory:
-    """Score a trajectory with a draft model in a single forward pass.
+    """Score a trajectory with a draft model.
+
+    Runs one forward pass **per step** rather than a single pass over
+    the full conversation. This is the only correct approach because
+    BPE tokenization is context-sensitive: decoding a step's stored
+    ``token_ids`` to text and then re-tokenizing via the chat template
+    can produce a different token sequence (e.g. the three-character
+    substring ``')"}'`` tokenises to different IDs depending on the
+    surrounding context). Per-step scoring sidesteps that by appending
+    the step's original ``token_ids`` to the rendered prefix **without
+    re-tokenizing**, so the draft evaluates each stored token against
+    the exact partial sequence the target saw.
 
     Args:
         traj: A target-produced trajectory with ``target_logprobs``
             populated and ``draft_logprobs`` / ``acceptance_proxy``
             ``None``.
         draft_tokenizer: A tokenizer from the same family as the
-            draft model. Must produce the same chat-template output
-            as the target (verified via the replay invariant).
+            draft model.
         draft_model: A loaded causal LM in eval mode, same family as
             the target.
         draft_model_name: HF model id; recorded into each step's
@@ -247,29 +257,47 @@ def score_trajectory(
         A new ``Trajectory`` with fully-populated ``draft_logprobs``,
         ``acceptance_proxy``, and ``model_draft`` on every step.
     """
-    messages, prefix_lens = reconstruct_messages(traj, draft_tokenizer)
-
-    enc_full = draft_tokenizer.apply_chat_template(
-        messages,
-        tools=traj.metadata.tool_schemas,
-        add_generation_prompt=False,
-        tokenize=True,
-        return_tensors="pt",
-        return_dict=True,
-    )
-    full_ids_tensor: torch.Tensor = enc_full["input_ids"]
-    full_ids_list: list[int] = full_ids_tensor[0].tolist()
-
-    verify_replay_invariant(full_ids_list, traj, prefix_lens)
-
-    with torch.no_grad():
-        logits = draft_model(full_ids_tensor.to(device)).logits  # (1, L, V)
-    # Precision parity with the target side: cast to fp32 before log_softmax.
-    log_probs_all = F.log_softmax(logits[0].float(), dim=-1).cpu()  # (L, V)
-
+    messages: list[dict[str, Any]] = [
+        {"role": "system", "content": traj.metadata.system_prompt},
+        {"role": "user", "content": traj.metadata.user_prompt},
+    ]
     new_steps: list[TrajectoryStep] = []
-    for step, start in zip(traj.steps, prefix_lens):
-        draft_lps = gather_draft_logprobs(log_probs_all, step.token_ids, start)
+
+    for step in traj.steps:
+        enc = draft_tokenizer.apply_chat_template(
+            messages,
+            tools=traj.metadata.tool_schemas,
+            add_generation_prompt=True,
+            tokenize=True,
+            return_tensors="pt",
+            return_dict=True,
+        )
+        prefix_ids: list[int] = enc["input_ids"][0].tolist()
+
+        # Concatenate prefix + the step's ORIGINAL token IDs. No
+        # re-tokenization of the step — that is the whole point of
+        # this design: BPE tokenization is not round-trip stable.
+        full_input = prefix_ids + step.token_ids
+        input_tensor = torch.tensor([full_input], dtype=torch.long, device=device)
+
+        with torch.no_grad():
+            logits = draft_model(input_tensor).logits  # (1, L, V)
+
+        # log_softmax only at the positions we need (causal shift):
+        # logits[prefix_len - 1 + j] predicts step.token_ids[j].
+        prefix_len = len(prefix_ids)
+        needed_positions = list(
+            range(prefix_len - 1, prefix_len - 1 + len(step.token_ids))
+        )
+        pos_logits = logits[0, needed_positions].float()  # (n, V) fp32
+        pos_log_probs = F.log_softmax(pos_logits, dim=-1).cpu()  # (n, V)
+        draft_lps: list[float] = [
+            float(pos_log_probs[j, step.token_ids[j]].item())
+            for j in range(len(step.token_ids))
+        ]
+        # Free the per-step logits tensor before the next step allocates more.
+        del logits, input_tensor, pos_logits, pos_log_probs
+
         accept = compute_acceptance_proxy(step.target_logprobs, draft_lps)
         new_steps.append(
             replace(
@@ -279,5 +307,26 @@ def score_trajectory(
                 model_draft=draft_model_name,
             )
         )
+
+        # Advance messages for the next step. Even though the assistant
+        # content may re-tokenize differently than the stored tokens,
+        # that is also how the agent advanced its own state at runtime
+        # — so the next prefix we render is what the target actually saw.
+        messages.append(
+            {
+                "role": "assistant",
+                "content": draft_tokenizer.decode(
+                    step.token_ids, skip_special_tokens=True
+                ),
+            }
+        )
+        if step.tool_results:
+            for result in step.tool_results:
+                messages.append(
+                    {
+                        "role": "tool",
+                        "content": json.dumps(result, ensure_ascii=False),
+                    }
+                )
 
     return Trajectory(metadata=traj.metadata, steps=new_steps)
