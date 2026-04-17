@@ -84,11 +84,18 @@ producing clean trajectories for all three Phase 1 benchmark tasks.
 Next: offline draft scoring pass.
 
 ## Rules
-This project follows four rule files loaded from `.claude/rules/`:
+This project follows five rule files loaded from `.claude/rules/`:
 - @.claude/rules/code-quality.md
 - @.claude/rules/documentation.md
 - @.claude/rules/git.md
 - @.claude/rules/experiments.md
+- @.claude/rules/research.md
+
+## Research notes
+Durable findings with data behind them live in `docs/research/`.
+Index: `docs/research/README.md`. Every measurement pass, hypothesis
+test, and direction change is written up there — not in the
+changelog, not in chat scratch files.
 
 ## Changelog
 <!-- Updated every session -->
@@ -98,3 +105,4 @@ This project follows four rule files loaded from `.claude/rules/`:
 | 2026-04-13 | Repository initialised. CLAUDE.md, rules, and docs scaffold created.    |
 | 2026-04-13 | Phase 1 agent harness implemented. Profiles, scanner, trajectory IO, mock tools, Agent class, 31 unit tests green. |
 | 2026-04-14 | Phase 1 harness validated on g6.xlarge L4: Qwen2.5-1.5B and Qwen2.5-7B ran all three benchmark tasks cleanly; trajectories committed under `runs/`. |
+| 2026-04-17 | First full measurement sweep on Qwen2.5 same-family pair across mocks+hotpotqa+mbpp. TaskFamily engine, per-step scorer, tail+speedup analysis. 121k tokens scored, ~97% of theoretical speedup ceiling across all cells — hypothesis "agents break spec decoding" not supported. See `docs/research/2026-04-17-first-full-sweep.md`. |
