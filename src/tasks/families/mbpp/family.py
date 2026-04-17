@@ -78,12 +78,19 @@ class MbppFamily(TaskFamily):
             )
 
         sandbox = TempDirSandbox()
-        (sandbox.root / "solution.py").write_text(
-            metadata[METADATA_STUB_KEY], encoding="utf-8"
-        )
-        sandbox.hidden_test_file.write_text(
-            metadata[METADATA_TEST_KEY], encoding="utf-8"
-        )
+        try:
+            (sandbox.root / "solution.py").write_text(
+                metadata[METADATA_STUB_KEY], encoding="utf-8"
+            )
+            sandbox.hidden_test_file.write_text(
+                metadata[METADATA_TEST_KEY], encoding="utf-8"
+            )
+        except Exception:
+            # Seeding failed — tear the sandbox down so we don't leak a
+            # tempdir per task. Re-raise the original exception so the
+            # runner surfaces the real error.
+            sandbox.teardown()
+            raise
         return sandbox
 
     def build_tools(self, env: Env | None) -> list[ToolSpec]:

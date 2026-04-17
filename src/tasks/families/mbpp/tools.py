@@ -16,6 +16,7 @@ from __future__ import annotations
 import re
 import subprocess
 import sys
+import time
 from typing import Any
 
 from ....agent.tools import ToolSpec
@@ -124,6 +125,7 @@ def _make_run_tests(
             "--no-header",
             "-q",
         ]
+        t0 = time.perf_counter()
         try:
             completed = subprocess.run(
                 cmd,
@@ -137,7 +139,7 @@ def _make_run_tests(
                 "passed": 0,
                 "failed": 0,
                 "output": "<truncated>",
-                "duration_ms": int(timeout_s * 1000),
+                "duration_ms": int((time.perf_counter() - t0) * 1000),
                 "timed_out": True,
             }
         except OSError as exc:
@@ -145,16 +147,17 @@ def _make_run_tests(
                 "passed": 0,
                 "failed": 0,
                 "output": f"pytest_invocation_failed: {exc}",
-                "duration_ms": 0,
+                "duration_ms": int((time.perf_counter() - t0) * 1000),
                 "timed_out": False,
             }
+        duration_ms = int((time.perf_counter() - t0) * 1000)
         combined = (completed.stdout or "") + (completed.stderr or "")
         passed, failed = _parse_counts(combined)
         return {
             "passed": passed,
             "failed": failed,
             "output": _truncate(combined),
-            "duration_ms": 0,
+            "duration_ms": duration_ms,
             "timed_out": False,
         }
 

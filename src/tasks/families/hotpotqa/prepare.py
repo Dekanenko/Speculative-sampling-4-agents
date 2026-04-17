@@ -153,15 +153,20 @@ def _select_tasks(rows: list[dict[str, Any]]) -> list[_SelectedTask]:
                 perturbed_title=None,
             )
         )
-    for i, row in enumerate(picked_error, start=1):
+    # Assign error_recovery task_ids from a separate counter so that
+    # rows with empty supporting_facts (skipped below) do not create
+    # gaps in the numbering (0001, 0002, 0004, ...).
+    error_recovery_idx = 0
+    for row in picked_error:
         supporting = _extract_supporting_titles(row)
         if not supporting:
             continue
+        error_recovery_idx += 1
         perturbed = supporting[0] + _PERTURB_SUFFIX
         selected.append(
             _build_selected(
                 row,
-                task_id=f"hotpotqa_error_recovery_{i:04d}",
+                task_id=f"hotpotqa_error_recovery_{error_recovery_idx:04d}",
                 condition="error_recovery",
                 perturbed_title=perturbed,
             )
