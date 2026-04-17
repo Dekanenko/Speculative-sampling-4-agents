@@ -34,6 +34,13 @@ changelog and `docs/progress.md`, not here.
 
 <!-- Newest first. One line per note: date, title, one-line hook. -->
 
+- [2026-04-17-qwen3-readiness-audit.md](2026-04-17-qwen3-readiness-audit.md) —
+  Pre-flight audit confirming the pipeline supports Qwen3
+  reasoning tokens out of the box. Three Qwen3-specific
+  behaviors to remember: prior-turn `<think>` is stripped by
+  the template, default rendering makes thinking optional, and
+  all think/tool_call tags are `special=False` so round-trip is
+  preserved.
 - [2026-04-17-first-full-sweep.md](2026-04-17-first-full-sweep.md) —
   First end-to-end measurement on the Qwen2.5 same-family pair
   across mocks, HotPotQA, and MBPP. Speculative decoding hits
