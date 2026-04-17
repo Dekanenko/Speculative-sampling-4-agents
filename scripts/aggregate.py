@@ -66,19 +66,49 @@ def _aggregate(paths: list[Path]) -> dict[tuple[str, str, str], list[float]]:
     return cells
 
 
+def _percentile(sorted_vals: list[float], pct: float) -> float:
+    """Nearest-rank percentile on a pre-sorted list (0 <= pct <= 100)."""
+    n = len(sorted_vals)
+    if n == 0:
+        return float("nan")
+    rank = max(0, min(n - 1, int(round(pct / 100.0 * (n - 1)))))
+    return sorted_vals[rank]
+
+
 def _summary_row(values: list[float]) -> dict[str, Any]:
-    """Compute summary stats for a list of acceptance values."""
+    """Summary stats for a list of acceptance values.
+
+    Reports both central-tendency (mean, median) and tail
+    (p1, p5, p10, fractions below thresholds). The tail numbers
+    matter more than the mean for speculative decoding — real
+    speedup is bottlenecked by rejections, not by average-case
+    agreement.
+    """
     n = len(values)
     if n == 0:
-        return {"n": 0, "mean": None, "min": None, "p10": None, "median": None, "max": None}
+        return {
+            "n": 0, "mean": None, "std": None,
+            "min": None, "p1": None, "p5": None, "p10": None,
+            "median": None, "max": None,
+            "frac_below_0_1": None, "frac_below_0_5": None,
+            "frac_below_0_9": None, "frac_below_0_99": None,
+        }
     sorted_vals = sorted(values)
+    mean = statistics.fmean(values)
     return {
         "n": n,
-        "mean": statistics.fmean(values),
+        "mean": mean,
+        "std": statistics.pstdev(values),
         "min": sorted_vals[0],
-        "p10": sorted_vals[max(0, n // 10 - 1)],
-        "median": statistics.median(sorted_vals),
+        "p1": _percentile(sorted_vals, 1),
+        "p5": _percentile(sorted_vals, 5),
+        "p10": _percentile(sorted_vals, 10),
+        "median": _percentile(sorted_vals, 50),
         "max": sorted_vals[-1],
+        "frac_below_0_1": sum(1 for v in values if v < 0.1) / n,
+        "frac_below_0_5": sum(1 for v in values if v < 0.5) / n,
+        "frac_below_0_9": sum(1 for v in values if v < 0.9) / n,
+        "frac_below_0_99": sum(1 for v in values if v < 0.99) / n,
     }
 
 
@@ -107,17 +137,46 @@ def main() -> None:
             }
         )
 
-    # Markdown
+    # Central-tendency + distribution shape
     print()
-    print("| family | condition | token_type | n | mean | min | p10 | median | max |")
-    print("|--------|-----------|------------|---:|-----:|----:|----:|-------:|----:|")
+    print("## Central tendency + tail percentiles")
+    print()
+    print(
+        "| family | condition | token_type | n | mean | std | p1 | p5 | p10 | median | min |"
+    )
+    print(
+        "|--------|-----------|------------|---:|-----:|----:|---:|---:|----:|-------:|----:|"
+    )
     for row in rows:
         if row["n"] == 0:
             continue
         print(
             f"| {row['family']} | {row['condition']} | {row['token_type']} | "
-            f"{row['n']} | {row['mean']:.4f} | {row['min']:.4f} | "
-            f"{row['p10']:.4f} | {row['median']:.4f} | {row['max']:.4f} |"
+            f"{row['n']} | {row['mean']:.4f} | {row['std']:.4f} | "
+            f"{row['p1']:.4f} | {row['p5']:.4f} | {row['p10']:.4f} | "
+            f"{row['median']:.4f} | {row['min']:.4f} |"
+        )
+
+    # Threshold fractions — "what fraction of tokens are in each badness band"
+    print()
+    print("## Fraction of tokens below thresholds (lower = fewer bad tokens)")
+    print()
+    print(
+        "| family | condition | token_type | n | <0.1 | <0.5 | <0.9 | <0.99 |"
+    )
+    print(
+        "|--------|-----------|------------|---:|-----:|-----:|-----:|------:|"
+    )
+    for row in rows:
+        if row["n"] == 0:
+            continue
+        print(
+            f"| {row['family']} | {row['condition']} | {row['token_type']} | "
+            f"{row['n']} | "
+            f"{row['frac_below_0_1']*100:5.2f}% | "
+            f"{row['frac_below_0_5']*100:5.2f}% | "
+            f"{row['frac_below_0_9']*100:5.2f}% | "
+            f"{row['frac_below_0_99']*100:5.2f}% |"
         )
 
     if args.out_csv:
@@ -132,10 +191,17 @@ def main() -> None:
                     "token_type",
                     "n",
                     "mean",
+                    "std",
                     "min",
+                    "p1",
+                    "p5",
                     "p10",
                     "median",
                     "max",
+                    "frac_below_0_1",
+                    "frac_below_0_5",
+                    "frac_below_0_9",
+                    "frac_below_0_99",
                 ],
             )
             writer.writeheader()
