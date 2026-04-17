@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0001",
+  "success": false,
+  "score": 0.03636363636363636,
+  "details": {
+    "em": 0.0,
+    "f1": 0.03636363636363636,
+    "predicted_answer": "Based on the information from Peter Lax's Wikipedia page, he was born on May 1, 1926. Given that Peter Lax was married to Anneli Cahn Lax, it is reasonable to conclude that he is the mathematician husband of Anneli Cahn Lax.\n\nTherefore, the year Peter Lax, the mathematician husband of Anneli Cahn Lax, was born is 1926.\n\nfinish(answer=\"1926\")",
+    "gold_answer": "1926"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0005",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The specific suburb where Tessa, of Microwave Jenny, grew up within the Central Coast Council local government area is not found in the available information.",
+    "gold_answer": "Umina Beach, New South Wales"
+  }
+}

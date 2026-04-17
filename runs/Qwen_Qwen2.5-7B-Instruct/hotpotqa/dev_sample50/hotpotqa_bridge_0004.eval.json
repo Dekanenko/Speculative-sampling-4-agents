@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0004",
+  "success": false,
+  "score": 0.4,
+  "details": {
+    "em": 0.0,
+    "f1": 0.4,
+    "predicted_answer": "Stephen Graham starred in the film 'This Is England' in 2006, which was directed by Shane Meadows.",
+    "gold_answer": "directed by Shane Meadows"
+  }
+}

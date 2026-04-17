@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0009",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n_____________________________ test_get_Pairs_Count _____________________________\n\n    def test_get_Pairs_Count():\n>       assert get_Pairs_Count([1,1,1,1],4,2) == 6\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\narr = [1, 1, 1, 1], n = 4, sum = 2\n\n    def get_Pairs_Count(arr, n, sum):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_get_Pairs_Count - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 41,
+    "final_solution": "def get_Pairs_Count(arr, n, sum):\n    raise NotImplementedError\n"
+  }
+}

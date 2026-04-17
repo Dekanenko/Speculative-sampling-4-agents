@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0007",
+  "success": false,
+  "score": 0.022988505747126436,
+  "details": {
+    "em": 0.0,
+    "f1": 0.022988505747126436,
+    "predicted_answer": "Based on the information retrieved:\n\n- Markus Feehily is best known as a member and one of the lead singers of the pop vocal group Westlife.\n- Bobby Fuller was an American rock singer, songwriter, and guitarist, best known for \"Let Her Dance\" and his cover of the Crickets' \"I Fought the Law,\" recorded with his group the Bobby Fuller Four.\n\nTherefore, the common career they had was being a musician. Specifically, both were singers and members of musical groups.\n\nfinish(answer=\"Both Markus Feehily and Bobby Fuller had a career as musicians, specifically as singers and members of musical groups.\")",
+    "gold_answer": "songwriter"
+  }
+}

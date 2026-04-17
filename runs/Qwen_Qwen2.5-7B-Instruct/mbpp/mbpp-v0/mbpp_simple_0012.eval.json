@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0012",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n_______________________________ test_find_Index ________________________________\n\n    def test_find_Index():\n>       assert find_Index(2) == 4\n               ^^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nn = 2\n\n    def find_Index(n):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_find_Index - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 9,
+    "final_solution": "def find_Index(n):\n    raise NotImplementedError\n"
+  }
+}

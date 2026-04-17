@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0003",
+  "success": false,
+  "score": 0.0625,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0625,
+    "predicted_answer": "Based on the information from the Wikipedia pages, the genus Caesalpinia includes 10 species, while the genus Achimenes includes approximately 25 species. Therefore, Achimenes has more species than Caesalpinia.\n\nfinish(answer=\"Achimenes has more species than Caesalpinia.\")",
+    "gold_answer": "Caesalpinia"
+  }
+}

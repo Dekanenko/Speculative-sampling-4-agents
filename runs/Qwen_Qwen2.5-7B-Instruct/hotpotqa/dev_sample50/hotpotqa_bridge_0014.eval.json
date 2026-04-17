@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0014",
+  "success": false,
+  "score": 0.07692307692307693,
+  "details": {
+    "em": 0.0,
+    "f1": 0.07692307692307693,
+    "predicted_answer": "Their profession in common is their involvement in the television industry, with Alex Beard as a director, producer, and writer, and Tony Hall as the Director-General of the BBC.",
+    "gold_answer": "director"
+  }
+}

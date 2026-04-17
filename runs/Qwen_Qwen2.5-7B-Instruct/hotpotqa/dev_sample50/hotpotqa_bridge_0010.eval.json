@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0010",
+  "success": false,
+  "score": 0.045454545454545456,
+  "details": {
+    "em": 0.0,
+    "f1": 0.045454545454545456,
+    "predicted_answer": "It seems I'm having trouble finding specific information about Butaitis trying to depose his uncle using my current search methods. Could you provide more context or details about this event? This would help in refining the search and finding the correct information.",
+    "gold_answer": "from 1345 to 1377"
+  }
+}

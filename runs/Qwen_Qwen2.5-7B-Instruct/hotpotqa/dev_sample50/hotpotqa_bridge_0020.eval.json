@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0020",
+  "success": false,
+  "score": 0.10526315789473684,
+  "details": {
+    "em": 0.0,
+    "f1": 0.10526315789473684,
+    "predicted_answer": "The unique calendar system in Japan emphasizes the year of the reign of the current Emperor. For example, the date February 16, 2003, can be written as 2003年2月16日 or 平成15年2月16日, where 平成 (Heisei) is the reign period of Emperor Akihito.",
+    "gold_answer": "the long history of Japan"
+  }
+}

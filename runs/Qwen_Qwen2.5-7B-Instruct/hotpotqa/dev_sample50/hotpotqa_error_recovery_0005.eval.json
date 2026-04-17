@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0005",
+  "success": false,
+  "score": 0.16,
+  "details": {
+    "em": 0.0,
+    "f1": 0.16,
+    "predicted_answer": "The train running on the C&M Subdivision and serving the route between Chicago and the Pacific Northwest typically has two main termini: Chicago, Illinois, and Seattle, Washington.",
+    "gold_answer": "two termini"
+  }
+}

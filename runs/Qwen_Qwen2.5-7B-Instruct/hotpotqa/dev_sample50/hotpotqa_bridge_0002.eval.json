@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0002",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "It seems like the query did not yield any results. Let's try a different approach. Could you please provide me with the name of the song or any additional context so I can find the information you're looking for?",
+    "gold_answer": "number five"
+  }
+}

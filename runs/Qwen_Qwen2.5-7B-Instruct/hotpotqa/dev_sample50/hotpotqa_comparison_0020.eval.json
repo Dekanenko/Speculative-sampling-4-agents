@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0020",
+  "success": false,
+  "score": 0.19999999999999998,
+  "details": {
+    "em": 0.0,
+    "f1": 0.19999999999999998,
+    "predicted_answer": "Yuen Woo-ping is a choreographer, while Basil Dean was an English actor, writer, producer, and director in the theatre and cinema.",
+    "gold_answer": "Yuen Woo-ping"
+  }
+}

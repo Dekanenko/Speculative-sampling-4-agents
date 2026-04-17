@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0016",
+  "success": false,
+  "score": 0.0821917808219178,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0821917808219178,
+    "predicted_answer": "I couldn't find any direct information about the international pharmaceutical company that discovered Tedatioxetine through my searches. The specific details might be hard to come by without more precise information. I will conclude by saying that based on the available data, we do not have clear information on which pharmaceutical company was involved in its discovery.\nfinish(answer=\"Based on the available information, we do not have clear details on which pharmaceutical company discovered Tedatioxetine.\")",
+    "gold_answer": "Danish international pharmaceutical company"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0013",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n______________________________ test_rotate_right _______________________________\n\n    def test_rotate_right():\n>       assert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],3,4)==[8, 9, 10, 1, 2, 3, 4, 5, 6]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nlist1 = [1, 2, 3, 4, 5, 6, ...], m = 3, n = 4\n\n    def rotate_right(list1, m, n):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_rotate_right - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 40,
+    "final_solution": "def rotate_right(list1, m, n):\n    raise NotImplementedError\n"
+  }
+}

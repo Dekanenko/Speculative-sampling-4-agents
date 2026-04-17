@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0002",
+  "success": false,
+  "score": 0.15384615384615385,
+  "details": {
+    "em": 0.0,
+    "f1": 0.15384615384615385,
+    "predicted_answer": "Juan Rulfo was born on 16 May 1917, while John le Carré was born on 21 October 1931. Therefore, Juan Rulfo was born first.",
+    "gold_answer": "Juan Rulfo"
+  }
+}

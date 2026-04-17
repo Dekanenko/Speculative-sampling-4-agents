@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0007",
+  "success": true,
+  "score": 1.0,
+  "details": {
+    "passed": 1,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": ".                                                                        [100%]\n1 passed in 0.00s\n",
+    "n_tool_calls_total": 9,
+    "final_solution": "def is_min_heap(arr):\n    n = len(arr)\n    for i in range(n // 2 - 1, -1, -1):\n        smallest = i\n        left_child = 2 * i + 1\n        right_child = 2 * i + 2\n        if left_child < n and arr[left_child] < arr[smallest]:\n            smallest = left_child\n        if right_child < n and arr[right_child] < arr[smallest]:\n            smallest = right_child\n        if smallest != i:\n            return False\n    return True"
+  }
+}

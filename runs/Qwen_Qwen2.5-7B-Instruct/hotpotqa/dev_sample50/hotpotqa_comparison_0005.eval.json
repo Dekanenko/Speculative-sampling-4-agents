@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0005",
+  "success": false,
+  "score": 0.06666666666666667,
+  "details": {
+    "em": 0.0,
+    "f1": 0.06666666666666667,
+    "predicted_answer": "It seems there was an issue finding information on \"Grizzly Man (film)\". However, based on the available information:\n\nThe documentary film \"Pray the Devil Back to Hell\" premiered at the 2008 Tribeca Film Festival. Without specific premiere details for \"Grizzly Man\", we can infer that \"Pray the Devil Back to Hell\" premiered first based on the information provided.\n\nfinish(answer=\"Pray the Devil Back to Hell premiered first.\")",
+    "gold_answer": "Grizzly Man"
+  }
+}

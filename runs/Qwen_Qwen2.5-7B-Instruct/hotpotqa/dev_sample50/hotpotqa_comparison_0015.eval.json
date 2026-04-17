@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0015",
+  "success": false,
+  "score": 0.027777777777777776,
+  "details": {
+    "em": 0.0,
+    "f1": 0.027777777777777776,
+    "predicted_answer": "From the searches, we didn't get any specific snippets that mention their common pursuits directly. However, based on the titles of their Wikipedia pages, it appears they were both involved in politics. Gevork Minaskanian was an Armenian-American politician and diplomat, while George Stambolian was an American politician who served as a U.S. Representative from Michigan. Therefore, their common pursuit was likely politics.\n\nfinish(answer=\"Both Gevork Minaskanian and George Stambolian had politics as their common pursuit.\")",
+    "gold_answer": "American educator, writer,"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0019",
+  "success": false,
+  "score": 0.12903225806451613,
+  "details": {
+    "em": 0.0,
+    "f1": 0.12903225806451613,
+    "predicted_answer": "Franz Schreker was a teacher as well as a composer, while Philip Glass is primarily known as a composer and pianist. Therefore, the composer who was also a teacher is Franz Schreker. \n\nfinish(answer=\"Franz Schreker\")",
+    "gold_answer": "Franz Schreker"
+  }
+}

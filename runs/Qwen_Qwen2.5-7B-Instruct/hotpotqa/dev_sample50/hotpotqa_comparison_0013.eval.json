@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0013",
+  "success": false,
+  "score": 0.6666666666666666,
+  "details": {
+    "em": 0.0,
+    "f1": 0.6666666666666666,
+    "predicted_answer": "W. D. Richter is from the US.",
+    "gold_answer": "W. D. Richter"
+  }
+}

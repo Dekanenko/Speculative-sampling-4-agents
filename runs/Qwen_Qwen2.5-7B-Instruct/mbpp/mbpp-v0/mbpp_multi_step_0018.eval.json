@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0018",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n___________________ TestPatternMatching.test_matches_pattern ___________________\n\nself = <test_solution.TestPatternMatching testMethod=test_matches_pattern>\n\n    def test_matches_pattern(self):\n        self.assertTrue(matches_pattern('aab'))\n>       self.assertTrue(matches_pattern('aabc'))\nE       AssertionError: False is not true\n\ntest_solution.py:7: AssertionError\n=========================== short test summary info ============================\nFAILED test_solution.py::TestPatternMatching::test_matches_pattern - Assertio...\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 11,
+    "final_solution": "import re\n\ndef matches_pattern(text):\n    pattern = r'a.*b$'\n    return bool(re.match(pattern, text))\n\nif __name__ == '__main__':\n    import doctest\n    doctest.testmod()"
+  }
+}

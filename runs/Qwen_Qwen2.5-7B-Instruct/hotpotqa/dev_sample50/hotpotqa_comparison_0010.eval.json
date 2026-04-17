@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0010",
+  "success": false,
+  "score": 0.11764705882352941,
+  "details": {
+    "em": 0.0,
+    "f1": 0.11764705882352941,
+    "predicted_answer": "John Peers was born on 25 July 1988, while Simone Bolelli was born on 8 October 1985. Therefore, Simone Bolelli is older than John Peers. \n\nfinish(answer=\"Simone Bolelli is older than John Peers.\")",
+    "gold_answer": "Simone Bolelli"
+  }
+}

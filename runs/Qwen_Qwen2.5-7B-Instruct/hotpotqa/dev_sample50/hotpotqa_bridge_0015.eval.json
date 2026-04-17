@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0015",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "Dajuan Wagner, who was traded from the Bulls to the 76ers during the 1999-2000 midseason, was originally a high school player from Camden, New Jersey. His NBA career began when he was drafted sixth overall by the Cleveland Cavaliers in the 2002 NBA draft. However, he left the NBA early due to health issues. \n\nfinish(answer=\"Dajuan Wagner was a high school player from Camden, New Jersey before being drafted by the Cleveland Cavaliers in 2002.\")",
+    "gold_answer": "Croatian"
+  }
+}

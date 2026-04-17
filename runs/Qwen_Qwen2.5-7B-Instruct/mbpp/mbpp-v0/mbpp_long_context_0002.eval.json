@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_long_context_0002",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n_______________________________ test_first_Digit _______________________________\n\n    def test_first_Digit():\n>       assert first_Digit(5) == 1\nE       assert 2 == 1\nE        +  where 2 = first_Digit(5)\n\ntest_solution.py:5: AssertionError\n----------------------------- Captured stdout call -----------------------------\nFactorial of 5: 120\nRemoved trailing zero: 12\n=========================== short test summary info ============================\nFAILED test_solution.py::test_first_Digit - assert 2 == 1\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 20,
+    "final_solution": "def first_Digit(n):\n    if n == 0 or n == 1:\n        return 1\n    factorial = 1\n    for i in range(2, n + 1):\n        factorial *= i\n    print(f'Factorial of {n}: {factorial}')\n    # Remove trailing zeros\n    while factorial % 10 == 0:\n        factorial //= 10\n        print(f'Removed trailing zero: {factorial}')\n    # Extract the first non-zero digit\n    while factorial > 0:\n        first_digit = factorial % 10\n        if first_digit != 0:\n            return first_digit\n        factorial //= 10\n        print(f'Still looking for first non-zero digit: {factorial}')\n    return 1"
+  }
+}

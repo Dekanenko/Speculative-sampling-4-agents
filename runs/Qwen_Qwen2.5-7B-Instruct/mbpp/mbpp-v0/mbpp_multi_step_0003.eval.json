@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0003",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n_____________________________ test_find_duplicates _____________________________\n\n    def test_find_duplicates():\n>       assert find_duplicates([10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]) == [20, 30, -20, 60]\nE       assert [-20, 20, 30, 60] == [20, 30, -20, 60]\nE         \nE         At index 0 diff: -20 != 20\nE         Use -v to get more diff\n\ntest_solution.py:4: AssertionError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_find_duplicates - assert [-20, 20, 30, 60] == [...\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 20,
+    "final_solution": "def find_duplicates(numbers):\n    counts = {}\n    for number in numbers:\n        if number in counts:\n            counts[number] += 1\n        else:\n            counts[number] = 1\n    return sorted([number for number, count in counts.items() if count > 1])"
+  }
+}

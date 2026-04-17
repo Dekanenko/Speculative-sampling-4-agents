@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0001",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n______________________________ test_maximum_value ______________________________\n\n    def test_maximum_value():\n>       assert maximum_value([('key1', [3, 4, 5]), ('key2', [1, 4, 2]), ('key3', [9, 3])]) == [('key1', 5), ('key2', 4), ('key3', 9)]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ntest_list = [('key1', [3, 4, 5]), ('key2', [1, 4, 2]), ('key3', [9, 3])]\n\n    def maximum_value(test_list):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_maximum_value - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 5,
+    "final_solution": "def maximum_value(test_list):\n    raise NotImplementedError\n"
+  }
+}

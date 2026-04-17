@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_long_context_0010",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n______________________________ test_min_sum_path _______________________________\n\n    def test_min_sum_path():\n>       assert min_sum_path([[ 2 ], [3, 9 ], [1, 6, 7 ]]) == 6\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nA = [[2], [3, 9], [1, 6, 7]]\n\n    def min_sum_path(A):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_min_sum_path - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 25,
+    "final_solution": "def min_sum_path(A):\n    raise NotImplementedError\n"
+  }
+}

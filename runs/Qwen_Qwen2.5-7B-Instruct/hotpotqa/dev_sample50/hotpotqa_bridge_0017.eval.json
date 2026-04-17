@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0017",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "Without more specific information, it's difficult to determine the exact age at which the wrestler began his training. More details would be helpful.",
+    "gold_answer": "15"
+  }
+}

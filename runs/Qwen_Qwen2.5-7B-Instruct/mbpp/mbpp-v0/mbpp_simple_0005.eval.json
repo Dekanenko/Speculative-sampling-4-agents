@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0005",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n______________________________ test_check_subset _______________________________\n\n    def test_check_subset():\n>       assert check_subset((10, 4, 5, 6), (5, 10)) == True\nE       assert False == True\nE        +  where False = check_subset((10, 4, 5, 6), (5, 10))\n\ntest_solution.py:5: AssertionError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_check_subset - assert False == True\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 15,
+    "final_solution": "def check_subset(tup1, tup2):\n    return set(tup1).issubset(set(tup2)) and len(set(tup1)) <= len(set(tup2))\n"
+  }
+}

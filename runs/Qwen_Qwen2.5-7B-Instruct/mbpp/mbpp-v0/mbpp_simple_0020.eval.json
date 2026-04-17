@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0020",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n_______________________________ test_left_rotate _______________________________\n\n    def test_left_rotate():\n>       assert left_rotate(\"python\",2) == \"thonpy\"\n            ^^^^^^^^^^^^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ns = 'python', d = 2\n\n    def left_rotate(s, d):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_left_rotate - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 15,
+    "final_solution": "def left_rotate(s, d):\n    raise NotImplementedError\n"
+  }
+}

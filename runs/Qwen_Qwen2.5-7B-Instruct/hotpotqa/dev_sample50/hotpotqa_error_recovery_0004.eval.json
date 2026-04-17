@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0004",
+  "success": false,
+  "score": 0.07142857142857142,
+  "details": {
+    "em": 0.0,
+    "f1": 0.07142857142857142,
+    "predicted_answer": "The information about C.J. Hunter being tested positive for a specific type of injected steroid before the 2000 Summer Olympic Games is not available in the searched Wikipedia pages.",
+    "gold_answer": "anabolic–androgenic steroid (AAS)"
+  }
+}

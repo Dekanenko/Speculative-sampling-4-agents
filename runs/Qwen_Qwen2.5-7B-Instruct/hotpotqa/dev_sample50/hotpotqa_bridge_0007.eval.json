@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0007",
+  "success": false,
+  "score": 0.0689655172413793,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0689655172413793,
+    "predicted_answer": "Heather Morris is best known for her role in the TV series Glee, where she played the character Brittany S. Pierce. She became a regular character in the second season of the show.",
+    "gold_answer": "Glee"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0011",
+  "success": false,
+  "score": 0.12903225806451613,
+  "details": {
+    "em": 0.0,
+    "f1": 0.12903225806451613,
+    "predicted_answer": "Truro Cathedral is located in Truro, Cornwall, while Southwell Minster is located in Southwell, Nottinghamshire. Therefore, Truro Cathedral is the one located in Cornwall.\nfinish(answer=\"Truro Cathedral\")",
+    "gold_answer": "The Cathedral of the Blessed Virgin Mary, Truro"
+  }
+}

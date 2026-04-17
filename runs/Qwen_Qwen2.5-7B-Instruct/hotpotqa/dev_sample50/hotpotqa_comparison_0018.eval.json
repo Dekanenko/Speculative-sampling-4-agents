@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0018",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "Averroes died second.",
+    "gold_answer": "ibn Taymiyyah"
+  }
+}

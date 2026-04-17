@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0011",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The search for parks in Lexington, North Carolina also did not yield any results. This suggests that there might be no widely known park dedicated to a specific pioneer in Lexington, North Carolina. \n\nGiven the lack of direct information, it's possible that the park in question is less well-known or not extensively documented online. Without more specific details, it's challenging to determine which pioneer the park is dedicated to.\n\nfinish(answer=\"Unfortunately, I couldn't find specific information about a pioneer with a park dedicated to him near Lexington, North Carolina. It's possible that the park is less well-known or not extensively documented online.\")",
+    "gold_answer": "Wilderness Road"
+  }
+}

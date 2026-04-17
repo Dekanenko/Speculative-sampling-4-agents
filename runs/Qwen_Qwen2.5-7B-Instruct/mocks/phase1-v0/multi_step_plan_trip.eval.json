@@ -1,0 +1,8 @@
+{
+  "task_id": "multi_step_plan_trip",
+  "success": true,
+  "score": 1.0,
+  "details": {
+    "note": "mocks family has no intrinsic success criterion"
+  }
+}

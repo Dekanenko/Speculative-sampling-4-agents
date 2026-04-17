@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0009",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The specific director of the 2007 film where Sasson Gabai won an Ophir Award cannot be determined from the available information.",
+    "gold_answer": "Eran Kolirin"
+  }
+}

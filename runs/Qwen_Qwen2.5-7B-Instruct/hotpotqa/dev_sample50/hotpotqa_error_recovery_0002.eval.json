@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0002",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The Church of the Guanche People was founded in the city of San Cristóbal de La Laguna, which is located on the island of Tenerife. Tenerife is the most populous island in the Canary Islands, a larger area.\n\nfinish(answer=\"The Church of the Guanche People was founded in the city of San Cristóbal de La Laguna, which is on the most populated island, Tenerife, of the Canary Islands.\")",
+    "gold_answer": "Macaronesia"
+  }
+}

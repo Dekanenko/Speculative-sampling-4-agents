@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0017",
+  "success": false,
+  "score": 0.11764705882352941,
+  "details": {
+    "em": 0.0,
+    "f1": 0.11764705882352941,
+    "predicted_answer": "Based on the information available, the Temagami-Lorrain Mine yielded a 16-ton bulk sample of gold ore in 1935.",
+    "gold_answer": "Burwash Mine"
+  }
+}

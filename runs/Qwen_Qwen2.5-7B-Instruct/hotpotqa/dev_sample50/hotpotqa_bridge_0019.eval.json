@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0019",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "Based on the information available, Tosh Powell, the host of Tosh.0, did not conduct any known tours. He was a professional boxer from Wales who became the Welsh bantamweight champion. There is no mention of him conducting tours in the available information.\nfinish(answer=\"Tosh Powell, the host of Tosh.0, did not conduct any known tours. He was a professional boxer from Wales who became the Welsh bantamweight champion.\")",
+    "gold_answer": "stand-up comedy"
+  }
+}

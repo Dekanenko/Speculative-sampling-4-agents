@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0008",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "Both Anita Loos and Grace Metalious were writers.",
+    "gold_answer": "American author"
+  }
+}

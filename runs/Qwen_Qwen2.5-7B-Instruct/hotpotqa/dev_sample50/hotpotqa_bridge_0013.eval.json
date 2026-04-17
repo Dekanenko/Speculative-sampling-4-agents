@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0013",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "It seems we're not finding direct information about a character based on John Capozzi or his connection to a specific city. Let's try another approach. John Capozzi was an American mobster associated with the Genovese crime family. The home city of this crime family is New York City. Could it be that the character in question is related to New York City?\n\nIf this doesn't provide the answer, could you please give more details or context about the character and the source material?",
+    "gold_answer": "Baltimore"
+  }
+}

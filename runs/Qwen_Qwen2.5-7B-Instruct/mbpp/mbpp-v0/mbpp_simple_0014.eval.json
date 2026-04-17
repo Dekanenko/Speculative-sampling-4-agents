@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0014",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n________________________________ test_is_polite ________________________________\n\n    def test_is_polite():\n>       assert is_polite(7) == 11\n               ^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nn = 7\n\n    def is_polite(n):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_is_polite - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 12,
+    "final_solution": "def is_polite(n):\n    raise NotImplementedError\n"
+  }
+}

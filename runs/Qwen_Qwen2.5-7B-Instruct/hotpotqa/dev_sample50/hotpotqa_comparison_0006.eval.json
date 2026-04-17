@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0006",
+  "success": false,
+  "score": 0.0909090909090909,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0909090909090909,
+    "predicted_answer": "C. S. Forester was educated in London, specifically at Alleyn's School and Dulwich College. Helen Zahavi, on the other hand, was also educated in London. Therefore, both novelists were educated in London. \n\nfinish(answer=\"Both C. S. Forester and Helen Zahavi were educated in London.\")",
+    "gold_answer": "Helen Zahavi"
+  }
+}

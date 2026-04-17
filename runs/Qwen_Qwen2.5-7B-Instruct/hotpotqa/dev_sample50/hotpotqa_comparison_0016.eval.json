@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0016",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "There isn't any direct information available about the commonalities between Matt Vasgersian and Michael Casey through a general search. More context or specifying their field might help in finding more relevant information.",
+    "gold_answer": "American"
+  }
+}

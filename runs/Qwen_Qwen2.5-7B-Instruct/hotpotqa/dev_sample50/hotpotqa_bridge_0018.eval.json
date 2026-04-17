@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0018",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The lead single from Boys Like Girls' debut album was 'Hero/Heroine'. There is no information available about Martin Johnson co-writing a song with Taylor Swift on this album.",
+    "gold_answer": "Love Drunk"
+  }
+}

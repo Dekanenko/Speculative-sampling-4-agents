@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0007",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n________________________________ test_Check_Vow ________________________________\n\n    def test_Check_Vow():\n>       assert Check_Vow('corner','AaEeIiOoUu') == 2\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE       TypeError: Check_Vow() takes 1 positional argument but 2 were given\n\ntest_solution.py:5: TypeError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_Check_Vow - TypeError: Check_Vow() takes 1 posi...\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 9,
+    "final_solution": "def count_vowels(s):\n    vowels = 'aeiouAEIOU'\n    return sum(1 for char in s if char in vowels)\n\ndef Check_Vow(s):\n    return count_vowels(s)"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0012",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "I couldn't find specific information about an actress who dated Mark Brendanawicz or a character he played. Could you provide more context or specify which TV show or movie you're referring to?",
+    "gold_answer": "Rashida Jones"
+  }
+}

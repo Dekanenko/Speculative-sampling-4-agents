@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0009",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "I couldn't find any direct information on who was hanged for assisting an attempted surrender of a defector from the American Continental Army to the British Army. This might be a specific historical event that isn't well-documented or doesn't have a clear entry in Wikipedia. Could you provide more details or context about this event?",
+    "gold_answer": "John André"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0017",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 1,
+    "timed_out": false,
+    "last_run_tests_output": "F                                                                        [100%]\n=================================== FAILURES ===================================\n_____________________________ test_n_common_words ______________________________\n\n    def test_n_common_words():\n>       assert n_common_words(\"python is a programming language\",1)==[('python', 1)]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntest_solution.py:5: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ntext = 'python is a programming language', n = 1\n\n    def n_common_words(text, n):\n>       raise NotImplementedError\nE       NotImplementedError\n\nsolution.py:2: NotImplementedError\n=========================== short test summary info ============================\nFAILED test_solution.py::test_n_common_words - NotImplementedError\n1 failed in 0.02s\n",
+    "n_tool_calls_total": 11,
+    "final_solution": "def n_common_words(text, n):\n    raise NotImplementedError\n"
+  }
+}
