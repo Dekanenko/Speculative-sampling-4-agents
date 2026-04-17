@@ -16,7 +16,15 @@ Condition = Literal["simple", "multi_step", "error_recovery", "long_context"]
 
 DEFAULT_SEED: int = 42
 DEFAULT_MAX_STEPS: int = 10
-DEFAULT_MAX_NEW_TOKENS: int = 512
+DEFAULT_MAX_NEW_TOKENS: int = 2048
+"""Per-step generation ceiling.
+
+Chosen to accommodate Qwen3-style ``<think>...</think>`` blocks
+plus a tool call or final answer in a single step. Qwen2.5 tasks
+rarely need more than ~150 tokens per step, so the higher cap is
+unused for them; Qwen3 reasoning on HotPotQA bridge or MBPP
+multi-step can easily exceed 1000 tokens before the tool call.
+"""
 DEFAULT_MAX_PREFIX_TOKENS: int = 28_672
 """Hard ceiling on prompt-prefix length, below Qwen2.5's 32 768-token
 context window to leave headroom for generated tokens."""

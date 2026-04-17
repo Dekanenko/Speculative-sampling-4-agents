@@ -143,6 +143,49 @@ Model sizes are compatible with the L4 budget:
   than Qwen2.5-7B's 15.28 GB). Tight but fits on 24 GB L4
   with ~4–6 GB headroom for KV cache at 8k context.
 
+## Post-audit code change
+
+One default bumped to avoid truncating reasoning blocks:
+
+- `DEFAULT_MAX_NEW_TOKENS` in `src/config.py` — 512 → 2048
+- `--max-new-tokens` CLI default in `scripts/run_family.py` — 512 → 2048
+
+Qwen2.5 steps typically use < 200 tokens each so the raise is
+unused on the prior sweep; Qwen3 reasoning blocks alone can be
+1000–2000 tokens, so 512 would have produced
+`unterminated_reasoning` errors on most tasks.
+
+## Is the stripping OK for divergence measurement?
+
+**Yes — and it is in fact required.** The argument:
+
+- Per-token acceptance requires target and draft logprobs to be
+  computed under the **same prefix**. Otherwise the comparison
+  is contaminated.
+- Qwen3 was trained with the stripping convention. Its
+  target-time logprobs at inference are conditioned on
+  stripped prefixes by default.
+- Our scorer applies the same template, which strips identically.
+  Both target and draft see the same context.
+- If we retained prior `<think>` blocks we would be giving the
+  models context they were never trained to see at inference
+  time; the logprobs would be out-of-distribution and the
+  acceptance comparison would be noisy in an uninterpretable
+  way.
+
+**Caveat for interpretation**: stripping means each step's
+reasoning is "fresh" — the model lacks the context of its own
+prior chain of thought in a multi-step agent loop. So the
+reasoning blocks we measure are shorter and less dependent than
+what appears in pure reasoning benchmarks (e.g. AIME single-turn).
+This is fine for the project's research question ("is spec
+decoding viable on agentic workloads with Qwen3-style thinking")
+but would not generalise to claims about long-form reasoning.
+
+If we later want to stress long-form reasoning specifically, the
+right move is a single-turn reasoning benchmark (math problems
+with no tools) rather than fighting the chat template.
+
 ## Next steps
 
 - Run `scripts/run_family.py --model Qwen/Qwen3-8B --profile qwen3`

@@ -61,7 +61,17 @@ def _parse_args() -> argparse.Namespace:
         help="Target model dtype",
     )
     parser.add_argument("--device", default="cuda")
-    parser.add_argument("--max-new-tokens", type=int, default=512)
+    parser.add_argument(
+        "--max-new-tokens",
+        type=int,
+        default=2048,
+        help=(
+            "Per-step generation ceiling. Default 2048 accommodates "
+            "Qwen3 reasoning blocks + a tool call/answer in one step. "
+            "Qwen2.5 tasks typically use < 200 tokens/step so the cap "
+            "is unused for them."
+        ),
+    )
     parser.add_argument("--max-steps", type=int, default=DEFAULT_MAX_STEPS)
     parser.add_argument("--runs-dir", default="runs")
     parser.add_argument("--seed", type=int, default=42)
