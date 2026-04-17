@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0007
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What career did Markus Feehily and Bobby Fuller have in common?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: songwriter
+  supporting_titles:
+  - Markus Feehily
+  - Bobby Fuller
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5adff2aa554299603e4183d0
+  difficulty: hard
+  perturbed_title: null

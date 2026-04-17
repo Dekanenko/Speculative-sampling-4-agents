@@ -1,0 +1,23 @@
+task_id: hotpotqa_bridge_0003
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What portable media player was distributed through HP?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: iPod+HP
+  supporting_titles:
+  - IPod+HP
+  - IPod Classic
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a74e6e855429974ef308c8e
+  difficulty: hard
+  perturbed_title: null

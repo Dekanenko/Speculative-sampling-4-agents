@@ -1,0 +1,60 @@
+{
+  "get_wiki_page::{\"title\": \"John le Carré\"}": {
+    "summary": "David John Moore Cornwell, known by his pen name John le Carré, was an English author. \nMany of his espionage novels have been adapted for film or television. He has been described as a \"sophisticated, morally ambiguous writer\", and is considered one of the greatest novelists of the postwar era. During the 1950s and 1960s, he worked for both the Security Service (MI5) and the Secret Intelligence Service (MI6). Near the end of his life, le Carré became an Irish citizen.",
+    "text": "David John Moore Cornwell (19 October 1931 – 12 December 2020), known by his pen name John le Carré ( lə-KARR-ay), was an English author. \nMany of his espionage novels have been adapted for film or television. He has been described as a \"sophisticated, morally ambiguous writer\", and is considered one of the greatest novelists of the postwar era. During the 1950s and 1960s, he worked for both the Security Service (MI5) and the Secret Intelligence Service (MI6). Near the end of his life, le Carré became an Irish citizen.\nLe Carré's third novel, The Spy Who Came in from the Cold (1963) became an international best-seller, and was adapted into an award-winning film. This success allowed him to leave MI6 to become a full-time author. \nHis other novels that have been adapted for film or television include The Looking Glass War (1965), Smiley's People (1979), The Little Drummer Girl (1983), A Perfect Spy (1986), The Russia House (1989), The Night Manager (1993), The Tailor of Panama (1996), The Constant Gardener (2001), A Most Wanted Man (2008) and Our Kind of Traitor (2010). In 2008, The Times named le Carré one of the \"50 greatest British writers since 1945\". Philip Roth said that A Perfect Spy (1986) was \"the best English novel since the war\".\n\n\n== Early life and education ==\nDavid John Moore Cornwell was born on 19 October 1931 in Poole, Dorset, England, son of Ronald Thomas Archibald Cornwell (Ronnie Cornwell), and Olive Moore Cornwell (née Glassey). His older brother, Tony, was an advertising executive and county cricketer (for Dorset), who later lived in the United States. His younger half-sister was the actress Charlotte Cornwell, and his younger half-brother, Rupert Cornwell, was a former Washington bureau chief for The Independent. Cornwell had little early memory of his mother, who had left their family home when he was five years old. His maternal uncle was Liberal MP Alec Glassey. When Cornwell was 21 years old, Glassey gave him the address in Ipswich where hi",
+    "title": "John le Carré"
+  },
+  "get_wiki_page::{\"title\": \"Juan Rulfo\"}": {
+    "summary": "Juan Nepomuceno Carlos Pérez Rulfo Vizcaíno, best known as Juan Rulfo, was a Mexican writer, screenwriter, and photographer. He is best known for two literary works, the 1955 novel Pedro Páramo, and the collection of short stories El Llano en llamas. In spite of Rulfo's slim literary production, he is considered one of the greatest Mexican and Latin American writers of the twentieth century who has influenced many subsequent writers including the Nobel laureate Gabriel García Márquez.",
+    "text": "Juan Nepomuceno Carlos Pérez Rulfo Vizcaíno,  best known as Juan Rulfo (Spanish: [ˈxwan ˈrulfo] ; 16 May 1917 – 7 January 1986), was a Mexican writer, screenwriter, and photographer. He is best known for two literary works, the 1955 novel Pedro Páramo, and the collection of short stories El Llano en llamas (The Burning Plain, 1953). In spite of Rulfo's slim literary production, he is considered one of the greatest Mexican and Latin American writers of the twentieth century who has influenced many subsequent writers including the Nobel laureate Gabriel García Márquez. \n\n\n== Early life ==\nRulfo was born in 1917 in Apulco, Jalisco (disputed as being in San Gabriel, Jalisco), although he was registered at Sayula, in the home of his paternal grandfather. Rulfo's birth year was often listed as 1918, because he had provided an inaccurate date to get into the military academy that his uncle, David Pérez Rulfo — a colonel working for the government — directed.\nAfter his father was killed in 1923 and his mother died in 1927, Rulfo's grandmother raised him in Guadalajara, Jalisco.  Their extended family consisted of landowners whose fortunes were ruined by the Mexican Revolution and the Cristero War of 1926–1928, a Roman Catholic revolt against the persecutions of Christians by the Mexican government, following the Mexican Revolution.\nRulfo was sent to study in the Luis Silva School, where he lived from 1928 to 1932. He completed six years of elementary school and a special seventh year from which he graduated as a bookkeeper, though he never practiced that profession. Rulfo attended a seminary (analogous to a secondary school) from 1932 to 1934, but did not attend a university afterwards, as the University of Guadalajara was closed due to a strike and because Rulfo had not taken preparatory school courses.\nRulfo moved to Mexico City, where he entered the National Military Academy, which he left after three months. He then hoped to study law at the Universidad Nacional Autónom",
+    "title": "Juan Rulfo"
+  },
+  "search_wikipedia::{\"query\": \"John le Carré\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "John le Carré"
+      },
+      {
+        "snippet": "",
+        "title": "John le Carré bibliography"
+      },
+      {
+        "snippet": "",
+        "title": "John le Carré: The Biography"
+      },
+      {
+        "snippet": "",
+        "title": "John Lee Carroll"
+      },
+      {
+        "snippet": "",
+        "title": "John L. Carroll"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Juan Rulfo\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Juan Rulfo"
+      },
+      {
+        "snippet": "",
+        "title": "Juan Rulfo Prize"
+      },
+      {
+        "snippet": "",
+        "title": "Juan Alfonso de Baena"
+      },
+      {
+        "snippet": "",
+        "title": "Juan Alfonso de Polanco"
+      },
+      {
+        "snippet": "",
+        "title": "Juan Ulloa"
+      }
+    ]
+  }
+}

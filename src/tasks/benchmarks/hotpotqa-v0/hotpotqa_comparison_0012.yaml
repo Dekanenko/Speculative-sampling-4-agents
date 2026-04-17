@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0012
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Did both Alan Crosland and Chris Columbus work as stage actor?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: 'no'
+  supporting_titles:
+  - Alan Crosland
+  - Chris Columbus (filmmaker)
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a84c6df5542997b5ce3ff61
+  difficulty: hard
+  perturbed_title: null

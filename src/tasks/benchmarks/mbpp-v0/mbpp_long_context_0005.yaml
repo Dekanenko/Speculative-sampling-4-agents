@@ -1,0 +1,32 @@
+task_id: mbpp_long_context_0005
+condition: long_context
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to count those characters which have vowels as their neighbors in the given string.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 776
+  ref_solution_length: 10
+metadata:
+  mbpp_task_id: 776
+  difficulty_bucket: long_context
+  ref_solution_length: 10
+  fn_name: count_vowels
+  test_code: "from solution import count_vowels\n\n\ndef test_count_vowels():\n    assert count_vowels('bestinstareels') ==\
+    \ 7\n    assert count_vowels('partofthejourneyistheend') == 12\n    assert count_vowels('amazonprime') == 5\n"
+  stub_code: "def count_vowels(test_str):\n    raise NotImplementedError\n"

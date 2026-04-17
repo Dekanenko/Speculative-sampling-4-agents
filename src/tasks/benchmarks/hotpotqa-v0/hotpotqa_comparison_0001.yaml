@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0001
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Are Horace Ové and A. Edward Sutherland both photographers?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: 'no'
+  supporting_titles:
+  - Horace Ové
+  - A. Edward Sutherland
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5ac311925542995ef918c0de
+  difficulty: hard
+  perturbed_title: null

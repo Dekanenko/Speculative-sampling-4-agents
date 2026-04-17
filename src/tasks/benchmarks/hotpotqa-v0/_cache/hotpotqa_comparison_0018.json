@@ -1,0 +1,48 @@
+{
+  "get_wiki_page::{\"title\": \"Averroes\"}": {
+    "summary": "Ibn Rushd, Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mathematics, neurology, Islamic jurisprudence and law, and linguistics. The author of more than 100 books and treatises, his philosophical works include numerous commentaries on Aristotle, for which he was known in the Western world as \"The Commentator\" and \"Father of Rationalism\".",
+    "text": "Ibn Rushd (14 April 1126 – 11 December 1198), Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mathematics, neurology,  Islamic jurisprudence and law, and linguistics. The author of more than 100 books and treatises, his philosophical works include numerous commentaries on Aristotle, for which he was known in the Western world as \"The Commentator\" and \"Father of Rationalism\".\nAverroes was a strong proponent of Aristotelianism; he attempted to restore what he considered the original teachings of Aristotle and opposed the Neoplatonist tendencies of earlier Muslim thinkers, such as al-Farabi and Avicenna. He also defended the pursuit of philosophy against criticism by Ash'ari theologians such as Al-Ghazali. Averroes argued that philosophy was permissible in Islam and even compulsory among certain elites. He also argued scriptural text should be interpreted allegorically if it appeared to contradict conclusions reached by reason and philosophy. In Islamic jurisprudence, he wrote the Bidāyat al-Mujtahid on the differences between Islamic schools of law and the principles that caused their differences. In medicine, he proposed a new theory of stroke, described the signs and symptoms of Parkinson's disease for the first time, and might have been the first to identify the retina as the part of the eye responsible for sensing light. His medical book Al-Kulliyat fi al-Tibb, translated into Latin and known as the Colliget, became a textbook in Europe for centuries.\nHis legacy in the Islamic world was modest for geographical and intellectual reasons. In the West, Averroes was known for his extensive commentaries on Aristotle, many of which were translated into Latin and Hebrew. The translations of his work reignited Western European interest in Aristotle and Greek thinkers, an area of study that had been widely abandoned after the fall of",
+    "title": "Averroes"
+  },
+  "get_wiki_page::{\"title\": \"Ibn Taymiyyah\"}": {
+    "summary": "Ibn Taymiyya was a Sunni Muslim scholar, jurist, Mujtahid, traditionist, Qadiri Sufi, proto-Salafi theologian and iconoclast. Born in Harran in 1263 CE and fleeing from the Mongol invasion, he was taught by his grandfather and father in the principles of Islamic Jurisprudence at Damascus. Ibn Taymiyya proved to be a controversial figure among both his contemporaries and in later centuries. Clerics and state authorities accused Ibn Taymiyya and his disciples of anthropomorphism, which eventually led to the censoring of his works and subsequent incarceration.",
+    "text": "Ibn Taymiyya (Arabic: ٱبْن تَيْمِيَّة; 22 January 1263 – 26 September 1328) was a Sunni Muslim scholar, jurist, Mujtahid, traditionist, Qadiri Sufi, proto-Salafi theologian and iconoclast. Born in Harran in 1263 CE and fleeing from the Mongol invasion, he was taught by his grandfather and father in the principles of Islamic Jurisprudence at Damascus. Ibn Taymiyya proved to be a controversial figure among both his contemporaries and in later centuries. Clerics and state authorities accused Ibn Taymiyya and his disciples of anthropomorphism, which eventually led to the censoring of his works and subsequent incarceration.\nNevertheless, he emerged as one of the forefathers of the Salafi movement. Throughout his treatises, Ibn Taymiyya asserted there is no contradiction between reason and revelation, and denounced the usage of philosophy as a pre-requisite in seeking religious truth. As a cleric who viewed Shiism as a source of corruption in Muslim societies, Ibn Taymiyya was also known for his anti-Shia polemics throughout treatises such as Minhaj al-Sunna, wherein he denounced the Imami Shia creed as heretical. He issued a ruling to wage jihad against the Shias of Kisrawan and personally fought in the Kisrawan campaigns himself, accusing Shias of acting as the fifth-columnists of the Frank Crusaders and Mongol Ilkhanids. He is also known for his diplomatic involvement with the Ilkhanid ruler Ghazan Khan at the Battle of Marj al-Saffar, which ended the Mongol invasions of the Levant. A legal jurist of the Hanbali school, Ibn Taymiyya's condemnation of numerous Sufi practices associated with saint veneration and visitation of tombs made him a controversial figure with many rulers and scholars of the time, which caused him to be imprisoned several times as a result.\nWithin recent history, Ibn Taymiyya has been widely regarded as a major scholarly influence in militant Islamist movements, such as Salafi jihadism. Major aspects of his teachings, had a profound influence on ",
+    "title": "Ibn Taymiyya"
+  },
+  "search_wikipedia::{\"query\": \"Averroes\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Averroes"
+      },
+      {
+        "snippet": "",
+        "title": "Averroes's theory of the unity of the intellect"
+      },
+      {
+        "snippet": "",
+        "title": "Averroes International School Mirpur"
+      },
+      {
+        "snippet": "",
+        "title": "Averroes's Search"
+      },
+      {
+        "snippet": "",
+        "title": "Averroes High School"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Ibn Taymiyyah\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Ibn Taymiyya"
+      },
+      {
+        "snippet": "",
+        "title": "Ibn Taymiyyah (disambiguation)"
+      }
+    ]
+  }
+}

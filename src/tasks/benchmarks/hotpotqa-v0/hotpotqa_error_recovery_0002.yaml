@@ -1,0 +1,24 @@
+task_id: hotpotqa_error_recovery_0002
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: The Church of the Guanche People was founded in the city that is on the
+  most populated island of what larger area?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Macaronesia
+  supporting_titles:
+  - Church of the Guanche People
+  - Tenerife
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ae7edee554299540e5a56ad
+  difficulty: hard
+  perturbed_title: Church of the Guanche People_xyzq_nonexistent

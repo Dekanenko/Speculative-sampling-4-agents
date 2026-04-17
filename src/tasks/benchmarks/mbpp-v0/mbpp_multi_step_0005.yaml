@@ -1,0 +1,34 @@
+task_id: mbpp_multi_step_0005
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to group the 1st elements on the basis of 2nd elements in the given tuple list.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 691
+  ref_solution_length: 5
+metadata:
+  mbpp_task_id: 691
+  difficulty_bucket: multi_step
+  ref_solution_length: 5
+  fn_name: group_element
+  test_code: "from solution import group_element\n\n\ndef test_group_element():\n    assert group_element([(6, 5), (2, 7),\
+    \ (2, 5), (8, 7), (9, 8), (3, 7)]) == {5: [6, 2], 7: [2, 8, 3], 8: [9]}\n    assert group_element([(7, 6), (3, 8), (3,\
+    \ 6), (9, 8), (10, 9), (4, 8)]) == {6: [7, 3], 8: [3, 9, 4], 9: [10]}\n    assert group_element([(8, 7), (4, 9), (4, 7),\
+    \ (10, 9), (11, 10), (5, 9)]) == {7: [8, 4], 9: [4, 10, 5], 10: [11]}\n"
+  stub_code: "def group_element(test_list):\n    raise NotImplementedError\n"

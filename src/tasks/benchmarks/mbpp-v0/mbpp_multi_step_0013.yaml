@@ -1,0 +1,32 @@
+task_id: mbpp_multi_step_0013
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to clear the values of the given tuples.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 816
+  ref_solution_length: 4
+metadata:
+  mbpp_task_id: 816
+  difficulty_bucket: multi_step
+  ref_solution_length: 4
+  fn_name: clear_tuple
+  test_code: "from solution import clear_tuple\n\n\ndef test_clear_tuple():\n    assert clear_tuple((1, 5, 3, 6, 8)) == ()\n\
+    \    assert clear_tuple((2, 1, 4 ,5 ,6)) == ()\n    assert clear_tuple((3, 2, 5, 6, 8)) == ()\n"
+  stub_code: "def clear_tuple(test_tup):\n    raise NotImplementedError\n"

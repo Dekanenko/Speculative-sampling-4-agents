@@ -1,0 +1,33 @@
+task_id: mbpp_simple_0008
+condition: simple
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to multiply consecutive numbers of a given list.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 690
+  ref_solution_length: 2
+metadata:
+  mbpp_task_id: 690
+  difficulty_bucket: simple
+  ref_solution_length: 2
+  fn_name: mul_consecutive_nums
+  test_code: "from solution import mul_consecutive_nums\n\n\ndef test_mul_consecutive_nums():\n    assert mul_consecutive_nums([1,\
+    \ 1, 3, 4, 4, 5, 6, 7])==[1, 3, 12, 16, 20, 30, 42]\n    assert mul_consecutive_nums([4, 5, 8, 9, 6, 10])==[20, 40, 72,\
+    \ 54, 60]\n    assert mul_consecutive_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[2, 6, 12, 20, 30, 42, 56, 72, 90]\n"
+  stub_code: "def mul_consecutive_nums(nums):\n    raise NotImplementedError\n"

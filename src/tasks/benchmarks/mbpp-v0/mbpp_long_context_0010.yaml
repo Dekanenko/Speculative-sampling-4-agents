@@ -1,0 +1,33 @@
+task_id: mbpp_long_context_0010
+condition: long_context
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to find the minimum total path sum in the given triangle.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 974
+  ref_solution_length: 9
+metadata:
+  mbpp_task_id: 974
+  difficulty_bucket: long_context
+  ref_solution_length: 9
+  fn_name: min_sum_path
+  test_code: "from solution import min_sum_path\n\n\ndef test_min_sum_path():\n    assert min_sum_path([[ 2 ], [3, 9 ], [1,\
+    \ 6, 7 ]]) == 6\n    assert min_sum_path([[ 2 ], [3, 7 ], [8, 5, 6 ]]) == 10 \n    assert min_sum_path([[ 3 ], [6, 4 ],\
+    \ [5, 2, 7 ]]) == 9\n"
+  stub_code: "def min_sum_path(A):\n    raise NotImplementedError\n"

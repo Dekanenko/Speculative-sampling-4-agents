@@ -1,0 +1,24 @@
+task_id: hotpotqa_error_recovery_0009
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Who was hung for assisting the attempted surrender of a defector from
+  the American Continental Army to the British Army?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: John André
+  supporting_titles:
+  - John André
+  - Benedict Arnold
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ab97d0a5542996be202051e
+  difficulty: hard
+  perturbed_title: John André_xyzq_nonexistent

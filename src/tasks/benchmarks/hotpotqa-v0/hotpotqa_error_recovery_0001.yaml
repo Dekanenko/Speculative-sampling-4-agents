@@ -1,0 +1,23 @@
+task_id: hotpotqa_error_recovery_0001
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What position did the winner of the MVP in Pool C of the 2017 WBC play?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: third baseman
+  supporting_titles:
+  - 2017 World Baseball Classic – Pool C
+  - Manny Machado
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ae72e5d5542991e8301cba8
+  difficulty: hard
+  perturbed_title: 2017 World Baseball Classic – Pool C_xyzq_nonexistent

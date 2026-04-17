@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0020
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What does the unique calendar system in Japan, who the first Emperor
+  of Japan created, emphasize?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: the long history of Japan
+  supporting_titles:
+  - Japanese imperial year
+  - Emperor Jimmu
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a78e86f55429974737f78fb
+  difficulty: hard
+  perturbed_title: null

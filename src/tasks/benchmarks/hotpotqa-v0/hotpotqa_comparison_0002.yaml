@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0002
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Who was born first, Juan Rulfo or John le Carré?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Juan Rulfo
+  supporting_titles:
+  - Juan Rulfo
+  - John le Carré
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a7744e45542993569682d37
+  difficulty: hard
+  perturbed_title: null

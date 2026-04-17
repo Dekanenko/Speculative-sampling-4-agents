@@ -1,0 +1,67 @@
+{
+  "get_wiki_page::{\"title\": \"Benedict Arnold\"}": {
+    "summary": "Benedict Arnold was an American-born British military officer who served during the American Revolutionary War. He fought with distinction for the American Continental Army and rose to the rank of major general before defecting to the British in 1780. General George Washington had given him his fullest trust and had placed him in command of West Point in New York. Arnold was planning to surrender the fort to British forces, but the plot was discovered in September 1780, whereupon he fled to the British lines. In the later part of the war, Arnold was commissioned as a brigadier general in the British Army and placed in command of the American Legion. He led British forces in battle against the army which he had once commanded, and his name became synonymous with treason and betrayal in the United States.",
+    "text": "Benedict Arnold (January 14, 1741 [O.S. January 3, 1740] – June 14, 1801) was an American-born British military officer who served during the American Revolutionary War. He fought with distinction for the American Continental Army and rose to the rank of major general before defecting to the British in 1780. General George Washington had given him his fullest trust and had placed him in command of West Point in New York. Arnold was planning to surrender the fort to British forces, but the plot was discovered in September 1780, whereupon he fled to the British lines. In the later part of the war, Arnold was commissioned as a brigadier general in the British Army and placed in command of the American Legion. He led British forces in battle against the army which he had once commanded, and his name became synonymous with treason and betrayal in the United States.\nBorn in Connecticut, Arnold was a merchant operating ships in the Atlantic when the war began. He joined the growing American army outside of Boston and distinguished himself by acts that demonstrated intelligence and bravery: In 1775, he captured Fort Ticonderoga. In 1776, he employed defensive and delaying tactics at the Battle of Valcour Island on Lake Champlain that gave American forces time to prepare New York's defenses. His performance in the Battle of Ridgefield in Connecticut prompted his promotion to major general. He conducted operations that provided the Americans with relief during the Siege of Fort Stanwix, and key actions during the pivotal 1777 Battles of Saratoga in which he sustained leg injuries that put him out of combat for several years.\nArnold repeatedly claimed that he was being passed over for promotion by the Second Continental Congress, and that other officers were being given credit for some of his accomplishments. Some in his military and political circles charged him with corruption. After formal inquiries, he was acquitted of all but two minor charges, but Congress investigated h",
+    "title": "Benedict Arnold"
+  },
+  "get_wiki_page::{\"title\": \"John André\"}": {
+    "summary": "Major John André was a British Army officer who served as the head of Britain's intelligence operations during the American War for Independence. In September 1780, André negotiated with Continental Army general Benedict Arnold, who secretly offered to turn over control of the American fort at West Point, New York, to the British. Due to a series of mishaps and unforeseen events, André was forced to try to return to British lines from a meeting with Arnold through American-controlled territory while wearing civilian clothes.",
+    "text": "Major John André (May 2, 1750 – October 2, 1780) was a British Army officer who served as the head of Britain's intelligence operations during the American War for Independence. In September 1780, André negotiated with Continental Army general Benedict Arnold, who secretly offered to turn over control of the American fort at West Point, New York, to the British. Due to a series of mishaps and unforeseen events, André was forced to try to return to British lines from a meeting with Arnold through American-controlled territory while wearing civilian clothes.\nAndré was captured by three American militiamen and was quickly identified and imprisoned.  He was subsequently convicted of espionage by the Continental Army and executed by hanging on George Washington's orders. His execution led to an outburst of anti-American sentiment in Great Britain, and American painter John Trumbull was imprisoned as a result. André is typically remembered positively by historians, and several prominent leaders of the Patriot cause, including Alexander Hamilton and the Marquis de Lafayette, disagreed with the decision to execute him.\n\n\n== Early life ==\nAndré was born on May 2, 1750, in London, England, to wealthy Huguenot parents who had immigrated there from Continental Europe. His parents were Antoine André, a merchant from Geneva, and Marie Louise Girardot, who had been born in Paris. André was educated at St Paul's School, Westminster School, and in Geneva; he was briefly engaged to Honora Sneyd. In 1771, at the age of 20, he joined the British Army, being commissioned into the 23rd Regiment of Foot (Royal Welsh Fuzileers) at the rank of second lieutenant before quickly being promoted to lieutenant in the 7th Regiment of Foot (Royal Fusiliers). André took a leave of absence in Germany for nearly two years, before re-joining his regiment in British North America in 1774.\n\n\n== American War for Independence ==\nDuring the early days of the American War for Independence, before independenc",
+    "title": "John André"
+  },
+  "get_wiki_page::{\"title\": \"John André_xyzq_nonexistent\"}": {
+    "error": "not_found",
+    "title": "John André_xyzq_nonexistent"
+  },
+  "search_wikipedia::{\"query\": \"Benedict Arnold\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Benedict Arnold"
+      },
+      {
+        "snippet": "",
+        "title": "Benedict Arnold's expedition to Quebec"
+      },
+      {
+        "snippet": "",
+        "title": "Benedict Arnold (governor)"
+      },
+      {
+        "snippet": "",
+        "title": "Benedict Arnold: A Question of Honor"
+      },
+      {
+        "snippet": "",
+        "title": "Benedict Arnold (congressman)"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"John André\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "John André"
+      },
+      {
+        "snippet": "",
+        "title": "John André (baseball)"
+      },
+      {
+        "snippet": "",
+        "title": "John Andretti"
+      },
+      {
+        "snippet": "",
+        "title": "John Anderson"
+      },
+      {
+        "snippet": "",
+        "title": "John Andreoli"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"John André_xyzq_nonexistent\"}": {
+    "results": []
+  }
+}

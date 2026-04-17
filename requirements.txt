@@ -3,3 +3,6 @@ transformers>=4.45
 numpy>=1.26
 PyYAML>=6.0
 pytest>=8.0
+datasets>=3.0
+requests>=2.31
+responses>=0.25

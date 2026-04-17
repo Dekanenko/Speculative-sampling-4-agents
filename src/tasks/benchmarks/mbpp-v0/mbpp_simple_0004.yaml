@@ -1,0 +1,34 @@
+task_id: mbpp_simple_0004
+condition: simple
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to exchange the position of every n-th value with (n+1)th value and (n+1)th value with n-th
+  value in a given list.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 648
+  ref_solution_length: 3
+metadata:
+  mbpp_task_id: 648
+  difficulty_bucket: simple
+  ref_solution_length: 3
+  fn_name: exchange_elements
+  test_code: "from solution import exchange_elements\n\n\ndef test_exchange_elements():\n    assert exchange_elements([0,1,2,3,4,5])==[1,\
+    \ 0, 3, 2, 5, 4] \n    assert exchange_elements([5,6,7,8,9,10])==[6,5,8,7,10,9] \n    assert exchange_elements([25,35,45,55,75,95])==[35,25,55,45,95,75]\
+    \ \n"
+  stub_code: "def exchange_elements(lst):\n    raise NotImplementedError\n"

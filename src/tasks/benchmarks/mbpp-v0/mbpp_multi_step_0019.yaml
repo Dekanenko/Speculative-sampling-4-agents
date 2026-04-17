@@ -1,0 +1,35 @@
+task_id: mbpp_multi_step_0019
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to remove duplicate words from a given list of strings.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 932
+  ref_solution_length: 5
+metadata:
+  mbpp_task_id: 932
+  difficulty_bucket: multi_step
+  ref_solution_length: 5
+  fn_name: remove_duplic_list
+  test_code: "from solution import remove_duplic_list\n\n\ndef test_remove_duplic_list():\n    assert remove_duplic_list([\"\
+    Python\", \"Exercises\", \"Practice\", \"Solution\", \"Exercises\"])==['Python', 'Exercises', 'Practice', 'Solution']\n\
+    \    assert remove_duplic_list([\"Python\", \"Exercises\", \"Practice\", \"Solution\", \"Exercises\",\"Java\"])==['Python',\
+    \ 'Exercises', 'Practice', 'Solution', 'Java']\n    assert remove_duplic_list([\"Python\", \"Exercises\", \"Practice\"\
+    , \"Solution\", \"Exercises\",\"C++\",\"C\",\"C++\"])==['Python', 'Exercises', 'Practice', 'Solution','C++','C']\n"
+  stub_code: "def remove_duplic_list(l):\n    raise NotImplementedError\n"

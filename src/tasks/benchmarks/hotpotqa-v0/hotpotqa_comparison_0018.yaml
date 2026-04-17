@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0018
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Who died second, Averroes or Ibn Taymiyyah?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: ibn Taymiyyah
+  supporting_titles:
+  - Averroes
+  - Ibn Taymiyyah
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a7b241b554299042af8f705
+  difficulty: hard
+  perturbed_title: null

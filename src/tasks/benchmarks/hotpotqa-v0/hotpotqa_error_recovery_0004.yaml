@@ -1,0 +1,24 @@
+task_id: hotpotqa_error_recovery_0004
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: C.J. Hunter was tested positive for which type of injected steroid before
+  he competed in the 2000 Summer Olympic Games?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: anabolic–androgenic steroid (AAS)
+  supporting_titles:
+  - C. J. Hunter
+  - Nandrolone
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a712e895542994082a3e636
+  difficulty: hard
+  perturbed_title: C. J. Hunter_xyzq_nonexistent

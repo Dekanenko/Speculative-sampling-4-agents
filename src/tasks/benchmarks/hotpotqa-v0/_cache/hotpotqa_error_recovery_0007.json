@@ -1,0 +1,59 @@
+{
+  "get_wiki_page::{\"title\": \"Alex Sink\"}": {
+    "summary": "Adelaide \"Alex\" Sink is an American former politician and financier. A member of the Democratic Party, she was the second chief financial officer of the state of Florida and treasurer on the board of trustees of the Florida State Board of Administration. She was the Democratic nominee for Governor of Florida and faced Republican nominee Rick Scott in the 2010 Florida gubernatorial election, losing to Scott by a 1% margin. Sink also ran as the Democratic nominee in the 2014 special election for Florida's 13th congressional district, losing to Republican David Jolly on March 11, 2014.",
+    "text": "Adelaide \"Alex\" Sink (born June 5, 1948) is an American former politician and financier. A member of the Democratic Party, she was the second chief financial officer of the state of Florida and treasurer on the board of trustees of the Florida State Board of Administration. She was the Democratic nominee for Governor of Florida and faced Republican nominee Rick Scott in the 2010 Florida gubernatorial election, losing to Scott by a 1% margin. Sink also ran as the Democratic nominee in the 2014 special election for Florida's 13th congressional district, losing to Republican David Jolly on March 11, 2014.\n\n\n== Personal life ==\nSink was born and raised in Mount Airy, North Carolina, the daughter of Adelaide A. (née Bunker) and Kester A. Sink. Her maternal great-grandfather was Chang Bunker, one of the famous conjoined \"Siamese Twins\", Chang and Eng Bunker. She is a graduate of Wake Forest University. After graduating with a degree in mathematics, she taught at a girls' school in Sierra Leone and at the American School in Liberia for three years. In 1992, she was elected to the Wake Forest University Board of Trustees, after which she was awarded the University's Distinguished Alumni Award in 1993. In 2000, she was inducted into the Tampa Bay Business Hall of Fame.\nSink is the widow of Florida attorney and politician Bill McBride, who was the unsuccessful Democratic nominee for Governor of Florida in 2002, making them the only married American couple to both run unsuccessfully in gubernatorial races. They have a son, Bert, and a daughter, Lexi.\n\n\n== Political career ==\nSink is a former president of Florida operations at NationsBank, now Bank of America. She was appointed by former governor Lawton Chiles to the Commission on Government Accountability to the People. She also served on Chiles' Commission on Education and was vice-chair of Florida TaxWatch. Sink has served with the Florida Chapter of the Nature Conservancy, the Beth El Farm Workers Ministry, and as Chair of ",
+    "title": "Alex Sink"
+  },
+  "get_wiki_page::{\"title\": \"Rod Smith (politician)\"}": {
+    "summary": "Rodney Warren Smith is an American lawyer and politician from the U.S. state of Florida. A Democrat, Smith was a member of the Florida Senate from Gainesville from 2001 until 2006. Smith ran for the Democratic nomination for Governor of Florida in the 2006 election but lost to Congressman Jim Davis. In 2010, Smith was the Democratic nominee for Lieutenant Governor of Florida as the running mate of Alex Sink in her campaign for Governor of Florida. From November 2010 through January 2013 Smith served as chairman of the Florida Democratic Party. In 2016, Smith again ran for a seat in the Florida Senate but was ultimately defeated by Keith Perry, a Republican and former state representative.",
+    "text": "Rodney Warren Smith (born November 15, 1949) is an American lawyer and politician from the U.S. state of Florida. A Democrat, Smith was a member of the Florida Senate from Gainesville from 2001 until 2006. Smith ran for the Democratic nomination for Governor of Florida in the 2006 election but lost to Congressman Jim Davis. In 2010, Smith was the Democratic nominee for Lieutenant Governor of Florida as the running mate of Alex Sink in her campaign for Governor of Florida. From November 2010 through January 2013 Smith served as chairman of the Florida Democratic Party. In 2016, Smith again ran for a seat in the Florida Senate but was ultimately defeated by Keith Perry, a Republican and former state representative.\n\n\n== Early life and education ==\nSmith was born on November 15, 1949, in Southwest City, Missouri, just across the state line from his family's home in Oklahoma. Before he reached the age of two, Smith's family moved to Florida, where they grew eggplant and green peppers. Smith attended public schools. He attended the University of Tulsa, graduating with a Bachelor of Arts degree in 1971. While at the University of Tulsa, he was a member of the Sigma Nu fraternity. He then attended the University of Florida College of Law graduating with a J.D. degree in 1975.\n\n\n== Legal and political career ==\nFollowing his admission to The Florida Bar, Smith worked for the Florida Public Employees Relations Commission for two years, representing the state in cases relating to labor law. After two years in Tallahassee, Smith returned to Alachua County and spent the next 15 years in private practice. The St. Petersburg Times later wrote that, since that time, Smith has \"crisscrossed Florida, representing an array of labor unions–police officers and firefighters, electrical workers, carpenters, painters and pipe fitters. He argued on behalf of large vegetable farmers and dairies and nurserymen. He won settlements against the likes of DuPont and, occasionally, represented cri",
+    "title": "Rod Smith (politician)"
+  },
+  "get_wiki_page::{\"title\": \"Rod Smith (politician)_xyzq_nonexistent\"}": {
+    "error": "not_found",
+    "title": "Rod Smith (politician)_xyzq_nonexistent"
+  },
+  "search_wikipedia::{\"query\": \"Alex Sink\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Alex Sink"
+      },
+      {
+        "snippet": "",
+        "title": "Alex Song"
+      },
+      {
+        "snippet": "",
+        "title": "Alex Sandro"
+      },
+      {
+        "snippet": "",
+        "title": "Alex Kingston"
+      },
+      {
+        "snippet": "",
+        "title": "Alex Winter"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Rod Smith (politician)\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Rod Smith (politician)"
+      },
+      {
+        "snippet": "",
+        "title": "Roy Smith (politician)"
+      },
+      {
+        "snippet": "",
+        "title": "Rex Smith (politician)"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Rod Smith (politician)_xyzq_nonexistent\"}": {
+    "results": []
+  }
+}

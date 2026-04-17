@@ -1,0 +1,32 @@
+task_id: mbpp_multi_step_0001
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to check if the given integer is a prime number.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 605
+  ref_solution_length: 8
+metadata:
+  mbpp_task_id: 605
+  difficulty_bucket: multi_step
+  ref_solution_length: 8
+  fn_name: prime_num
+  test_code: "from solution import prime_num\n\n\ndef test_prime_num():\n    assert prime_num(13)==True\n    assert prime_num(7)==True\n\
+    \    assert prime_num(-1010)==False\n"
+  stub_code: "def prime_num(num):\n    raise NotImplementedError\n"

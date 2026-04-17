@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"Bobby Fuller\"}": {
+    "summary": "Robert Gaston Fuller was an American rock singer, songwriter, and guitarist best known for \"Let Her Dance\" and his cover of the Crickets' \"I Fought the Law,\" recorded with his group the Bobby Fuller Four.",
+    "text": "Robert Gaston Fuller (October 22, 1942 – July 18, 1966) was an American rock singer, songwriter, and guitarist best known for \"Let Her Dance\" and his cover of the Crickets' \"I Fought the Law,\" recorded with his group the Bobby Fuller Four.\n\n\n== Early life ==\nFuller was born in Baytown, Texas, to Lawson Sheppard Fuller and Eva Lorraine Barrett Fuller, the middle of three boys, having a maternal older half-brother, Jack, and a younger brother, Randy. Fuller moved as a small child to Salt Lake City, Utah, where he remained until 1956, when he and his family moved to El Paso, Texas. His father got a job at El Paso Natural Gas at that time. It was the same year that Elvis Presley became popular, and Bobby Fuller became mesmerized by the new rock and roll star. Fuller soon adopted the style of fellow Texan Buddy Holly, fronting a four-man combo and often using original material.\n\n\n== Career ==\n\nDuring the early 1960s, he played in clubs and bars in El Paso, and recorded on independent record labels in Texas with a changing line-up. The only constant band members were Fuller and his younger brother, Randy, on bass. These independent releases (except two songs recorded at the Norman Petty Studios in Clovis), and an excursion to Yucca Records, also in New Mexico, were recorded in the Fullers' own home studio, with Fuller acting as the producer. He even built a primitive echo chamber in the back yard. The quality of the recordings, using a couple of microphones and a mixing board purchased from a local radio station, was so impressive that he offered the use of his \"studio\" to local acts for free so he could hone his production skills.\nFuller moved to Los Angeles in 1964 with his band the Bobby Fuller Four and was signed to Mustang Records by producer Bob Keane, who was noted for discovering Ritchie Valens and producing many surf music groups.  By this time, the group consisted of Fuller and his brother Randy on vocals/guitar and bass respectively, Jim Reese on guitar and DeW",
+    "title": "Bobby Fuller"
+  },
+  "get_wiki_page::{\"title\": \"Markus Feehily\"}": {
+    "summary": "Markus Michael Patrick Feehily is an Irish singer, best known as a member and one of the lead singers of the pop vocal group Westlife. Westlife has released twelve albums, embarked on thirteen world tours and won several awards, becoming one of the most successful musical groups of all time. With 15 number one appearances, Feehily is also the highest-charting LGBT singer on the UK Singles Chart.",
+    "text": "Markus Michael Patrick Feehily (born 28 May 1980) is an Irish singer, best known as a member and one of the lead singers of the pop vocal group Westlife. Westlife has released twelve albums, embarked on thirteen world tours and won several awards, becoming one of the most successful musical groups of all time. With 15 number one appearances, Feehily is also the highest-charting LGBT singer on the UK Singles Chart.\n\n\n== Career ==\n\n\n=== 1998–2012: Six as One, IOYou, Westlife ===\n\nFeehily rose to fame in the boy band Westlife. Before Westlife, Feehily, Shane Filan and Kian Egan were members of the self-formed, six-piece, Sligo-based boy band IOYOU, previously named Six As One, which released the single \"Together Girl Forever\" and songs \"Everlasting Love\" and \"Good Thing\". Louis Walsh, the manager of Boyzone, was contacted by Filan's mother and learned of the group. The final line-up, established on 3 July 1998, consisted of Feehily, Filan and Egan from the original line-up, and Nicky Byrne and Bryan McFadden, new members who auditioned from Dublin. Boyzone singer Ronan Keating was brought in to co-manage the group with Walsh, assuming an advisory role.\nFeehily has also co-written several songs, including some with his band members. Feehily has spoken to The Boston Globe of his embarrassment about Westlife's Rat Pack-tribute album, ...Allow Us to Be Frank; he blamed Westlife's label for forcing them to record it after Robbie Williams had success with this type of music. He dismissed the instance as a \"weird time\" in Westlife's career. Despite this, he has referred to his role in Westlife as \"the best job in the world\".\n\n\n=== 2015–2018: Solo career ===\nAs well as releasing music as part of Westlife, Feehily has also released music as a solo artist, under the name \"Markus Feehily\" rather than \"Mark Feehily\", which he was known as in Westlife. In February 2015, Feehily launched his solo career with a radio premiere of his debut single \"Love Is a Drug\" on RTÉ 2fm in Ireland",
+    "title": "Mark Feehily"
+  },
+  "search_wikipedia::{\"query\": \"Bobby Fuller\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Bobby Fuller"
+      },
+      {
+        "snippet": "",
+        "title": "Bobby Fuller Died for Your Sins"
+      },
+      {
+        "snippet": "",
+        "title": "Bobby Fuller & the Fanatics"
+      },
+      {
+        "snippet": "",
+        "title": "Bobby Miller (baseball)"
+      },
+      {
+        "snippet": "",
+        "title": "Bobby Butler (ice hockey)"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Markus Feehily\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Mark Feehily"
+      }
+    ]
+  }
+}

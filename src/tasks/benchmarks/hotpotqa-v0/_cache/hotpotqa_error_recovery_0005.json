@@ -1,0 +1,54 @@
+{
+  "get_wiki_page::{\"title\": \"C&amp;M Subdivision\"}": {
+    "error": "http_500",
+    "title": "C&amp;M Subdivision"
+  },
+  "get_wiki_page::{\"title\": \"C&amp;M Subdivision_xyzq_nonexistent\"}": {
+    "error": "not_found",
+    "title": "C&amp;M Subdivision_xyzq_nonexistent"
+  },
+  "get_wiki_page::{\"title\": \"Empire Builder\"}": {
+    "summary": "The Empire Builder is a daily long-distance passenger train operated by Amtrak between Chicago and either Seattle or Portland via two sections west of Spokane. Introduced in 1929, it was the flagship passenger train of the Great Northern Railway and was retained by Amtrak when it took over intercity rail service in 1971.",
+    "text": "The Empire Builder is a daily long-distance passenger train operated by Amtrak between Chicago and either Seattle or Portland via two sections west of Spokane. Introduced in 1929, it was the flagship passenger train of the Great Northern Railway and was retained by Amtrak when it took over intercity rail service in 1971.\nThe end-to-end travel time of the route is 45–46 hours for an average speed of about 50 mph (80 km/h), though the train travels as fast as 79 mph (127 km/h) over the majority of the route. It is Amtrak's busiest long-distance route.\nDuring fiscal year 2023, the Empire Builder carried 338,993 passengers, an increase of 15.0% from FY2022 but 21.8% below pre-COVID-19 levels (433,372 passengers during FY2019). During FY2022, the train had a total revenue of $49,600,000.\n\n\n== History ==\n\nThe Great Northern Railway inaugurated the Empire Builder on June 10, 1929. It was named in honor of the company's founder, James J. Hill, who had reorganized several failing railroads into the only successful attempt at a privately funded transcontinental railroad. It reached the Pacific Northwest in the late 19th century, and for this feat, he was nicknamed \"The Empire Builder\". Following World War II, Great Northern placed new streamlined and diesel-powered trains in service that cut the scheduled 2,211-mile trip between Chicago and Seattle from 58.5 hours to 45 hours.\n\nThe schedule allowed riders views of the Cascade Mountains and Glacier National Park, a park established through the lobbying efforts of the Great Northern. Re-equipped with domes in 1955, the Empire Builder offered passengers sweeping views of the route through three dome coaches and one full-length Great Dome car for first class passengers.\n\nIn March 1970, the Great Northern, along with three other closely affiliated railroads (Chicago, Burlington & Quincy (CB&Q), Northern Pacific and Spokane, Portland & Seattle) merged to form Burlington Northern. BN took over operations of both the Builder. and its",
+    "title": "Empire Builder"
+  },
+  "search_wikipedia::{\"query\": \"C&amp;M Subdivision\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "C&M Subdivision"
+      },
+      {
+        "snippet": "",
+        "title": "Camak Subdivision"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"C&amp;M Subdivision_xyzq_nonexistent\"}": {
+    "results": []
+  },
+  "search_wikipedia::{\"query\": \"Empire Builder\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Empire Builder"
+      },
+      {
+        "snippet": "",
+        "title": "Empire Builder (board game)"
+      },
+      {
+        "snippet": "",
+        "title": "Empire Builders (radio program)"
+      },
+      {
+        "snippet": "",
+        "title": "Empire-builder"
+      },
+      {
+        "snippet": "",
+        "title": "The Empire Builders"
+      }
+    ]
+  }
+}

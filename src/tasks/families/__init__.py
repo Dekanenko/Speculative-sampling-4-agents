@@ -8,9 +8,9 @@ name and drives the agent loop through its interface.
 
 from __future__ import annotations
 
-from typing import Callable
-
 from .base import EvaluationResult, Env, TaskFamily
+from .hotpotqa.loader import HotpotqaFamily
+from .mbpp.family import MbppFamily
 from .mocks.family import MocksFamily
 
 
@@ -57,6 +57,8 @@ def list_families() -> list[str]:
 
 # Built-in families.
 register_family(MocksFamily())
+register_family(HotpotqaFamily())
+register_family(MbppFamily())
 
 
 __all__ = [

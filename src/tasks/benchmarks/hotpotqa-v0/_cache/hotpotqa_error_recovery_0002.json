@@ -1,0 +1,51 @@
+{
+  "get_wiki_page::{\"title\": \"Church of the Guanche People\"}": {
+    "summary": "The Church of the Guanche People is a religious organisation, founded in 2001 in the city of San Cristóbal de La Laguna, Tenerife, Canary Islands, Spain. Its goal is to revive and spread the traditional religion of the indigenous Berber Guanche people who occupied the islands at the time of Castillian conquest.",
+    "text": "The Church of the Guanche People (Spanish: Iglesia del Pueblo Guanche) is a religious organisation, founded in 2001 in the city of San Cristóbal de La Laguna, Tenerife, Canary Islands, Spain. Its goal is to revive and spread the traditional religion of the indigenous Berber Guanche people who occupied the islands at the time of Castillian conquest.\nIn 2008, the Church had approximately 300 members. The Church of the Guanche People is included in the studies of minority religions in the Canary Islands.\nIt was founded by a group of Canarian devotees of the goddess Chaxiraxi, a prominent religious figure associated with the harvest in the Guanche religion. The Church of the Guanche People has performed baptisms and weddings according to what they know of Guanche custom.\nIn 2002, a wedding held in accordance with purported Guanche rites took place on the island of Tenerife. Such a ceremony had not been observed for several centuries, since the Spanish domination of the archipelago.\nThe Church of the Guanche People has its own liturgical calendar. It officially began with the first celebration of Achu n Magek in 2001. According to this system, this is the year 1 of the Guanche New Age.\n\n\n== See also ==\nGermanic Heathenism\nHellenism\nKemetism\n\n\n== References ==\n\n\n== External links ==\nChurch of the Guanche People. Official Website.\nIglesia del Pueblo Guanche.",
+    "title": "Church of the Guanche People"
+  },
+  "get_wiki_page::{\"title\": \"Church of the Guanche People_xyzq_nonexistent\"}": {
+    "error": "not_found",
+    "title": "Church of the Guanche People_xyzq_nonexistent"
+  },
+  "get_wiki_page::{\"title\": \"Tenerife\"}": {
+    "summary": "Tenerife is the largest and most-populous island of the Canary Islands, an autonomous community of Spain. With a land area of 2,034.38 km2 (785.48 mi2) and a population of 972,018 inhabitants as of January 2026, it is the most-populous island in Spain and the entire Macaronesia region. Tenerife is also home to 42.7% of the total population of the archipelago.",
+    "text": "Tenerife ( TEN-ə-REEF-(ay); Spanish: [teneˈɾife] ; formerly spelled Teneriffe) is the largest and most-populous island of the Canary Islands, an autonomous community of Spain. With a land area of 2,034.38 km2 (785.48 mi2) and a population of 972,018 inhabitants as of January 2026, it is the most-populous island in Spain and the entire Macaronesia region. Tenerife is also home to 42.7% of the total population of the archipelago.\nMore than seven million tourists (7,384,707 in 2024) visit Tenerife each year, making it by far the most visited island in the archipelago. It is one of the most important tourist destinations in Spain and the world, hosting one of the world's largest carnivals, the Carnival of Santa Cruz de Tenerife.\nThe capital of the island, Santa Cruz de Tenerife, is also the seat of the island council (cabildo insular). The city and Las Palmas de Gran Canaria are the co-capitals of the autonomous community of the Canary Islands. The two cities are both home to governmental institutions, such as the offices of the presidency and the ministries. After the 1833 territorial division of Spain, Santa Cruz de Tenerife was the sole capital of the Canary Islands. In 1927, the Crown established the current co-capital arrangement. Santa Cruz contains the modern Auditorio de Tenerife, the architectural symbol of the Canary Islands.\nThe island is home to the University of La Laguna. Founded in 1792 in San Cristóbal de La Laguna, it is the oldest university in the Canaries. The city of La Laguna is a UNESCO World Heritage Site. It is the second-most populous city on the island, and the third-most populous in the archipelago. It was the capital of the Canary Islands before Santa Cruz replaced it in 1833. Tenerife is served by two airports: Tenerife North Airport and Tenerife South Airport.\nTeide National Park, located in the center of the island, is also a UNESCO World Heritage Site. It includes Mount Teide, which has the highest elevation in Spain, and the highest ele",
+    "title": "Tenerife"
+  },
+  "search_wikipedia::{\"query\": \"Church of the Guanche People\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Church of the Guanche People"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Church of the Guanche People_xyzq_nonexistent\"}": {
+    "results": []
+  },
+  "search_wikipedia::{\"query\": \"Tenerife\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Tenerife"
+      },
+      {
+        "snippet": "",
+        "title": "Tenerife airport disaster"
+      },
+      {
+        "snippet": "",
+        "title": "Tenerife South Airport"
+      },
+      {
+        "snippet": "",
+        "title": "Tenerife North–Ciudad de La Laguna Airport"
+      },
+      {
+        "snippet": "",
+        "title": "Tenerife (Parliament of the Canary Islands constituency)"
+      }
+    ]
+  }
+}

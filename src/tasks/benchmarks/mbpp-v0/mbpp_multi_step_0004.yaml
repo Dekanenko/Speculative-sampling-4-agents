@@ -1,0 +1,32 @@
+task_id: mbpp_multi_step_0004
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a python function to shift first element to the end of given list.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 665
+  ref_solution_length: 4
+metadata:
+  mbpp_task_id: 665
+  difficulty_bucket: multi_step
+  ref_solution_length: 4
+  fn_name: move_last
+  test_code: "from solution import move_last\n\n\ndef test_move_last():\n    assert move_last([1,2,3,4]) == [2,3,4,1]\n  \
+    \  assert move_last([2,3,4,1,5,0]) == [3,4,1,5,0,2]\n    assert move_last([5,4,3,2,1]) == [4,3,2,1,5]\n"
+  stub_code: "def move_last(num_list):\n    raise NotImplementedError\n"

@@ -1,0 +1,23 @@
+task_id: hotpotqa_bridge_0001
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: In what year was the mathematician husband of Anneli Cahn Lax born?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: '1926'
+  supporting_titles:
+  - Anneli Cahn Lax
+  - Peter Lax
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ae27f22554299495565da8d
+  difficulty: hard
+  perturbed_title: null

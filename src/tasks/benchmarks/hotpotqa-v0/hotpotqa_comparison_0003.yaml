@@ -1,0 +1,24 @@
+task_id: hotpotqa_comparison_0003
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which genus of flowering plants has the most species, Caesalpinia or
+  Achimenes?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Caesalpinia
+  supporting_titles:
+  - Caesalpinia
+  - Achimenes
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a85f2f55542997b5ce40036
+  difficulty: hard
+  perturbed_title: null

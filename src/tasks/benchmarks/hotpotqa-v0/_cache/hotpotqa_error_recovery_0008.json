@@ -1,0 +1,67 @@
+{
+  "get_wiki_page::{\"title\": \"Lincoln green\"}": {
+    "summary": "Lincoln green is the colour of dyed woollen cloth formerly originating in Lincoln, England, a major cloth town during the high Middle Ages. The dyers of Lincoln, known for colouring wool with woad to give it a strong blue shade, created the eponymous Lincoln green by overdyeing this blue wool with yellow weld or dyers' broom. Other colours like \"Coventry blue\" and \"Kendal green\" were linked to the dyers of different English towns.",
+    "text": "Lincoln green is the colour of dyed woollen cloth formerly originating in Lincoln, England, a major cloth town during the high Middle Ages. The dyers of Lincoln, known for colouring wool with woad to give it a strong blue shade, created the eponymous Lincoln green by overdyeing this blue wool with yellow weld or dyers' broom. Other colours like \"Coventry blue\" and \"Kendal green\" were linked to the dyers of different English towns.\nLincoln green is often associated with Robin Hood and his Merry Men in Sherwood Forest, Nottinghamshire.\n\n\n== History ==\nThe first recorded use of Lincoln green as a colour name in English was in 1510.  By the late sixteenth century, Lincoln green was a thing of the past. Michael Drayton provided a sidenote in his Poly-Olbion (published 1612): \"Lincoln anciently dyed the best green in England.\" Cloth of Lincoln green was more pleasing than undyed shepherd's gray cloth: \"When they were clothed in Lyncolne grene they kest away their gray\", according to A Lytell Geste of Robyn Hode, ca. 1510, and Lincoln green betokened an old-fashioned forester even in the fancy dress of Edmund Spenser's The Faery Queene: \n\nRobin Hood's Garland, the popular ballad printed in eighteenth-century compilations, offers an unexpected picture of Robin as he presented himself at court:\n\nThe distinction was in the cost of scarlet, which was dyed with kermes, derived from the Kermes vermilio insect native to the Mediterranean. Lincoln scarlet, from its imported dyestuff, was more expensive than Lincoln green.\nIn 1198 the Sheriff of Lincoln bought ninety ells (about 112 yards) of scarlet cloth for £30 (6s 8d per ell); although the cloth was a finely finished fabric, its high price was almost certainly due mainly to the extremely costly dye-stuff, greyne (graine) from Kermes or scarlet grain.  In 1182 the Sheriff of Lincoln bought Scarlet at 6s 8d/ell, Green and Blanchet both at 3s/ell and Gray at approximately 1s 8d/ell. By 1216 three guilds controlling the cloth trade",
+    "title": "Lincoln green"
+  },
+  "get_wiki_page::{\"title\": \"Robin Hood\"}": {
+    "summary": "Robin Hood is a legendary heroic outlaw originally depicted in English folklore and subsequently featured in literature, theatre, and cinema. According to legend, he was a highly skilled archer and swordsman. In some versions of the legend, he is depicted as being of noble birth, and in modern retellings he is sometimes depicted as having fought in the Crusades before returning to England to find his lands taken by the Sheriff of Nottingham. In the oldest known versions, he is instead a member of the yeoman class. He is traditionally depicted dressed in Lincoln green. Today, he is most closely associated with his stance of \"robbing the rich to give to the poor\".",
+    "text": "Robin Hood is a legendary heroic outlaw originally depicted in English folklore and subsequently featured in literature, theatre, and cinema. According to legend, he was a highly skilled archer and swordsman. In some versions of the legend, he is depicted as being of noble birth, and in modern retellings he is sometimes depicted as having fought in the Crusades before returning to England to find his lands taken by the Sheriff of Nottingham. In the oldest known versions, he is instead a member of the yeoman class. He is traditionally depicted dressed in Lincoln green. Today, he is most closely associated with his stance of \"robbing the rich to give to the poor\".\nThrough retellings, additions, and variations, a body of familiar characters associated with Robin Hood has been created. These include his lover, Maid Marian; his band of outlaws, the Merry Men; and his chief opponent, the Sheriff of Nottingham. The Sheriff is often depicted as assisting Prince John in usurping the rightful but absent King Richard, to whom Robin Hood remains loyal. He became a popular folk figure in the Late Middle Ages, and his partisanship of the common people and opposition to the Sheriff are some of the earliest-recorded features of the legend, whereas his political interests and setting during the Angevin era developed in later centuries. The earliest known ballads featuring him are from the 15th century.\nThere have been numerous variations and adaptations of the story over the subsequent years, and the story continues to be widely represented in literature, film, and television media today. Robin Hood is considered one of the best-known tales of English folklore. In popular culture, the term \"Robin Hood\" is often used to describe a heroic outlaw or rebel against tyranny.\nThe origins of the legend as well as the historical context have been debated for centuries. There are numerous references to historical figures with similar names that have been proposed as possible evidence of his e",
+    "title": "Robin Hood"
+  },
+  "get_wiki_page::{\"title\": \"Robin Hood_xyzq_nonexistent\"}": {
+    "error": "not_found",
+    "title": "Robin Hood_xyzq_nonexistent"
+  },
+  "search_wikipedia::{\"query\": \"Lincoln green\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Lincoln green"
+      },
+      {
+        "snippet": "",
+        "title": "Lincoln Green"
+      },
+      {
+        "snippet": "",
+        "title": "Lincoln Green (New Zealand)"
+      },
+      {
+        "snippet": "",
+        "title": "Lincoln Green, Alberta"
+      },
+      {
+        "snippet": "",
+        "title": "Lincoln Greenbackers"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Robin Hood\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Robin Hood"
+      },
+      {
+        "snippet": "",
+        "title": "Robin Hood: Prince of Thieves"
+      },
+      {
+        "snippet": "",
+        "title": "Robin Hood (1973 film)"
+      },
+      {
+        "snippet": "",
+        "title": "Robin Hood (2010 film)"
+      },
+      {
+        "snippet": "",
+        "title": "Robin Hood (2018 film)"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Robin Hood_xyzq_nonexistent\"}": {
+    "results": []
+  }
+}

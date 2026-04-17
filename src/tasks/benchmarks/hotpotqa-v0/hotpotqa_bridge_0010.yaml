@@ -1,0 +1,23 @@
+task_id: hotpotqa_bridge_0010
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Butautas tried to depose his uncle who between which years ?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: from 1345 to 1377
+  supporting_titles:
+  - Butautas
+  - Algirdas
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a79f37a5542996a35c17045
+  difficulty: hard
+  perturbed_title: null

@@ -1,0 +1,56 @@
+{
+  "get_wiki_page::{\"title\": \"Emperor Jimmu\"}": {
+    "summary": "Emperor Jimmu  was the legendary first emperor of Japan according to the Nihon Shoki and Kojiki. His ascension is traditionally dated as 660 BC. In Japanese mythology, he was a descendant of the sun goddess Amaterasu, through her grandson Ninigi, as well as a descendant of the storm god Susanoo. He launched a military expedition from Hyūga near the Seto Inland Sea, captured Yamato, and established this as his center of power. In modern Japan, Emperor Jimmu's legendary ascension is marked as National Foundation Day on February 11.",
+    "text": "Emperor Jimmu (神武天皇, Jinmu Tennō; Japanese pronunciation: [dʑiꜜm.mɯ (ten.noː), dʑim.mɯ ten.noꜜː]) was the legendary first emperor of Japan according to the Nihon Shoki and Kojiki. His ascension is traditionally dated as 660 BC. In Japanese mythology, he was a descendant of the sun goddess Amaterasu, through her grandson Ninigi, as well as a descendant of the storm god Susanoo. He launched a military expedition from Hyūga near the Seto Inland Sea, captured Yamato, and established this as his center of power. In modern Japan, Emperor Jimmu's legendary ascension is marked as National Foundation Day on February 11.\nOther than the Nihon Shoki and the Kojiki, there is little to no evidence to suggest that Jimmu existed; he is regarded by most modern scholars as a legendary figure.\n\n\n== Name and title ==\nJimmu is recorded as Japan's first ruler in two early chronicles, Nihon Shoki (721) and Kojiki (712). Nihon Shoki gives the dates of his reign as 660–585 BC. In the reign of Emperor Kanmu (737–806), the eighth-century scholar Ōmi no Mifune retroactively designated rulers before Emperor Ōjin as tennō (天皇; \"heavenly sovereign\"), a Japanese pendant to the Chinese imperial title Tiān-dì (天帝), and gave several of them including Jimmu their posthumous names. Prior to this time, these rulers had been known as Sumera no mikoto (皇尊, \"divine highness\") or Ōkimi (大君, \"great lord\"). This practice had begun under Empress Suiko, and took root after the Taika Reforms with the ascendancy of the Nakatomi clan.\nBoth the Kojiki and the Nihon Shoki give Jimmu's name as Kamu-yamato Iware-biko no Mikoto (神倭伊波礼琵古命) or Kamu-yamato Iware-biko no Sumeramikoto (神日本磐余彦天皇). Iware indicates a toponym (an old place name in the Nara region) whose precise purport is unclear. '-no-Mikoto' is an honorific, indicating divinity, nobility, or royalty.\nAmong his other names were: Wakamikenu no Mikoto (若御毛沼命), Kamu-yamato Iware-biko hohodemi no Mikoto (神日本磐余彦火火出見尊) and Hikohohodemi (彦火火出見).\nThe Imperial House of",
+    "title": "Emperor Jimmu"
+  },
+  "get_wiki_page::{\"title\": \"Japanese imperial year\"}": {
+    "summary": "The era after the enthronement of Emperor Jimmu , colloquially known as the Japanese imperial year  or \"national calendar year\" is a unique calendar system in Japan. It is based on the legendary foundation of Japan by Emperor Jimmu in 660 BC. Kōki emphasizes the long history of Japan and the Imperial dynasty. The Gregorian year 2026 is Kōki 2686.",
+    "text": "The era after the enthronement of Emperor Jimmu (神武天皇即位紀元, Jinmu-tennō sokui kigen), colloquially known as the Japanese imperial year (皇紀, kōki) or \"national calendar year\" is a unique calendar system in Japan.  It is based on the legendary foundation of Japan by Emperor Jimmu in 660 BC. Kōki emphasizes the long history of Japan and the Imperial dynasty. The Gregorian year 2026 is Kōki 2686.\n\n\n== History ==\nKōki dating was used as early as 1872, shortly after Japan adopted the Gregorian calendar and was popular during the life of the Meiji Constitution (1890–1947). Its use was promoted by the scholars of kokugaku in the late 19th century.\nThe Summer Olympics and Tokyo Expo were planned as anniversary events in 1940 (Kōki 2600); but the international games were not held because of the Second Sino-Japanese War.\nThe Imperial Japanese Army (IJA, from 1927) and Imperial Japanese Navy (IJN, from 1929) used the Kōki system for identification.  For example many Japanese names circa World War II use imperial years:\n\nThe IJA's Type 92 battalion gun was called \"ninety-two\" because its design was completed in 1932, and the 2592nd year since the first Emperor of Japan was 1932 (Kōki 2592).\nJapan's wartime cipher machine was named the System 97 Printing Machine for European Characters because it entered service in 1937 (Kōki 2597).\nThe Mitsubishi A6M (Navy Type 0 Carrier Fighter), colloquially called the \"Zero\" by allied forces, entered service in 1940 (Kōki 2600).\nThe Proclamation of Indonesian Independence (1945) used the imperial year (Kōki 2605).\nIn Japan today, the system of counting years from the reign of Emperor Jimmu is used in some judicial contexts. The existing law determining the placement of leap years is  based on the Kōki years, using a formula that is effectively equivalent to that of the Gregorian calendar. Kōki is also used in Shinto context.\n\n\n== See also ==\nEpoch\nJapanese calendar\nJapanese era name\n\n\n== References ==\n\n\n== External links ==\nNational Diet Libra",
+    "title": "Japanese imperial year"
+  },
+  "search_wikipedia::{\"query\": \"Emperor Jimmu\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Emperor Jimmu"
+      },
+      {
+        "snippet": "",
+        "title": "Emperor Tenmu"
+      },
+      {
+        "snippet": "",
+        "title": "Emperor Kanmu"
+      },
+      {
+        "snippet": "",
+        "title": "Emperor Ninmyō"
+      },
+      {
+        "snippet": "",
+        "title": "Emperor Kinmei"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Japanese imperial year\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Japanese imperial year"
+      },
+      {
+        "snippet": "",
+        "title": "Japanese Imperial era"
+      },
+      {
+        "snippet": "",
+        "title": "Japanese imperial army"
+      },
+      {
+        "snippet": "",
+        "title": "Japanese Imperial Guard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "get_wiki_page::{\"title\": \"John Peers\"}": {
+    "summary": "John William Peers is an Australian professional tennis player who specialises in doubles. He has been ranked by the Association of Tennis Professionals (ATP) as high as world No. 2 in doubles, which he achieved on 3 April 2017, and No. 456 in singles, attained on 11 June 2012. He has won 30 doubles titles on the ATP Tour.",
+    "text": "John William Peers (born 25 July 1988) is an Australian professional tennis player who specialises in doubles. He has been ranked by the Association of Tennis Professionals (ATP) as high as world No. 2 in doubles, which he achieved on 3 April 2017, and No. 456 in singles, attained on 11 June 2012. He has won 30 doubles titles on the ATP Tour.\nPeers has competed three times at the Olympic Games, winning the mixed doubles bronze medal in 2021 with Ashleigh Barty, and the doubles gold medal in 2024 with Matthew Ebden.\nPeers has won four majors, in men's doubles at the 2017 Australian Open, with Henri Kontinen and three in mixed doubles – at the 2022 US Open with Storm Sanders and in the 2025–26 editions of the Australian Open, with Olivia Gadecki. He also was a runner-up at the Wimbledon Championships and US Open in 2015, with Jamie Murray and at the 2019 Australian Open, with Kontinen. Other significant titles include the 2016 and 2017 ATP Finals, as well as four ATP 1000-level trophies.\nPeers has represented Australia in the Davis Cup since 2016.\n\n\n== Personal life ==\nHis mother, Elizabeth Little, and sister, Sally Peers, are also former professional tennis players.\n\n\n== Professional career ==\n\n\n=== 2013 ===\nPeers began the 2013 season playing with fellow Australian John-Patrick Smith, receiving a wildcard into the Australian Open. It was here that Peers gained his first Grand Slam victory, upsetting the Polish duo of Mariusz Fyrstenberg and Marcin Matkowski in their opening match; in the second round they fell to Sergiy Stakhovsky and Mikhail Youzhny in straight sets. In February, Peers teamed up with established doubles specialist Jamie Murray, a partnership that immediately looked to be a successful one, as the pair reached the semifinals of their first tournament together at the Open Sud de France. A couple of months later, Peers and Murray won their first title together, defeating 13-time Grand Slam champions and world No. 1 pair Bob and Mike Bryan in the final ",
+    "title": "John Peers"
+  },
+  "get_wiki_page::{\"title\": \"Simone Bolelli\"}": {
+    "summary": "Simone Bolelli is an Italian professional tennis player who specializes in doubles. He has a career-high ATP ranking in doubles of World No. 6 achieved on 13 January 2025 and in singles of No. 36 achieved on 23 February 2009. Bolelli is a Grand Slam champion, having won the 2015 Australian Open doubles event with Fabio Fognini, together becoming the first male all-Italian pair to win a Major in the Open Era. He also reached three other major finals with Andrea Vavassori at the 2024 and the 2025 Australian Open, and at the 2024 French Open.",
+    "text": "Simone Bolelli (Italian pronunciation: [siˈmoːne boˈlɛlli]; born 8 October 1985) is an Italian professional tennis player who specializes in doubles. He has a career-high ATP ranking in doubles of World No. 6 achieved on 13 January 2025 and in singles of No. 36 achieved on 23 February 2009. Bolelli is a Grand Slam champion, having won the 2015 Australian Open doubles event with Fabio Fognini, together becoming the first male all-Italian pair to win a Major in the Open Era. He also reached three other major finals with Andrea Vavassori at the 2024 and the 2025 Australian Open, and at the 2024 French Open.\nHe has won 20 ATP Tour titles, the most doubles titles of any Italian man in the Open Era. He is also the Italian player who has won the highest number of Davis Cups for his national team, marking a record of three times in a row: in 2023, 2024 and 2025. He was a bronze medalist at the 2005 Mediterranean Games.\n\n\n== Career ==\n\n\n=== 2003–2005: Pro beginnings, first ITF singles titles ===\nIn 2003, Bolelli reached his first ITF Futures tournament semifinal at Egypt F1, losing to 485th-ranked Jaroslav Pospíšil. He played entirely Futures events except for one Challenger tournament in Brindisi.\nIn 2004, Bolelli reached his second Futures final, losing to Dominique Coene. He made another final and won two Futures titles, making two wins out of three finals for Futures finals in the 2004 season. He won the Italy F15 and F8 titles, and lost in the final of a Challenger event in Brașov.\nIn 2005, Bolelli reached the final of a Challenger in Trani.\n\n\n=== 2006: ATP debut, First Challenger singles title ===\nSimone Bolelli played in a few tournaments higher than a Challenger, reaching the quarterfinals in doubles on his Masters 1000 debut partnering with Andreas Seppi as alternates pair at the 2006 Monte Carlo Masters and also receiving a wildcard into the singles and doubles (w/ Seppi) main draws at the 2006 Rome Masters.\nHe also won the Como Futures tournament and made the fina",
+    "title": "Simone Bolelli"
+  },
+  "search_wikipedia::{\"query\": \"John Peers\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "John Peers"
+      },
+      {
+        "snippet": "",
+        "title": "John Peers & Company"
+      },
+      {
+        "snippet": "",
+        "title": "John Peel"
+      },
+      {
+        "snippet": "",
+        "title": "John J. Pershing"
+      },
+      {
+        "snippet": "",
+        "title": "John Prescott"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Simone Bolelli\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Simone Bolelli"
+      },
+      {
+        "snippet": "",
+        "title": "Simone Borrelli"
+      },
+      {
+        "snippet": "",
+        "title": "Simone Tonelli"
+      },
+      {
+        "snippet": "",
+        "title": "Simone Orelli"
+      },
+      {
+        "snippet": "",
+        "title": "Simone Mocellini"
+      }
+    ]
+  }
+}

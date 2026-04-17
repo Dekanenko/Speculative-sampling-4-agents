@@ -1,0 +1,32 @@
+task_id: mbpp_multi_step_0018
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function that matches a string that has an ''a'' followed by anything, ending in ''b'' by using regex.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 879
+  ref_solution_length: 6
+metadata:
+  mbpp_task_id: 879
+  difficulty_bucket: multi_step
+  ref_solution_length: 6
+  fn_name: text_match
+  test_code: "from solution import text_match\n\n\ndef test_text_match():\n    assert text_match(\"aabbbbd\") == 'Not matched!'\n\
+    \    assert text_match(\"aabAbbbc\") == 'Not matched!'\n    assert text_match(\"accddbbjjjb\") == 'Found a match!'\n"
+  stub_code: "def text_match(text):\n    raise NotImplementedError\n"

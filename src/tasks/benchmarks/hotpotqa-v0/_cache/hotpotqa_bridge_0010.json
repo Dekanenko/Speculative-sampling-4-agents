@@ -1,0 +1,60 @@
+{
+  "get_wiki_page::{\"title\": \"Algirdas\"}": {
+    "summary": "Algirdas was Grand Duke of Lithuania from 1345 to 1377. With the help of his brother Kęstutis, he created an empire stretching from the present Baltic states to the Black Sea and to within 80 kilometres of Moscow.",
+    "text": "Algirdas (c. 1296 – May 1377) was Grand Duke of Lithuania from 1345 to 1377. With the help of his brother Kęstutis (who defended the western border of the Duchy), he created an empire stretching from the present Baltic states to the Black Sea and to within 80 kilometres (50 miles) of Moscow.\n\n\n== Early life and rise to power ==\n\nAlgirdas was one of the seven sons of Grand Duke Gediminas. Before his death in 1341, Gediminas divided his domain, leaving his youngest son Jaunutis in possession of the capital, Vilnius. With the aid of his brother Kęstutis, Algirdas drove out the incompetent Jaunutis and declared himself Grand Duke in 1345. He devoted the next thirty-two years to the development and expansion of the Grand Duchy of Lithuania. He and Kęstutis appeared to rule jointly as co-rulers.\nAfter becoming the ruler of Lithuania, Algirdas was titled the King of Lithuania (Latin: rex Letwinorum) in the Livonian Chronicles instead of the terms knyaz (English: prince, duke) or velikiy knyaz (grand prince).\nTwo factors are thought to have contributed to this result: the political sagacity of Algirdas and the devotion of Kęstutis. The division of their dominions is illustrated by the fact that Algirdas appears almost exclusively in East Slavic sources, while Western chronicles primarily describe Kęstutis. Lithuania was surrounded by enemies. The Teutonic Order in the northwest and the Golden Horde in the southeast sought Lithuanian territory, while Poland to the west and the Moscow principality to the east were generally hostile competitors.\n\n\n== Expansion of Lithuania ==\n\nAlgirdas held his own, also acquiring influence and territory at the expense of the Moscow principality and the Golden Horde and extending the borders of the Grand Duchy of Lithuania to the Black Sea. His principal efforts were directed toward securing the Slavic lands which were part of the former Kievan Rus'. Although Algirdas engineered the election of his son Andrius as Prince of Pskov and a powerful",
+    "title": "Algirdas"
+  },
+  "get_wiki_page::{\"title\": \"Butautas\"}": {
+    "summary": "Butautas was a son of Kęstutis, Grand Duke of Lithuania. He attempted to depose his uncle Algirdas and usurp power in Lithuania, but failed and was forced into exile. He joined the court of the Holy Roman Emperor and even inspired a poem about conversion to Christianity. Butautas is sometimes confused with his brother Vaidotas.",
+    "text": "Butautas (baptized Henryk; died on May 7, 1380, in Prague) was a son of Kęstutis, Grand Duke of Lithuania. He attempted to depose his uncle Algirdas and usurp power in Lithuania, but failed and was forced into exile. He joined the court of the Holy Roman Emperor and even inspired a poem about conversion to Christianity. Butautas is sometimes confused with his brother Vaidotas.\nButautas' son Jonas Vaidutis in 1401 became the Rector of the Jagiellonian University in Kraków.\n\n\n== Coup and escape to Teutonic Knights ==\nThe first written record about Butautas comes from Jan Długosz. The historian describes Lithuanian raids into Masuria in 1336 and mentions Butautas, son of Gediminas. Because of confused fathers, this information is not considered reliable. \nThe first reliable data comes from summer of 1365. While Algirdas and Kęstutis were in Volhynia helping their brother Liubartas in the Galicia–Volhynia Wars, Butautas together with other nobles attempted a coup d'état. However, the plans were discovered by Dirsūnas, deputy of Vilnius. Butautas was arrested, but his accomplice or brother Survila rescued him and killed Dirsūnas. The coup failed and Butautas, Survila, and fifteen followers had to flee to the Teutonic Knights. Historian S. C. Rowell questioned whether the coup really happened as it is mentioned only in a late German source. \nIn Königsberg, Butautas was baptized as Henryk in honor of the Commander of Insterburg on July 25, 1365. Two Bishops, John of Warmia and Bartholomew of Sambia were summoned for the ceremony, also attended by English crusaders, including Earl of Warwick and Thomas Ufford. In August, he led a Teutonic raid deep into Lithuania reaching as far as Vilnius and Vilkmergė. During the 12-day raid Kernavė and Maišiagala were devastated.\n\n\n== Life at emperor's court ==\nSometime between August 1366 and April 1368, Butautas departed to Prague to join the court of Charles IV, Holy Roman Emperor. Survila remained with the Knights. Charles gave Butau",
+    "title": "Butautas"
+  },
+  "search_wikipedia::{\"query\": \"Algirdas\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Algirdas"
+      },
+      {
+        "snippet": "",
+        "title": "Algirdas Mykolas Dobrovolskis"
+      },
+      {
+        "snippet": "",
+        "title": "Algirdas Julien Greimas"
+      },
+      {
+        "snippet": "",
+        "title": "Algirdas Brazauskas"
+      },
+      {
+        "snippet": "",
+        "title": "Algirdas Paleckis"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Butautas\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Butautas"
+      },
+      {
+        "snippet": "",
+        "title": "Stepas Butautas"
+      },
+      {
+        "snippet": "",
+        "title": "Ramūnas Butautas"
+      },
+      {
+        "snippet": "",
+        "title": "Butautai Manor"
+      },
+      {
+        "snippet": "",
+        "title": "ButanGas"
+      }
+    ]
+  }
+}

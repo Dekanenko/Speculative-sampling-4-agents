@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"Anneli Cahn Lax\"}": {
+    "summary": "Anneli Cahn Lax was an American mathematician, who was known for being an editor of the Mathematics Association of America's New Mathematical Library Series, and for her work in reforming mathematics education with the inclusion of language skills. Lax received a bachelor's degree in 1942 from Adelphi University and her doctorate in 1956. She was a professor of mathematics at New York University's Courant Institute. She was married to the mathematician Peter Lax.",
+    "text": "Anneli Cahn Lax (23 February 1922, Katowice – 24 September 1999, New York City) was an American mathematician, who was known for being an editor of the Mathematics Association of America's New Mathematical Library Series, and for her work in reforming mathematics education with the inclusion of language skills. Lax received a bachelor's degree in 1942 from Adelphi University and her doctorate in 1956. She was a professor of mathematics at New York University's Courant Institute. She was married to the mathematician Peter Lax.\n\n\n== Life ==\n\n\n=== Career ===\nIn 1942, she earned a bachelor's degree in mathematics at Adelphi University in Long Island. In 1956, she earned a PhD from New York University with the dissertation Cauchy's Problem for a Partial Differential Equation with Real Multiple Characteristics with thesis adviser Richard Courant.\nShe became a mathematics professor at NYU and was the editor of the Mathematics Association of America's New Mathematical Library Series.\nIn 1961, the series started, with 36 published volumes by 1995. It was planned, by Professor Lax and others, to make mathematics accessible to the average reader while still being technically accurate. The first two books were, Numbers: Rational and Irrational by Ivan Niven and What Is Calculus About? by W. W. Sawyer.\nIn 1977, she won the George Pólya Award for her article: Linear Algebra, A Potent Tool, Vol. 7 (1976), 3–15. In 1980, the mathematics department of New York University assigned Lax to design a remedial course in mathematics for freshmen. The course she devised and called \"Mathematical Thinking\" presented mathematics not as a body of facts but as a set of problems to be analyzed and resolved.\n\"There is a misconception among people and schoolchildren about the nature of mathematics\", she said, in a 1979 interview. \"They consider it a matter of rules and regulations instead of thinking.\" The pressure, she said, was for pupils to come up with the right answer quickly, without time to ",
+    "title": "Anneli Lax"
+  },
+  "get_wiki_page::{\"title\": \"Peter Lax\"}": {
+    "summary": "Peter David Lax was a Hungarian-born American mathematician and Abel Prize laureate working in the areas of pure and applied mathematics.",
+    "text": "Peter David Lax (1 May 1926 – 16 May 2025) was a Hungarian-born American mathematician and Abel Prize laureate working in the areas of pure and applied mathematics.\nLax made important contributions to integrable systems, fluid dynamics and shock waves, solitonic physics, hyperbolic conservation laws, and mathematical and scientific computing, among other fields. In a 1958 paper Lax stated a conjecture about matrix representations for third order hyperbolic polynomials which remained unproven for over four decades. Interest in the \"Lax conjecture\" grew as mathematicians working in several different areas recognized the importance of its implications in their field, until it was finally proven to be true in 2003.\n\n\n== Early life and education ==\nLax was born on 1 May 1926 in Budapest, Hungary, to a Jewish family. He began displaying an interest in mathematics at age twelve, and soon his parents hired Rózsa Péter as a tutor for him. His parents Klara Kornfield and Henry Lax were both physicians and his uncle Albert Kornfeld (also known as Albert Korodi) was a mathematician, as well as a friend of Leó Szilárd. The family left Hungary on 15 November 1941, and traveled via Lisbon to the United States. \nAs a high school student at Stuyvesant High School, Lax took no math classes but did compete on the school math team. During this time, he met with John von Neumann, Richard Courant, and Paul Erdős, who introduced him to Albert Einstein. As he was still 17 when he finished high school, he could avoid military service, and was able to study for three semesters at New York University. He attended a complex analysis class in the role of a student, but ended up taking over as instructor. He met his future wife, Anneli Cahn (married to her first husband at that time) in this class.\nBefore being able to complete his studies, Lax was drafted into the U.S. Army. After basic training, the Army sent him to Texas A&M University for more studies. He was then sent to Oak Ridge National ",
+    "title": "Peter Lax"
+  },
+  "search_wikipedia::{\"query\": \"Anneli Cahn Lax\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Anneli Cahn Lax"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Peter Lax\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Peter Lax"
+      },
+      {
+        "snippet": "",
+        "title": "Peter Lax (ice hockey)"
+      },
+      {
+        "snippet": "",
+        "title": "Saint Peter"
+      },
+      {
+        "snippet": "",
+        "title": "Peter Lawford"
+      },
+      {
+        "snippet": "",
+        "title": "Peter Jackson"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+task_id: mbpp_long_context_0002
+condition: long_context
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a python function to find the first digit in factorial of a given number.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 657
+  ref_solution_length: 9
+metadata:
+  mbpp_task_id: 657
+  difficulty_bucket: long_context
+  ref_solution_length: 9
+  fn_name: first_Digit
+  test_code: "from solution import first_Digit\n\n\ndef test_first_Digit():\n    assert first_Digit(5) == 1\n    assert first_Digit(10)\
+    \ == 3\n    assert first_Digit(7) == 5\n"
+  stub_code: "def first_Digit(n):\n    raise NotImplementedError\n"

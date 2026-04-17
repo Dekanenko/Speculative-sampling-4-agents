@@ -1,0 +1,60 @@
+{
+  "get_wiki_page::{\"title\": \"Stephen Graham\"}": {
+    "summary": "Stephen Graham is an English actor, producer, and screenwriter. He has received nominations for seven British Academy Television Awards and one British Academy Film Award; has won three Primetime Emmy Awards and a Golden Globe Award among other accolades.",
+    "text": "Stephen Graham  (born 3 August 1973) is an English actor, producer, and screenwriter. He has received nominations for seven British Academy Television Awards and one British Academy Film Award; has won three Primetime Emmy Awards and a Golden Globe Award among other accolades.\nGraham began his career in 1990, with early notable roles in Snatch (2000) and Gangs of New York (2002), before his breakthrough role as Andrew \"Combo\" Gascoigne in the film This Is England (2006). His film appearances include Tinker Tailor Soldier Spy (2011), Pirates of the Caribbean: On Stranger Tides (2011) and Pirates of the Caribbean: Dead Men Tell No Tales (2017), Rocketman (2019), The Irishman (2019), Boiling Point (2021) and its sequel series of the same name (2023), and Venom: Let There Be Carnage (2021) and its sequel Venom: The Last Dance (2024).\nOn television, Graham reprised his role as Combo in This Is England '86, This Is England '88, and This Is England '90. He also starred in the drama Little Boy Blue; the fifth series of Line of Duty; HBO series Boardwalk Empire; BBC drama Time; and the sixth series of Peaky Blinders. He created, co-wrote and executive produced the miniseries Adolescence (2025) on Netflix, in which he also appeared, and won all of three nominations at the 77th Primetime Emmy Awards for it. He also starred in A Thousand Blows, (2025) created by Peaky Blinders Steven Knight.\nFor services to drama, Graham was appointed Officer of the Order of the British Empire (OBE) in the 2023 New Year Honours.\nIn 2020, Graham co-founded the production company Matriarch Productions with his wife and fellow actor, Hannah Walters.\n\n\n== Early life and education ==\nGraham was born on 3 August 1973 in Kirkby, Merseyside to parents who spanned racial and national lines. He was raised by his mother, a white English social worker, and his stepfather, a mechanic who later became a paediatric nurse. Graham maintained a good relationship with his biological father. Graham's father was of",
+    "title": "Stephen Graham"
+  },
+  "get_wiki_page::{\"title\": \"This Is England\"}": {
+    "summary": "This Is England is a 2006 British coming-of-age drama film written and directed by Shane Meadows, and starring Thomas Turgoose and Stephen Graham. The plot centres on young skinheads in England in 1983, illustrating how their subculture became influenced by far-right politics. The film's title is a direct reference to a scene where the character Combo explains his nationalist views using the phrase \"this is England\" during his speech.",
+    "text": "This Is England is a 2006 British coming-of-age drama film written and directed by Shane Meadows, and starring Thomas Turgoose and Stephen Graham. The plot centres on young skinheads in England in 1983, illustrating how their subculture became influenced by far-right politics. The film's title is a direct reference to a scene where the character Combo (played by Graham) explains his nationalist views using the phrase \"this is England\" during his speech.\nThis Is England received critical acclaim and went on to gross £5 million at the box office. Its success led to the creation of three sequel TV series: This Is England '86 (2010), This Is England '88 (2011), and This Is England '90 (2015). The ensemble cast also includes Jo Hartley, Joe Gilgun, Vicky McClure, Andrew Shim, Rosamund Hanson, Jack O'Connell, Chanel Cresswell, Perry Benson, Michael Socha, and Frank Harper.\n\n\n== Plot ==\nIn July 1983, Shaun Fields is a troubled 12-year-old boy living with his widowed mother Cynthia in the East Midlands. Shaun is alienated and frequently antagonized at school and around town. On the last day of his school term, Shaun gets into a fight at school with a boy who insults him for wearing wide bell-bottoms and making an offensive joke about his father, who was killed in the Falklands War. \nShaun later comes across a gang of young skinheads, led by Richard \"Woody\" Woodford, who feels sympathy for Shaun and invites him to join the group. He introduces Shaun to Milky, the gang's only black skinhead; Pukey; Kes; and the overweight, dim-witted Gadget. Despite some initial hostilities between Shaun and Gadget, the gang accepts Shaun as a member. Shaun bonds closely with Woody and his girlfriend Lorraine \"Lol\" Jenkins, who shave his head and gift him clothes to better fit into the skinhead gang. Shaun also develops a romantic relationship with Michelle, known as Smell, an older girl who dresses in a new wave, New Romantic style. Cynthia is initially hesitant to allow Shaun to be with the",
+    "title": "This Is England"
+  },
+  "search_wikipedia::{\"query\": \"Stephen Graham\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Stephen Graham"
+      },
+      {
+        "snippet": "",
+        "title": "Stephen Graham Jones"
+      },
+      {
+        "snippet": "",
+        "title": "Stephen Graham (basketball)"
+      },
+      {
+        "snippet": "",
+        "title": "Stephen Graham (academic)"
+      },
+      {
+        "snippet": "",
+        "title": "Stephen Graham (author)"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"This Is England\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "This Is England"
+      },
+      {
+        "snippet": "",
+        "title": "This Is England '86"
+      },
+      {
+        "snippet": "",
+        "title": "This Is England '90"
+      },
+      {
+        "snippet": "",
+        "title": "This Is England '88"
+      },
+      {
+        "snippet": "",
+        "title": "This Is England (song)"
+      }
+    ]
+  }
+}

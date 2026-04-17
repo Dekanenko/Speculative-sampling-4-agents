@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"IPod Classic\"}": {
+    "summary": "The iPod Classic is a discontinued portable media player created and formerly marketed by Apple.",
+    "text": "The iPod Classic (stylized and marketed as iPod classic and originally simply iPod) is a discontinued portable media player created and formerly marketed by Apple.\nThere were six generations of the iPod Classic, as well as a spin-off (the iPod Photo) that was later re-integrated into the main iPod line. All generations used a 1.8-inch (46 mm) hard drive for storage. The \"classic\" suffix was formally introduced with the rollout of the sixth-generation iPod on September 5, 2007. Prior generations of the device had simply been marketed as the \"iPod\". It was available in silver or black from 2007 onwards, replacing the \"signature iPod white\".\nOn September 9, 2014, Apple discontinued the iPod Classic. The sixth-generation 160 GB iPod Classic was the last Apple product to use the original 30-pin dock connector and the distinctive click wheel.\n\n\n== Technical information ==\n\n\n=== User interface ===\n\niPods with color displays use anti-aliased graphics and text, with sliding animations. All iPods have five buttons and the later generations (4th and above) have the buttons integrated into the click wheel — a design which gives an uncluttered, minimalist interface, though the circuitry contains multiple momentary button switches. The buttons are:\n\nMenu: to traverse backward through the menus, toggle the backlight on older iPods, and jump to the main menu on newer iPods\nCenter: to select a menu item\nPlay / Pause: this doubles as an off switch when held\nSkip Forward / Fast Forward\nSkip Backwards / Rewind\n\n\n=== Operating system and firmware ===\nThe iPod's operating system is stored on its dedicated storage medium. An additional NOR flash ROM chip (either 1 MB or 512 KB) contains a bootloader program that tells the device to load its OS from the storage medium. Each iPod also has 32 MB of RAM, although the 60 GB and 80 GB fifth generation, and the sixth-generation models have 64 MB. A portion of the RAM is used to hold the iPod OS loaded from firmware, but the majority of it serves",
+    "title": "IPod Classic"
+  },
+  "get_wiki_page::{\"title\": \"IPod+HP\"}": {
+    "summary": "The Apple iPod+HP was a line of Hewlett-Packard–branded iPods, distributed through HP.",
+    "text": "The Apple iPod+HP was a line of Hewlett-Packard–branded iPods, distributed through HP.\nOn January 8, 2004, then-CEO of HP Carly Fiorina announced the Apple iPod+HP deal at the Consumer Electronics Show. As part of the deal, Apple was to have its iPod manufactured for HP and iTunes would be pre-installed on all HP Pavilion and Compaq Presario computers. The first device in the iPod+HP line was the fourth-generation iPod, available in 20 and 40 GB of storage. The Apple iPod+HP was originally intended to be available in \"HP Blue\" to complement the color of its home computers. \nHP later added the iPod mini, the iPod photo, and the iPod shuffle to the lineup. As these were officially HP products rather than Apple products, Apple Store Genius Bars were not authorized to repair Apple iPod+HP iPods, and they had to be sent to an HP Authorized Service Center for repair, despite identical designs.\n\n\n== Deal termination ==\nOn July 29, 2005, following Fiorina's forced resignation, HP announced that it would terminate its deal with Apple. Even though the deal was terminated, part of the deal prevented HP from making a rival digital music player (MP3 player) until August 2006. HP continued to pre-install iTunes on home computers until January 6, 2006, when HP announced a partnership with RealNetworks to install Rhapsody on HP- and Compaq-branded home computers.\n\n\n== References ==",
+    "title": "IPod+HP"
+  },
+  "search_wikipedia::{\"query\": \"IPod Classic\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "IPod Classic"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"IPod+HP\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "IPod+HP"
+      },
+      {
+        "snippet": "",
+        "title": "IPod Hi-Fi"
+      },
+      {
+        "snippet": "",
+        "title": "Ipod phone"
+      },
+      {
+        "snippet": "",
+        "title": "IPod Updater"
+      },
+      {
+        "snippet": "",
+        "title": "IPod"
+      }
+    ]
+  }
+}

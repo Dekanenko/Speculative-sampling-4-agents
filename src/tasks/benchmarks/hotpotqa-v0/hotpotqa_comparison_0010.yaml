@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0010
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which tennis player is older out of John Peers and Simone Bolelli?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Simone Bolelli
+  supporting_titles:
+  - John Peers
+  - Simone Bolelli
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a746a4455429974ef308bf6
+  difficulty: hard
+  perturbed_title: null

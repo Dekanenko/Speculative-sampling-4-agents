@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"John Capozzi\"}": {
+    "summary": "John James Capozzi, Jr. is an American politician who served as Shadow U.S. Representative for the District of Columbia between 1995 and 1997 and was a member of the District of Columbia Democratic State Committee for over 20 years, most recently as chair of the Environmental Caucus. He is also a non-member affiliate of the Rent Is Too Damn High Party.",
+    "text": "John James Capozzi, Jr. (born 1956) is an American politician who served as Shadow U.S. Representative for the District of Columbia between 1995 and 1997 and was a member of the District of Columbia Democratic State Committee for over 20 years, most recently as chair of the Environmental Caucus. He is also a non-member affiliate of the Rent Is Too Damn High Party.\n\n\n== Political career ==\nPrior to his election as Shadow U.S. Representative of the District of Columbia, Capozzi was involved in organizing protests in front of the Rayburn House office building in support of DC Statehood. He met with a number of Congresspersons prior to the 1993 vote for DC Statehood, the only vote of its kind to be held by the House of Representatives until 2022.\nAs the Shadow Representative, Capozzi worked with the Reverend Garyland Ellis Hagler and Council member William Lightfoot in pointing out Fannie Mae, then the largest private sector company in DC, was exempt from paying DC corporate income taxes. As a shareholder in the company, Capozzi sponsored a s shareholder's initiative to have the company make a payment, in lieu of taxes, to DC.\nRather than run for reelection in 1996, Capozzi ran as in the race to become an at-large councilmember on the Council of the District of Columbia and was defeated September 10, 1996.\nIn 2002, at Capozzi's initiative, the DC Council debated a proposal to change the District's flag in protest of DC's lack of voting rights in Congress. The new design would have added the letters \"D.C.\" to the center start and the words \"Taxation without Representation\" in white on the upper and lower bars, the format already used on District licence plates. The change, presumably, would have been temporary and revoked once the city achieved equal representation or statehood. Capozzi's proposal was passed by the council by a 10–2 vote, but the final design was never adopted.\nIn 2012, Capozzi was among the candidates who ran to replace at-large councilman Phil Mendelso",
+    "title": "John Capozzi"
+  },
+  "get_wiki_page::{\"title\": \"Tommy Carcetti\"}": {
+    "summary": "Thomas J. \"Tommy\" Carcetti is a fictional character on the HBO drama The Wire, played by Aidan Gillen. Carcetti is an ambitious and venal Baltimore politician who begins the series with a seat on the city council.",
+    "text": "Thomas  J. \"Tommy\" Carcetti ( kar-KET-ee) is a fictional character on the HBO drama The Wire, played by Aidan Gillen. Carcetti is an ambitious and venal Baltimore politician who begins the series with a seat on the city council.\n\n\n== Biography ==\n\n\n=== Season 3 ===\nTommy Carcetti first appears as a member of the Baltimore City Council. Although he is depicted as a loving father, he is regularly unfaithful to his wife Jen. He also works closely with Tony Gray, a fellow councilman. Carcetti is idealistic and ambitious, and has the backing of local Democrats in Baltimore's 1st district as well as Major Stan Valchek of the Baltimore Police Department. To improve upon the crime and urban decay plaguing Baltimore, Carcetti considers running for mayor against the African-American incumbent, Clarence Royce, despite the prospect of being a white candidate in a predominantly black city.\nUsing his connection to Valchek, Carcetti successfully manipulates Acting Commissioner Ervin Burrell into working with him, promising resources and political capital in exchange for inside information about Royce's decision-making. Carcetti becomes increasingly disillusioned with Royce and decides to run against him, recruiting college friend and Washington political consultant Theresa D'Agostino as his campaign manager.\nWith Carcetti's encouragement, Gray starts his own campaign for mayor. Realizing that Gray's campaign would split the black voter base in the election, D'Agostino advises Carcetti that enhancing Gray's chances of success would in turn improve his own. Carcetti dislikes the idea of abusing his friend's trust, but follows D'Agostino's strategy nonetheless.\nAfter the BPD learns about \"Hamsterdam\" — Major Howard \"Bunny\" Colvin's drug-tolerant zones in West Baltimore — Royce refuses to allow the department to immediately shut them down. Burrell, believing the mayor is making a ploy against the police, leaks the information to Carcetti. At D'Agostino's suggestion, Carcetti tours the",
+    "title": "Tommy Carcetti"
+  },
+  "search_wikipedia::{\"query\": \"John Capozzi\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "John Capozzi"
+      },
+      {
+        "snippet": "",
+        "title": "John Capodice"
+      },
+      {
+        "snippet": "",
+        "title": "John Capodistria"
+      },
+      {
+        "snippet": "",
+        "title": "John Capobianco"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Tommy Carcetti\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Tommy Carcetti"
+      },
+      {
+        "snippet": "",
+        "title": "Tommy Vercetti"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0016
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What is common between Matt Vasgersian and Michael Casey?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: American
+  supporting_titles:
+  - Matt Vasgersian
+  - Michael Casey (poet)
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a8b97485542995d1e6f140f
+  difficulty: hard
+  perturbed_title: null

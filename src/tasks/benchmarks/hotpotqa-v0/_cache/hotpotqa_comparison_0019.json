@@ -1,0 +1,60 @@
+{
+  "get_wiki_page::{\"title\": \"Franz Schreker\"}": {
+    "summary": "Franz Schreker was an Austrian composer, conductor, librettist, teacher and administrator. Primarily a composer of operas, Schreker developed a style characterized by aesthetic plurality, timbral experimentation, strategies of extended tonality and conception of total music theatre into the narrative of 20th-century music.",
+    "text": "Franz Schreker (originally Schrecker; 23 March 1878 – 21 March 1934) was an Austrian composer, conductor, librettist, teacher and administrator. Primarily a composer of operas, Schreker developed a style characterized by aesthetic plurality (a mixture of Romanticism, Naturalism, Symbolism, Impressionism, Expressionism and Neue Sachlichkeit), timbral experimentation, strategies of extended tonality and conception of total music theatre into the narrative of 20th-century music.\n\n\n== Formative years ==\nHe was born as Franz Schrecker in Monaco, the eldest son of the Bohemian Jewish court photographer Ignaz Franz Schrekker (Germanized from Ignácz Furencz, originally Isak), and his wife, Eleonore von Cloßmann, who was a member of the Catholic aristocracy of Styria. He grew up during travels across half of Europe and, after the early death of his father, the family moved from Linz to Vienna (1888) where in 1892, with the help of a scholarship, Schreker entered the Vienna Conservatory. Starting with violin studies, with Sigismund Bachrich and Arnold Rosé, he moved into the composition class of Robert Fuchs, graduating as a composer in 1900. His first success was with the Intermezzo for strings, Op. 8, which won an important prize sponsored by the Neue musikalische Presse in 1901. His first opera, Flammen, was completed in 1902 but failed to receive a staged production.\n\n\n== Career launch ==\nSchreker had begun conducting in 1895, when he had founded the Verein der Musikfreunde Döbling. In 1907 he formed the Vienna Philharmonic Chorus, which he conducted until 1920: among its many premières were Zemlinsky's Psalm XXIII and Schoenberg's Friede auf Erden and Gurre-Lieder. Schreker and other composers, such as Schoenberg and Zemlinsky, were influential during the Jugendstil movement, which incorporated non-western styles inspired by Ancient Egypt and the Far East.\nHis \"pantomime\", Der Geburtstag der Infantin, commissioned by the dancer Grete Wiesenthal and her sister Elsa for th",
+    "title": "Franz Schreker"
+  },
+  "get_wiki_page::{\"title\": \"Philip Glass\"}": {
+    "summary": "Philip Morris Glass is an American composer and pianist. He is widely regarded as one of the most influential composers of the late 20th century. Glass' work has been associated with minimalism, being built up from repetitive phrases and shifting layers. He described himself as a composer of \"music with repetitive structures\", which he has helped to evolve stylistically.",
+    "text": "Philip Morris Glass (born January 31, 1937) is an American composer and pianist. He is widely regarded as one of the most influential composers of the late 20th century. Glass' work has been associated with minimalism, being built up from repetitive phrases and shifting layers. He described himself as a composer of \"music with repetitive structures\", which he has helped to evolve stylistically.\nGlass founded the Philip Glass Ensemble in 1968. He has written 15 operas, numerous chamber operas and musical theatre works, 15 symphonies, 12 concertos, nine string quartets, various other chamber music pieces, and many film scores. He has received nominations for four Grammy Awards, including two for Best Contemporary Classical Composition for Satyagraha (1987) and String Quartet No. 2 (1988). He has received three Academy Award for Best Original Score nominations for Martin Scorsese's Kundun (1997), Stephen Daldry's The Hours (2002), and Richard Eyre's Notes on a Scandal (2006). He also composed the scores for Koyaanisqatsi (1982), Mishima: A Life in Four Chapters (1985), Hamburger Hill (1987), The Thin Blue Line (1988), Candyman (1992), The Truman Show (1998), and The Illusionist (2006).\nGlass is known for composing the operas Einstein on the Beach (1976), Satyagraha (1980), Akhnaten (1983), The Voyage (1992), and The Perfect American (2013). He also wrote the scores for Broadway productions such as the revivals of The Elephant Man (2002), The Crucible (2016), and King Lear (2019). For the latter he won the Drama Desk Award for Outstanding Music in a Play.\nGlass has received many accolades, including a BAFTA Award, a Drama Desk Award, and a Golden Globe Award, as well as nominations for three Academy Awards, four Grammy Awards, and a Primetime Emmy Award. He has also received the Ordre des Arts et des Lettres in 1995, the National Medal of Arts in 2010, the Kennedy Center Honors in 2018, and the Grammy Trustees Award in 2020. In 2025, he received a Lifetime Achievement f",
+    "title": "Philip Glass"
+  },
+  "search_wikipedia::{\"query\": \"Franz Schreker\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Franz Schreker"
+      },
+      {
+        "snippet": "",
+        "title": "Franz Schrader"
+      },
+      {
+        "snippet": "",
+        "title": "Franz Schiemer"
+      },
+      {
+        "snippet": "",
+        "title": "Franz Schreiber"
+      },
+      {
+        "snippet": "",
+        "title": "Franz Schiewer"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Philip Glass\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Philip Glass"
+      },
+      {
+        "snippet": "",
+        "title": "Phillip Glasser"
+      },
+      {
+        "snippet": "",
+        "title": "Philip Glass Ensemble"
+      },
+      {
+        "snippet": "",
+        "title": "Philip Glass Buys a Loaf of Bread"
+      },
+      {
+        "snippet": "",
+        "title": "Philip Glassborow"
+      }
+    ]
+  }
+}

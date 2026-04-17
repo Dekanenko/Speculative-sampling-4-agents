@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0011
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which is located in Cornwall, Southwell Minster or Truro Cathedral?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: The Cathedral of the Blessed Virgin Mary, Truro
+  supporting_titles:
+  - Southwell Minster
+  - Truro Cathedral
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5ae1f17e554299234fd04349
+  difficulty: hard
+  perturbed_title: null

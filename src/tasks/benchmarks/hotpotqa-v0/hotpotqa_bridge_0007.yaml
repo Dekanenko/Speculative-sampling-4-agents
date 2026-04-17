@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0007
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: The actress and singer Heather Morris is best known for her role in which
+  series, becoming a regular character in the second season?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Glee
+  supporting_titles:
+  - Brittany Pierce
+  - Heather Morris
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a84e21d5542997b5ce3ff7c
+  difficulty: hard
+  perturbed_title: null

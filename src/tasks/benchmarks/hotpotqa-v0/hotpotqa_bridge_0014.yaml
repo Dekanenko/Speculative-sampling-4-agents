@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0014
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What profession does Alex Beard and Tony Hall, Baron Hall of Birkenhead
+  have in common?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: director
+  supporting_titles:
+  - Alex Beard (arts manager)
+  - Tony Hall, Baron Hall of Birkenhead
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ab85e195542992aa3b8c8c5
+  difficulty: hard
+  perturbed_title: null

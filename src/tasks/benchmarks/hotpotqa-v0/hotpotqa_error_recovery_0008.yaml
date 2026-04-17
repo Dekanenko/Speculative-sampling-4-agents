@@ -1,0 +1,24 @@
+task_id: hotpotqa_error_recovery_0008
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which cloth town in the high Middle Ages gives the name to the dye associated
+  with the man who is said to rob from the rich and give to the poor?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Lincoln
+  supporting_titles:
+  - Robin Hood
+  - Lincoln green
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a74e5aa5542996c70cfae2e
+  difficulty: hard
+  perturbed_title: Robin Hood_xyzq_nonexistent

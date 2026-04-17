@@ -1,0 +1,60 @@
+{
+  "get_wiki_page::{\"title\": \"Achimenes\"}": {
+    "summary": "Achimenes is a genus of about 25 species of tropical and subtropical rhizomatous perennial herbs in the flowering plant family Gesneriaceae. They have a multitude of common names such as magic flowers, widow's tears, Cupid's bower, or hot water plant.",
+    "text": "Achimenes  is a genus of about 25 species of tropical and subtropical rhizomatous perennial herbs in the flowering plant family Gesneriaceae. They have a multitude of common names such as magic flowers, widow's tears, Cupid's bower, or hot water plant.\n\n\n== Etymology ==\nAccording to some authorities, the plant's name may come from the Greek word cheimanos meaning \"tender\" or \"sensitive to cold\".\n\n\n== Range and taxonomy ==\nThe genus is native to Mexico and Central America, with one species (A. erecta) occurring naturally in the West Indies. The largest number of species is found in Mexico. Several species and hybrids are widely cultivated and naturalized outside their native range. A complete list of the species, with their synonyms and geographic distributions, can be found in the Smithsonian Institution's World Checklist of Gesneriaceae.\nTwo species previously included in Achimenes are now classified in the segregation genus Eucodonia and several phylogenetic studies have supported this separation.\n\n\n=== Species ===\n24 species are accepted.\n\n\n== Cultivation ==\nAchimenes species and hybrids are commonly grown as greenhouse plants, or outdoors as bedding plants in subtropical regions. The species have been extensively hybridized, with many of the hybrids involving the large-flowered species A. grandiflora and A. longiflora. Many of the species and their hybrids have large, brightly colored flowers and are cultivated as ornamental greenhouse and bedding plants. They are generally easy to grow as long as their basic requirements are met: a rich well-drained soil on the acid side, bright indirect light, warmth, constant moisture, and high humidity. They have a winter dormancy and overwinter as scaly rhizomes, which should be kept dry until they sprout again in the spring. Some of the species and their hybrids are moderately hardy and can be grown outdoors year-round in zone 8, or even zone 7 with protection.\nIn the UK, the following have gained the Royal Horticultural S",
+    "title": "Achimenes"
+  },
+  "get_wiki_page::{\"title\": \"Caesalpinia\"}": {
+    "summary": "Caesalpinia is a genus of flowering plants in the family Fabaceae. It includes 10 species which range from southeastern Mexico through Central America to Colombia, Ecuador, and Peru, and to Cuba, Hispaniola, and the Bahamas.",
+    "text": "Caesalpinia is a genus of flowering plants in the family Fabaceae. It includes 10 species which range from southeastern Mexico through Central America to Colombia, Ecuador, and Peru, and to Cuba, Hispaniola, and the Bahamas. \n\n\n== Taxonomy ==\nHistorically, membership within the genus has been highly variable, with different publications including anywhere from 70 to 165 species, depending largely on the inclusion or exclusion of species alternately listed under genera such as Hoffmannseggia. It contains tropical or subtropical woody plants. The generic name honours the botanist, physician, and philosopher Andrea Cesalpino (1519–1603).\nThe genus also had a synonym of Poinciana; it was named after a common name for the one species which was placed in now named Delonix regia, after Phillippe de Longvilliers de Poincy, who was the French governor of the Caribbean island of Saint Kitts. The name Caesalpiniaceae at family level, or Caesalpinioideae at the level of subfamily, is based on this generic name.\n\n\n== Species ==\n10 species are currently accepted:\n\nCaesalpinia anacantha Urb.\nCaesalpinia bahamensis Lam.\nCaesalpinia barahonensis Urb.\nCaesalpinia brasiliensis L.\nCaesalpinia cassioides Willd.\nCaesalpinia domingensis Urb.\nCaesalpinia monensis Britton — black nicker\nCaesalpinia nipensis Urb.\nCaesalpinia pulcherrima (L.) Sw. — Pride of Barbados, yellow peacock\nCaesalpinia secundiflora Urb.\n\n\n== Uses ==\nSome species are grown for their ornamental flowers.\n\n\n== References ==\n\n\n== External links ==\n Media related to Caesalpinia at Wikimedia Commons\n Data related to Caesalpinia at Wikispecies\nUSDA PLANTS Profile",
+    "title": "Caesalpinia"
+  },
+  "search_wikipedia::{\"query\": \"Achimenes\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Achimenes"
+      },
+      {
+        "snippet": "",
+        "title": "Achimenes grandiflora"
+      },
+      {
+        "snippet": "",
+        "title": "Achimenes longiflora"
+      },
+      {
+        "snippet": "",
+        "title": "Achimenes erecta"
+      },
+      {
+        "snippet": "",
+        "title": "Achimenes antirrhina"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Caesalpinia\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Caesalpinia"
+      },
+      {
+        "snippet": "",
+        "title": "Caesalpinia pulcherrima"
+      },
+      {
+        "snippet": "",
+        "title": "Caesalpinia echinata"
+      },
+      {
+        "snippet": "",
+        "title": "Caesalpinia pectinata"
+      },
+      {
+        "snippet": "",
+        "title": "Caesalpinia arborea"
+      }
+    ]
+  }
+}

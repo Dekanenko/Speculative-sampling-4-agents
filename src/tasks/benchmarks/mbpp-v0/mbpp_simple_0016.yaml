@@ -1,0 +1,32 @@
+task_id: mbpp_simple_0016
+condition: simple
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to find maximum of two numbers.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 924
+  ref_solution_length: 3
+metadata:
+  mbpp_task_id: 924
+  difficulty_bucket: simple
+  ref_solution_length: 3
+  fn_name: max_of_two
+  test_code: "from solution import max_of_two\n\n\ndef test_max_of_two():\n    assert max_of_two(10,20)==20\n    assert max_of_two(19,15)==19\n\
+    \    assert max_of_two(-10,-20)==-10\n"
+  stub_code: "def max_of_two(x, y):\n    raise NotImplementedError\n"

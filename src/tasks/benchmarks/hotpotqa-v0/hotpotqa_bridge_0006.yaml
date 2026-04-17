@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0006
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Dan Scalco is best known as a contributing author for a magazine owned
+  by who?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Peter Shea
+  supporting_titles:
+  - Dan Scalco
+  - Entrepreneur (magazine)
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ae824295542997ec272772f
+  difficulty: hard
+  perturbed_title: null

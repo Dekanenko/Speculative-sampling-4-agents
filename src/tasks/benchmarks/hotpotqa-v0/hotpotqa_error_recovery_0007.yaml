@@ -1,0 +1,23 @@
+task_id: hotpotqa_error_recovery_0007
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Who won the special election in 2014 to replace Bill Young?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: David Jolly
+  supporting_titles:
+  - Rod Smith (politician)
+  - Alex Sink
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ab3c53955429969a97a81b9
+  difficulty: hard
+  perturbed_title: Rod Smith (politician)_xyzq_nonexistent

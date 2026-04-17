@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"Anita Loos\"}": {
+    "summary": "Corinne Anita Loos was an American actress, novelist, playwright and screenwriter. In 1912, she became the first female staff screenwriter in Hollywood, when D. W. Griffith put her on the payroll at Triangle Film Corporation. She is best known for her 1925 comic novel, Gentlemen Prefer Blondes, her screenplay of the 1939 adaptation of The Women, and her 1951 Broadway adaptation of Colette's novella Gigi.",
+    "text": "Corinne Anita Loos  (April 26, 1888 – August 18, 1981) was an American actress, novelist, playwright and screenwriter. In 1912, she became the first female staff screenwriter in Hollywood, when D. W. Griffith put her on the payroll at Triangle Film Corporation. She is best known for her 1925 comic novel, Gentlemen Prefer Blondes, her screenplay of the 1939 adaptation of The Women, and her 1951 Broadway adaptation of Colette's novella Gigi.\n\n\n== Early life ==\nLoos was born in Sisson (now Mount Shasta), California, to newspaper publisher Richard Beers Loos and Minerva Ellen \"Minnie\" Loos (née Smith). She had one sister, Gladys Loos, and one brother, Harry Clifford Loos, a physician and a co-founder of the Ross-Loos Medical Group.\nAbout pronouncing her name, Loos said, \"The family has always used the correct French pronunciation which is lohse. However, I myself pronounce my name as if it were spelled luce, since most people pronounce it that way and it was too much trouble to correct them.\"\nHer father founded Sisson Mascot, a tabloid newspaper, for which her mother did most of the work of a publisher. In 1892, when Anita was three years old, the family moved to San Francisco, where her father bought the newspaper Music and Drama, with money that her mother \"wheedled\" from her maternal grandfather, dropped the subject of music, in which he had no interest, and retitled the weekly to The Dramatic Review, filled with the photographs of pretty girls, that copied the format of  the British Police Gazette, and led to her father's romance with the opera singer Alice Nielsen.\nBy age six, Anita Loos wanted to be a writer. While living in San Francisco, she accompanied her father, an alcoholic, on exciting fishing trips to the pier, exploring the city's underbelly (the Tenderloin and the Barbary Coast) and making friends with the locals. This fed her lifelong fascination with lowlifes and loose women.\n\n\n== Career ==\n\n\n=== 1897-1915: Early career ===\nIn 1897, at their father's u",
+    "title": "Anita Loos"
+  },
+  "get_wiki_page::{\"title\": \"Grace Metalious\"}": {
+    "summary": "Marie Grace Metalious was an American author known for her novel Peyton Place, one of the best selling works in publishing history.",
+    "text": "Marie Grace Metalious (Née DeRepentigny; September 8, 1924 – February 25, 1964) was an American author known for her novel Peyton Place, one of the best selling works in publishing history.\n\n\n== Early life ==\nMarie Grace DeRepentigny was born into poverty and a broken home in the mill town of Manchester, New Hampshire. Writing from an early age, at Manchester Central High School, she acted in school plays. After graduation, she married George Metalious in a Catholic church in Manchester in 1943, and became a housewife and mother. The couple lived in near squalor, but she continued to write. With one child, the couple moved to Durham, New Hampshire, where George attended the University of New Hampshire. In Durham, Grace Metalious began writing seriously. When George graduated, he took a position as principal at a school in Gilmanton, New Hampshire.\n\n\n== Peyton Place ==\nIn the fall of 1954, at age 30, Metalious began work on a manuscript about the dark secrets of a small New England town. The novel had the working title The Tree and the Blossom. By the spring of 1955, she had finished the first draft. By her husband's account, both Metaliouses regarded The Tree and the Blossom as an unwieldy title and decided to give the town a name that could be the book's title. They first considered \"Potter Place\" (the name of a real community near Andover, New Hampshire). Realizing their town should have a fictional name, they looked through an atlas and found \"Payton\" (a town in Texas). They combined this with Place and changed the \"a\" to an \"e\". Thus Peyton Place was born, prompting her comment, \"Wonderful—that's it, George. Peyton Place. Peyton Place, New Hampshire. Peyton Place, New England. Peyton Place, USA. Truly a composite of all small towns where ugliness rears its head, and where the people try to hide all the skeletons in their closets.\" Other accounts say her publishers changed the name.\nMetalious found an agent, Jacques Chambrun, who submitted the draft manuscript to",
+    "title": "Grace Metalious"
+  },
+  "search_wikipedia::{\"query\": \"Anita Loos\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Anita Loos"
+      },
+      {
+        "snippet": "",
+        "title": "Anita Dobson"
+      },
+      {
+        "snippet": "",
+        "title": "Anita Louise"
+      },
+      {
+        "snippet": "",
+        "title": "Anita Lasker-Wallfisch"
+      },
+      {
+        "snippet": "",
+        "title": "Anita Bose Pfaff"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Grace Metalious\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Grace Metalious"
+      }
+    ]
+  }
+}

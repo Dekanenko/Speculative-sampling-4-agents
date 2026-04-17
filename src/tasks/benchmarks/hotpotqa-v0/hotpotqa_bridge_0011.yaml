@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0011
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What is the pioneer who has a park dedicated to him near Lexington, North
+  Carolina famous for?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Wilderness Road
+  supporting_titles:
+  - Boone's Cave Park
+  - Daniel Boone
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a7da0915542990b8f5039d4
+  difficulty: hard
+  perturbed_title: null

@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0020
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which is a choreographer, Yuen Woo-ping or Basil Dean?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Yuen Woo-ping
+  supporting_titles:
+  - Yuen Woo-ping
+  - Basil Dean
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5aba9813554299232ef4a357
+  difficulty: hard
+  perturbed_title: null

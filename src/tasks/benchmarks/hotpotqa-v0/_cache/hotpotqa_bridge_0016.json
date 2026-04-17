@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"Lundbeck\"}": {
+    "summary": "H. Lundbeck A/S, commonly referred to as Lundbeck, is a Danish international pharmaceutical company engaged in the research, development, manufacturing, marketing and sale of pharmaceuticals across the world. The company’s products are targeted at brain diseases, including depression, schizophrenia, Alzheimer's disease, Parkinson's disease and migraine.",
+    "text": "H. Lundbeck A/S, commonly referred to as Lundbeck, is a Danish international pharmaceutical company engaged in the research, development, manufacturing, marketing and sale of pharmaceuticals across the world. The company’s products are targeted at brain diseases, including depression, schizophrenia, Alzheimer's disease, Parkinson's disease and migraine.\n\n\n== Company operataions ==\nHeadquartered in Copenhagen, Denmark, Lundbeck has approximately 5,600 employees in more than 50 countries. They have production facilities in Denmark, France and Italy and their research centers are based in Denmark and the US. Their products are registered in more than 100 countries.\nLundbeck is listed on the Copenhagen Stock Exchange (CSE).\nLundbeck is a full member of the European Federation of Pharmaceutical Industries and Associations (EFPIA) and of the International Federation of Pharmaceutical Manufacturers and Associations (IFPMA).\n\n\n== History ==\nThe company was founded by Hans Lundbeck in 1915, and was initially a trading company supplying a variety of goods to the Danish market, including machinery for manufacturing, aluminium foil, artificial sweeteners, and photographic equipment.\nLundbeck entered the pharmaceutical market in 1924, importing medicines and cosmetics from companies based in other European and American countries. By the late 1930s, Lundbeck had begun to produce its own medicinal products and had established its own research department. Production continued during the Second World War, although it was limited due to a lack of raw materials.\nAfter the war, Lundbeck continued to grow and in 1957 the company introduced Truxal (chlorprothixene) for the treatment of schizophrenia, entering the market for brain disorders. In 1954, the Lundbeck Foundation was established to maintain and expand the activities of Lundbeck Group and also to provide funding for scientific research of the highest quality.\nFrom the late 1970s, and up through the 1980s, Lundbeck diverted its o",
+    "title": "Lundbeck"
+  },
+  "get_wiki_page::{\"title\": \"Tedatioxetine\"}": {
+    "summary": "Tedatioxetine is an experimental antidepressant developed by H. Lundbeck A/S for the treatment of major depressive disorder (MDD) and generalized anxiety disorder (GAD). It acts as a triple reuptake inhibitor (TRI) with preference for serotonin and norepinephrine over dopamine, and as an antagonist at 5-HT2A, 5-HT2C, 5-HT3, and α1A-adrenergic receptors. In 2007 Lundbeck and Takeda entered into a partnership that included tedatioxetine but was focused on another, more advanced Lundbeck drug candidate, vortioxetine.",
+    "text": "Tedatioxetine (developmental code name Lu AA24530) is an experimental antidepressant developed by H. Lundbeck A/S for the treatment of major depressive disorder (MDD) and generalized anxiety disorder (GAD). It acts as a triple reuptake inhibitor (TRI) with preference for serotonin and norepinephrine over dopamine, and as an antagonist at 5-HT2A, 5-HT2C, 5-HT3, and α1A-adrenergic receptors. In 2007 Lundbeck and Takeda entered into a partnership that included tedatioxetine but was focused on another, more advanced Lundbeck drug candidate, vortioxetine.\nTedatioxetine reached Phase II clinical trials for major depressive disorder in 2009 but was discontinued in May 2016, with no further development reported. Despite its termination, data from clinical studies have provided valuable insights into CYP2D6 metabolism and pharmacogenetics.\n\n\n== Pharmacology ==\n\n\n=== Pharmacokinetics ===\nTedatioxetine is a sensitive substrate of the CYP2D6 enzyme, exhibiting significant interindividual variability in metabolism due to genetic polymorphisms. A 2021 population pharmacokinetic (popPK) study involving 578 subjects quantified CYP2D6 activity across genotypes, reporting mean oral clearances of 18 L/h for poor metabolizers (PMs), 40 L/h for intermediate metabolizers (IMs), 60 L/h for normal metabolizers (NMs), and 77 L/h for ultrarapid metabolizers (UMs). Approximately 80% of clearance is mediated by CYP2D6.\nThe drug has a slow absorption rate, with a median time to maximum plasma concentration (tmax) of 5–6 hours. Its primary metabolite, Lu AA37208, shows a similar or shorter tmax, indicating presystemic metabolism. The study highlighted low enzyme activity for CYP2D6*17 and *41 alleles, suggesting a need to revise activity scores for personalized dosing.\nCYP2D6 variability posed challenges for consistent dosing across populations, particularly for CYP2D6*17 and *41 carriers.\n\n\n=== Pharmacodynamics ===\nTedatioxetine is a multimodal antidepressant that inhibits the reuptake of serot",
+    "title": "Tedatioxetine"
+  },
+  "search_wikipedia::{\"query\": \"Lundbeck\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Lundbeck"
+      },
+      {
+        "snippet": "",
+        "title": "William Lundbeck"
+      },
+      {
+        "snippet": "",
+        "title": "Lundbeck Seattle Biopharmaceuticals"
+      },
+      {
+        "snippet": "",
+        "title": "Lundbeckia"
+      },
+      {
+        "snippet": "",
+        "title": "Anna Lundberg"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Tedatioxetine\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Tedatioxetine"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+task_id: mbpp_multi_step_0015
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to sort the tuples alphabetically by the first item of each tuple.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 839
+  ref_solution_length: 6
+metadata:
+  mbpp_task_id: 839
+  difficulty_bucket: multi_step
+  ref_solution_length: 6
+  fn_name: sort_tuple
+  test_code: "from solution import sort_tuple\n\n\ndef test_sort_tuple():\n    assert sort_tuple([(\"Amana\", 28), (\"Zenat\"\
+    , 30), (\"Abhishek\", 29),(\"Nikhil\", 21), (\"B\", \"C\")]) == [('Abhishek', 29), ('Amana', 28), ('B', 'C'), ('Nikhil',\
+    \ 21), ('Zenat', 30)]\n    assert sort_tuple([(\"aaaa\", 28), (\"aa\", 30), (\"bab\", 29), (\"bb\", 21), (\"csa\", \"\
+    C\")]) == [('aa', 30), ('aaaa', 28), ('bab', 29), ('bb', 21), ('csa', 'C')]\n    assert sort_tuple([(\"Sarala\", 28),\
+    \ (\"Ayesha\", 30), (\"Suman\", 29),(\"Sai\", 21), (\"G\", \"H\")]) == [('Ayesha', 30), ('G', 'H'), ('Sai', 21), ('Sarala',\
+    \ 28), ('Suman', 29)]\n"
+  stub_code: "def sort_tuple(tup):\n    raise NotImplementedError\n"

@@ -1,0 +1,23 @@
+task_id: hotpotqa_bridge_0004
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Stephen Graham starred in a film in 2006, directed by whom?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: directed by Shane Meadows
+  supporting_titles:
+  - Stephen Graham
+  - This Is England
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a8b448255429971feec468c
+  difficulty: hard
+  perturbed_title: null

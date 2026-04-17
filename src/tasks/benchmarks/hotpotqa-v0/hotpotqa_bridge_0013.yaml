@@ -1,0 +1,23 @@
+task_id: hotpotqa_bridge_0013
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which city is the home of the character that might be based on John Capozzi?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Baltimore
+  supporting_titles:
+  - John Capozzi
+  - Tommy Carcetti
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5adf88995542993344016cd4
+  difficulty: hard
+  perturbed_title: null

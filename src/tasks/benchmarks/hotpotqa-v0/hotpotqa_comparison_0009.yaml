@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0009
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which artist was Italian, Sergio Leone or Jon Paul Puno?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Sergio Leone
+  supporting_titles:
+  - Sergio Leone
+  - Jon Paul Puno
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a887771554299206df2b294
+  difficulty: hard
+  perturbed_title: null

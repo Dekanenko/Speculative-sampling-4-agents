@@ -1,0 +1,25 @@
+task_id: hotpotqa_error_recovery_0003
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What city was the capital of the Ostrogothic Kingdom and the birth place
+  of Ornella Fiorentini?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: 'Ravenna (] , also locally ] ; Romagnol: "Ravèna" ) is the capital city
+    of the Province of Ravenna'
+  supporting_titles:
+  - Ornella Fiorentini
+  - Ravenna
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5abec9b25542997ec76fd366
+  difficulty: hard
+  perturbed_title: Ornella Fiorentini_xyzq_nonexistent

@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0006
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which novelist was educated in London, C. S. Forester or Helen Zahavi?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Helen Zahavi
+  supporting_titles:
+  - C. S. Forester
+  - Helen Zahavi
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5ab81cff5542990e739ec827
+  difficulty: hard
+  perturbed_title: null

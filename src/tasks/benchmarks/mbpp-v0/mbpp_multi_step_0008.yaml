@@ -1,0 +1,32 @@
+task_id: mbpp_multi_step_0008
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to find the nth jacobsthal number.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 752
+  ref_solution_length: 6
+metadata:
+  mbpp_task_id: 752
+  difficulty_bucket: multi_step
+  ref_solution_length: 6
+  fn_name: jacobsthal_num
+  test_code: "from solution import jacobsthal_num\n\n\ndef test_jacobsthal_num():\n    assert jacobsthal_num(5) == 11\n  \
+    \  assert jacobsthal_num(2) == 1\n    assert jacobsthal_num(4) == 5\n"
+  stub_code: "def jacobsthal_num(n):\n    raise NotImplementedError\n"

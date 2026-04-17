@@ -1,0 +1,33 @@
+task_id: mbpp_long_context_0001
+condition: long_context
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to find the median of two sorted arrays of same size.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 622
+  ref_solution_length: 24
+metadata:
+  mbpp_task_id: 622
+  difficulty_bucket: long_context
+  ref_solution_length: 24
+  fn_name: get_median
+  test_code: "from solution import get_median\n\n\ndef test_get_median():\n    assert get_median([1, 12, 15, 26, 38], [2,\
+    \ 13, 17, 30, 45], 5) == 16.0\n    assert get_median([2, 4, 8, 9], [7, 13, 19, 28], 4) == 8.5\n    assert get_median([3,\
+    \ 6, 14, 23, 36, 42], [2, 18, 27, 39, 49, 55], 6) == 25.0\n"
+  stub_code: "def get_median(arr1, arr2, n):\n    raise NotImplementedError\n"

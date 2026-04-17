@@ -1,0 +1,43 @@
+{
+  "get_wiki_page::{\"title\": \"Dan Scalco\"}": {
+    "error": "not_found",
+    "title": "Dan Scalco"
+  },
+  "get_wiki_page::{\"title\": \"Entrepreneur (magazine)\"}": {
+    "summary": "Entrepreneur is an American magazine and website that carries news stories about entrepreneurship, small business management, and business. First published in 1977, it is published by Entrepreneur Media Inc., headquartered in Irvine, California. The magazine publishes 10 issues annually, available through subscription and on newsstands. It has been published under license internationally in Mexico, Russia, India, Hungary, the Philippines, South Africa, and others. Its editor-in-chief is Jason Feifer and its owner is Peter Shea.",
+    "text": "Entrepreneur is an American magazine and website that carries news stories about entrepreneurship, small business management, and business. First published in 1977, it is published by Entrepreneur Media Inc., headquartered in Irvine, California. The magazine publishes 10 issues annually, available through subscription and on newsstands. It has been published under license internationally in Mexico, Russia, India, Hungary, the Philippines, South Africa, and others. Its editor-in-chief is Jason Feifer and its owner is Peter Shea.\n\n\n== History ==\nSince 1979, Entrepreneur has annually published a list of its top 500 franchise companies. The magazine also published many other lists and awards, one of the most prominent being the Entrepreneur 360 formed to identify businesses mastering the art and science of growing a business. Companies are evaluated based on the analysis of 50-plus data points organized into five pillars; Revenue and Customers, Management Efficiency, Innovation, Financial Evaluation, and Business Valuation.\nIn 1996, the magazine launched its website, Entrepreneur.com, which expanded to include features, contests, and other publications and spin-offs.\n\n\n== Franchise 500 ==\n\nThe Franchise 500 is an annual list compiled and published by Entrepreneur that ranks 500 of the most prominent American franchising companies through a submission and review process. The Franchise 500 first began in 1979 and has been published every year since.\n\n\n== Spin-offs ==\nEntrepreneur publishes the Entrepreneur StartUps magazine, available through subscription and on newsstands. The magazine publishes a blog managed by a dedicated online staff. It is also published in digital editions through its mobile apps.\nIn 1999, the website YoungEntrepreneur.com was created as a spin-off of Entrepreneur.com. It is an online forum for young entrepreneurs. In 2010, Entrepreneur launched the website SecondAct.com, which is targeted at an older audience. When launched, the site used advertis",
+    "title": "Entrepreneur (magazine)"
+  },
+  "search_wikipedia::{\"query\": \"Dan Scalco\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Dan Scanlon"
+      },
+      {
+        "snippet": "",
+        "title": "Dana Scallon"
+      },
+      {
+        "snippet": "",
+        "title": "Danny Alcock"
+      },
+      {
+        "snippet": "",
+        "title": "Dani Calvo"
+      },
+      {
+        "snippet": "",
+        "title": "Dana Falconberry"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Entrepreneur (magazine)\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Entrepreneur (magazine)"
+      }
+    ]
+  }
+}

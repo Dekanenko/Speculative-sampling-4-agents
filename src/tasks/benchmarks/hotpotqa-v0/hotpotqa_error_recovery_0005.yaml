@@ -1,0 +1,24 @@
+task_id: hotpotqa_error_recovery_0005
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: How many termini does the train that runs on the C&M subdivision and
+  runs between Chicago and the Pacific Northwest serve?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: two termini
+  supporting_titles:
+  - C&amp;M Subdivision
+  - Empire Builder
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a85a37d5542997175ce1fe5
+  difficulty: hard
+  perturbed_title: C&amp;M Subdivision_xyzq_nonexistent

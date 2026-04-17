@@ -1,0 +1,23 @@
+task_id: hotpotqa_error_recovery_0010
+condition: error_recovery
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What Kenya-based company owns the Tusker beer brand?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: East African Breweries Limited
+  supporting_titles:
+  - Tusker (beer)
+  - East African Breweries
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ab4396555429942dd415eed
+  difficulty: hard
+  perturbed_title: Tusker (beer)_xyzq_nonexistent

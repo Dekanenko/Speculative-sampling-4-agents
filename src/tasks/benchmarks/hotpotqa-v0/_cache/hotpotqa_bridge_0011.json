@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"Boone's Cave Park\"}": {
+    "summary": "Boone's Cave Park is a 110-acre county park located near Lexington, North Carolina It was established in 1909 by the Daniel Boone Memorial Association. It is named after American pioneer Daniel Boone.",
+    "text": "Boone's Cave Park is a 110-acre county park located near Lexington, North Carolina  It was established in 1909 by the Daniel Boone Memorial Association.  It is named after American pioneer Daniel Boone.\n\n\n== History ==\nThere are a number of places named \"Boone's Cave,\" but the cave in the park is rumored to be the one where Squire and Sarah Jarman Morgan spent their first winter, with the then teenage Daniel upon entering the region in 1751, perhaps to escape Native Americans.  There was a total of 25 people in the group, with all 10 of the Boones children, and other family members and neighbors who all left Pennsylvania together. The Boone family and everyone else soon built homes near the cave, located next to the Yadkin River.\nThe Boones eventually settled on the opposite banks of the Yadkin River, which serves as a county line and into what is now Davie County, about two miles (three km) west of Mocksville.\n\n\n== Geography ==\nThe park is approximately 120 acres and supports a variety of flora and fauna native to the area, including a number of hardwoods such as oak, hornbeam and elm. Over 50 different flowering plants such as laurel and wild hydrangea can be found in the park.\nThe cave itself is 140 foot deep from start to finish, but so shallow that most sections require crawling to gain access. It is within sight of the Yadkin River and part of the 165-mile Yadkin River Trail.\n\n\n== Gallery ==\n\n\n== See also ==\nBoone Trail\n\n\n== References ==\n\n\n== External links ==\nOfficial website at Davison County, North Carolina Parks and Recreation\nVisit Davidson County information (PDF)\nVideo Overview of the Cave",
+    "title": "Boone's Cave Park"
+  },
+  "get_wiki_page::{\"title\": \"Daniel Boone\"}": {
+    "summary": "Daniel Boone was an American pioneer and frontiersman whose exploits made him one of the first folk heroes of the United States. He became famous for his exploration and settlement of Kentucky, which was then beyond the western borders of the Thirteen Colonies. In 1775, Boone founded the Wilderness Road through the Cumberland Gap and into Kentucky, in the face of resistance from Native Americans. He founded Boonesborough, one of the first English-speaking settlements west of the Appalachian Mountains. By the end of the 18th century, more than 200,000 people had entered Kentucky by following the route marked by Boone.",
+    "text": "Daniel Boone (November 2 [O.S. October 22] 1734 – September 26, 1820) was an American pioneer and frontiersman whose exploits made him one of the first folk heroes of the United States. He became famous for his exploration and settlement of Kentucky, which was then beyond the western borders of the Thirteen Colonies. In 1775, Boone founded the Wilderness Road through the Cumberland Gap and into Kentucky, in the face of resistance from Native Americans. He founded Boonesborough, one of the first English-speaking settlements west of the Appalachian Mountains. By the end of the 18th century, more than 200,000 people had entered Kentucky by following the route marked by Boone.\nHe served as a militia officer during the Revolutionary War (1775–1783), which in Kentucky was fought primarily between American settlers and British-allied Indians. In 1778, Boone was captured by the Shawnee and was, according to legend, adopted by the Shawnee Chief and given the name \"Sheltowee\", or Big Turtle. After months of living with the Shawnee, Boone escaped. He was elected to the first of his three terms in the Virginia General Assembly during the war and fought in the Battle of Blue Licks in 1782, one of the last battles of the American Revolution. He worked as a surveyor and merchant after the war, but went deep into debt as a Kentucky land speculator. He resettled in Missouri in 1799, where he spent most of the last two decades of his life, frustrated with legal problems resulting from his land claims.\nBoone remains a legendary, if imperfectly remembered, figure in American history. He was celebrated in his own lifetime, especially after an account of his adventures was published in 1784, making him famous in America and Europe. After his death, he became the subject of many heroic tall tales and works of fiction. His adventures—real and mythical—helped create the archetypal frontier hero of American folklore. In American popular culture, Boone is remembered as one of the foremost ear",
+    "title": "Daniel Boone"
+  },
+  "search_wikipedia::{\"query\": \"Boone's Cave Park\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Boone's Cave Park"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Daniel Boone\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Daniel Boone"
+      },
+      {
+        "snippet": "",
+        "title": "Daniel Boone (1964 TV series)"
+      },
+      {
+        "snippet": "",
+        "title": "Daniel Boone National Forest"
+      },
+      {
+        "snippet": "",
+        "title": "Daniel Boone (singer)"
+      },
+      {
+        "snippet": "",
+        "title": "Daniel Boone Homestead"
+      }
+    ]
+  }
+}

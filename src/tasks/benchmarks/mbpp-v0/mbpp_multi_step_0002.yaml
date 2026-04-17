@@ -1,0 +1,33 @@
+task_id: mbpp_multi_step_0002
+condition: multi_step
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to find the item with maximum occurrences in a given list.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 658
+  ref_solution_length: 8
+metadata:
+  mbpp_task_id: 658
+  difficulty_bucket: multi_step
+  ref_solution_length: 8
+  fn_name: max_occurrences
+  test_code: "from solution import max_occurrences\n\n\ndef test_max_occurrences():\n    assert max_occurrences([2,3,8,4,7,9,8,2,6,5,1,6,1,2,3,4,6,9,1,2])==2\n\
+    \    assert max_occurrences([1, 3,5, 7,1, 3,13, 15, 17,5, 7,9,1, 11])==1\n    assert max_occurrences([1, 2, 3,2, 4, 5,1,\
+    \ 1, 1])==1\n"
+  stub_code: "def max_occurrences(list1):\n    raise NotImplementedError\n"

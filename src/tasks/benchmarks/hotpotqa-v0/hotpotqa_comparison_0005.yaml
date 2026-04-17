@@ -1,0 +1,24 @@
+task_id: hotpotqa_comparison_0005
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which documentary film premiered first, Grizzly Man or Pray the Devil
+  Back to Hell?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Grizzly Man
+  supporting_titles:
+  - Grizzly Man
+  - Pray the Devil Back to Hell
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a7fb1e55542995d8a8ddef7
+  difficulty: hard
+  perturbed_title: null

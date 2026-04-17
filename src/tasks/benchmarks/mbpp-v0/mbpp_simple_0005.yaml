@@ -1,0 +1,33 @@
+task_id: mbpp_simple_0005
+condition: simple
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to check if one tuple is a subset of another tuple.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 651
+  ref_solution_length: 2
+metadata:
+  mbpp_task_id: 651
+  difficulty_bucket: simple
+  ref_solution_length: 2
+  fn_name: check_subset
+  test_code: "from solution import check_subset\n\n\ndef test_check_subset():\n    assert check_subset((10, 4, 5, 6), (5,\
+    \ 10)) == True\n    assert check_subset((1, 2, 3, 4), (5, 6)) == False\n    assert check_subset((7, 8, 9, 10), (10, 8))\
+    \ == True\n"
+  stub_code: "def check_subset(test_tup1, test_tup2):\n    raise NotImplementedError\n"

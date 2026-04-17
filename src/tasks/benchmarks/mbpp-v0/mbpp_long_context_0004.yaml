@@ -1,0 +1,32 @@
+task_id: mbpp_long_context_0004
+condition: long_context
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a python function to find sum of products of all possible subarrays.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 734
+  ref_solution_length: 9
+metadata:
+  mbpp_task_id: 734
+  difficulty_bucket: long_context
+  ref_solution_length: 9
+  fn_name: sum_Of_Subarray_Prod
+  test_code: "from solution import sum_Of_Subarray_Prod\n\n\ndef test_sum_Of_Subarray_Prod():\n    assert sum_Of_Subarray_Prod([1,2,3],3)\
+    \ == 20\n    assert sum_Of_Subarray_Prod([1,2],2) == 5\n    assert sum_Of_Subarray_Prod([1,2,3,4],4) == 84\n"
+  stub_code: "def sum_Of_Subarray_Prod(arr, n):\n    raise NotImplementedError\n"

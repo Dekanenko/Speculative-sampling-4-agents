@@ -1,0 +1,32 @@
+task_id: mbpp_long_context_0009
+condition: long_context
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to find the smallest multiple of the first n numbers.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 901
+  ref_solution_length: 11
+metadata:
+  mbpp_task_id: 901
+  difficulty_bucket: long_context
+  ref_solution_length: 11
+  fn_name: smallest_multiple
+  test_code: "from solution import smallest_multiple\n\n\ndef test_smallest_multiple():\n    assert smallest_multiple(13)==360360\n\
+    \    assert smallest_multiple(2)==2\n    assert smallest_multiple(1)==1\n"
+  stub_code: "def smallest_multiple(n):\n    raise NotImplementedError\n"

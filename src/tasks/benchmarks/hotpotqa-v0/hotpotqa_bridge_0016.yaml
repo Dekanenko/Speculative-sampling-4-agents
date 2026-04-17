@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0016
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: The scientists who discovered Tedatioxetine were from what international
+  pharmaceutical company?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Danish international pharmaceutical company
+  supporting_titles:
+  - Tedatioxetine
+  - Lundbeck
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ab250b9554299722f9b4cd9
+  difficulty: hard
+  perturbed_title: null

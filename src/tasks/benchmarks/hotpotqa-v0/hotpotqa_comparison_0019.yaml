@@ -1,0 +1,23 @@
+task_id: hotpotqa_comparison_0019
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which composer was also a teacher, Philip Glass or Franz Schreker?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Franz Schreker
+  supporting_titles:
+  - Philip Glass
+  - Franz Schreker
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a7933b255429907847277eb
+  difficulty: hard
+  perturbed_title: null

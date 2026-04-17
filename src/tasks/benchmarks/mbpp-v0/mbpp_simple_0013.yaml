@@ -1,0 +1,34 @@
+task_id: mbpp_simple_0013
+condition: simple
+family: mbpp
+system_prompt: 'You are a Python coding assistant. Implement the requested function in solution.py. After writing the code,
+  call run_tests() to check it passes. If it fails, read the output, fix your code, and run tests again. When all tests pass,
+  call finish().
+
+  '
+user_prompt: 'Write a function to rotate a given list by specified number of items to the right direction.
+
+
+  The function signature should be implementable as described. Write your solution to `solution.py`. The tests are in `test_solution.py`
+  and you cannot read them. Use read_file / write_file to work with solution.py, and run_tests() to check your work.
+
+  '
+allowed_tools:
+- read_file
+- write_file
+- run_tests
+- finish
+max_steps: 20
+expected:
+  task_id: 743
+  ref_solution_length: 2
+metadata:
+  mbpp_task_id: 743
+  difficulty_bucket: simple
+  ref_solution_length: 2
+  fn_name: rotate_right
+  test_code: "from solution import rotate_right\n\n\ndef test_rotate_right():\n    assert rotate_right([1, 2, 3, 4, 5, 6,\
+    \ 7, 8, 9, 10],3,4)==[8, 9, 10, 1, 2, 3, 4, 5, 6]\n    assert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],2,2)==[9, 10,\
+    \ 1, 2, 3, 4, 5, 6, 7, 8]\n    assert rotate_right([1, 2, 3, 4, 5, 6, 7, 8, 9, 10],5,2)==[6, 7, 8, 9, 10, 1, 2, 3, 4,\
+    \ 5, 6, 7, 8]\n"
+  stub_code: "def rotate_right(list1, m, n):\n    raise NotImplementedError\n"

@@ -1,0 +1,32 @@
+{
+  "get_wiki_page::{\"title\": \"Burwash Mine\"}": {
+    "summary": "The Burwash Mine was a small gold property discovered in the fall of 1934 by Johnny Baker and Hugh Muir at Yellowknife Bay, Northwest Territories. The town of Yellowknife did not exist yet at that point, but the discovery of gold at Burwash was the catalyst that brought more gold prospectors into the region in 1935 and 1936. A short shaft was sunk in 1935–1936 at Burwash, and in the summer of 1935 a 16-ton bulk sample of ore was shipped to Trail, British Columbia for processing, yielding 200 troy ounces (6.2 kg) of gold. The mine did not become a substantial producer and it is believed the gold vein was mined out.",
+    "text": "The Burwash Mine was a small gold property discovered in the fall of 1934 by Johnny Baker and Hugh Muir at Yellowknife Bay, Northwest Territories. The town of Yellowknife did not exist yet at that point, but the discovery of gold at Burwash was the catalyst that brought more gold prospectors into the region in 1935 and 1936. A short shaft was sunk in 1935–1936 at Burwash, and in the summer of 1935 a 16-ton bulk sample of ore was shipped to Trail, British Columbia for processing, yielding 200 troy ounces (6.2 kg) of gold. The mine did not become a substantial producer and it is believed the gold vein was mined out.\nThe Burwash Mine has some historical significance in that the original ore sample kept \"gold fever\" alive in the area and helped in the establishment of Yellowknife as a viable northern community.\n\n\n== References ==",
+    "title": "Burwash Mine"
+  },
+  "get_wiki_page::{\"title\": \"Temagami-Lorrain Mine\"}": {
+    "summary": "Temagami-Lorrain Mine is an abandoned surface and underground mine in Northeastern Ontario, Canada. It is located about 10 km (6.2 mi) northeast of the town of Temagami near Sauvé Lake in central Cassels Township. It is named after the Temagami-Lorrain Mining Company, which carried out work on the property in the early 1900s.",
+    "text": "Temagami-Lorrain Mine is an abandoned surface and underground mine in Northeastern Ontario, Canada. It is located about 10 km (6.2 mi) northeast of the town of Temagami near Sauvé Lake in central Cassels Township. It is named after the Temagami-Lorrain Mining Company, which carried out work on the property in the early 1900s.\nDevelopment by the Temagami-Lorrain Mining Company consisted of trenching, stripping and sinking of a 35 m (115 ft) shaft in fractured Nipissing diabase. The primary commodities mined at Temagami-Lorrain were cobalt and gold. Secondary commodities included arsenic, silver, nickel and copper. In 1925, samples from the waste rock dump showed considerable cobalt bloom and one of the richest had an analysis of 5.87% cobalt, 0.12% nickel, 1.08% copper, 12.48% iron, 14.17% sulfur, 10.39% arsenic, 1.08 oz (31 g) of gold and traces of silver. Exploration in 2005 assayed low silver to 37 g (1.3 oz) of gold per ton.\n\n\n== See also ==\nList of mines in Temagami\n\n\n== References ==\n\n\n== External links ==\n\"Temagami-Lorrain\". Abandoned Mines Information System, Ministry of Energy and Mines (Ontario). Retrieved 2012-03-26.",
+    "title": "Temagami-Lorrain Mine"
+  },
+  "search_wikipedia::{\"query\": \"Burwash Mine\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Burwash Mine"
+      },
+      {
+        "snippet": "",
+        "title": "Burwash Industrial Farm"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Temagami-Lorrain Mine\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Temagami-Lorrain Mine"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"Interact Home Computer\"}": {
+    "summary": "The Interact Home Computer is a 1978 American home computer made by Interact Electronics, Inc., of Ann Arbor, Michigan. It sold under the name \"Interact Model One Home Computer\". The original Interact Model One computer was designed by Rick Barnich and Tim Anderson at 204 E. Washington in Ann Arbor, then moving to the Georgetown Mall on Packard St. in Ann Arbor.",
+    "text": "The Interact Home Computer (also called The Interact Family Computer) is a 1978 American home computer made by Interact Electronics, Inc., of Ann Arbor, Michigan. It sold under the name \"Interact Model One Home Computer\". The original Interact Model One computer was designed by Rick Barnich and Tim Anderson at 204 E. Washington in Ann Arbor, then moving to the Georgetown Mall on Packard St. in Ann Arbor.\nInteract Electronics Inc was a privately held company that was funded by Hongiman, Miller, Swartz and Cohn, a law firm out of Detroit. The President/Founder of Interact Electronics Inc was Ken Lochner, who was one of the original developers of the BASIC language based out of Dartmouth College. Ken had started Interact Electronics Inc after founding the successful computer time-sharing company Cyphernetics in Ann Arbor, which was purchased by ADP in 1975.\nThe Interact Model One Home Computer debuted at the Consumer Electronics Show in Chicago in June 1978, at a price of US$499 (equivalent to $2,500 in 2025). Only a few thousand Interacts were sold before the company went bankrupt in late 1979. Most were sold by the liquidator Protecto Enterprizes of Barrington, Illinois, through mail order sales. It was also sold at Highland Appliance in the Detroit area, Newman Computer Exchange in Ann Arbor, and Montgomery Ward in the Houston, Texas, area.\nThe computer didn't come with any operating system, but Microsoft BASIC V4.7 or EDU-BASIC (supplied with the computer) could be loaded from tape.\nProbably the most successful application available for the Interact was a program called \"Message Center\".  With it, a store could program a scrolling message which appeared on a TV screen (such as advertisements, or a welcome message to guests).\nAlthough it was mostly a game machine (with games such as Showdown, Blackjack and Chess), users could also create their own programs using the BASIC computer language. Customers began hooking up the Interact to control everything from lights in",
+    "title": "Interact Home Computer"
+  },
+  "get_wiki_page::{\"title\": \"Sord M5\"}": {
+    "summary": "The Sord M5 is a home computer launched by Sord Computer Corporation in 1982. Primarily the Sord M5 competed in the Japanese home computer market. It was also sold as the CGL M5 in the United Kingdom by Computer Games Limited and was reasonably popular in Czechoslovakia, where the M5 was one of the first affordable computers available to the general public. Takara also sold models in Japan as the Game M5, and models were also exported to South Korea.",
+    "text": "The Sord M5 is a home computer launched by Sord Computer Corporation in 1982. Primarily the Sord M5 competed in the Japanese home computer market. It was also sold as the CGL M5 in the United Kingdom by Computer Games Limited and was reasonably popular in Czechoslovakia, where the M5 was one of the first affordable computers available to the general public. Takara also sold models in Japan as the Game M5, and models were also exported to South Korea.\nOriginal models of the Sord M5 are relatively small by home computing standards, with a built-in keyboard with rubber keys, similar to the ZX Spectrum, which is also sold in many countries such as the United Kingdom itself, Ireland, Spain, the Netherlands, Singapore, Malaysia, Sweden, Norway, Denmark, Canada, New Zealand, Australia, Greece, Turkey, Israel and Hong Kong as the Sord M5 Creative Computer, which included a carrying case for the computer. The specifications of the computer are very similar to the MSX, a computer that likely forced the Sord M5 (along with many similar Japanese computers) out of the market by the mid-1980s.\nThe CGL M5 was released in the UK with an introductory price of £195, higher than many of the system's competitors including the ZX Spectrum, and VIC-20. Whereas the M5 contained a cartridge slot in an age where most computers were using compact cassettes or floppy disks, the small amount of built-in RAM led to few games being produced for the system.\nIn South Korea, three electronics companies released different personal computers based on Sord M5. The FC-150 was produced and released by LG, Samsung released the SPC-500, and the TommyCom was manufactured and launched by Koryo Systems. These computers supported the Korean alphabet, Hangul. The system specifications of these computers were identical to the original M5, but they had differently shaped cartridge slots. Cartridges from the Sord M5 or other manufacturers could not be used for these computers directly. LG released some original s",
+    "title": "Sord M5"
+  },
+  "search_wikipedia::{\"query\": \"Interact Home Computer\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Interact Home Computer"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Sord M5\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Sord M5"
+      },
+      {
+        "snippet": "",
+        "title": "Sord Computer Corporation"
+      },
+      {
+        "snippet": "",
+        "title": "Mamadou Soro"
+      },
+      {
+        "snippet": "",
+        "title": "Sora Ma"
+      },
+      {
+        "snippet": "",
+        "title": "Sora Matsushima"
+      }
+    ]
+  }
+}

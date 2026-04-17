@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0015
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: What was the the origin of the player that the Bull's traded with 76ers
+  during the 1999-2000 midseason?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Croatian
+  supporting_titles:
+  - 1999–2000 Chicago Bulls season
+  - Toni Kukoč
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5a762d53554299109176e6a7
+  difficulty: hard
+  perturbed_title: null

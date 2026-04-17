@@ -1,0 +1,24 @@
+task_id: hotpotqa_comparison_0017
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Temagami-Lorrain Mine and Burwash Mine were both mines created during
+  the early 1900s; which one yielded a 16-ton bulk sample of gold ore in 1935?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Burwash Mine
+  supporting_titles:
+  - Temagami-Lorrain Mine
+  - Burwash Mine
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5a7521c55542993748c897c6
+  difficulty: hard
+  perturbed_title: null

@@ -1,0 +1,44 @@
+{
+  "get_wiki_page::{\"title\": \"Southwell Minster\"}": {
+    "summary": "Southwell Minster, strictly since 1884 Southwell Cathedral, and formally the Cathedral and Parish Church of the Blessed Virgin Mary, is a Church of England cathedral in Southwell, Nottinghamshire, England. The cathedral is the seat of the bishop of Southwell and Nottingham and the mother church of the diocese of Southwell and Nottingham; it is governed by a dean and chapter. It is a grade I listed building.",
+    "text": "Southwell Minster, strictly since 1884 Southwell Cathedral, and formally the Cathedral and Parish Church of the Blessed Virgin Mary, is a Church of England cathedral in Southwell, Nottinghamshire, England. The cathedral is the seat of the bishop of Southwell and Nottingham and the mother church of the diocese of Southwell and Nottingham; it is governed by a dean and chapter. It is a grade I listed building.\nThe current church is the successor to one built in 956 by Oscytel, archbishop of York. Some late eleventh century fabric survives from this church, but the majority of the building dates from between 1108 and c. 1150, when it was reconstructed in the Romanesque style. The chancel was rebuilt from 1234 to 1251 in the Early English Gothic style. In 1288 the chapter house was built; it is decorated with carved foliage of exceptional quality. The minster's rood screen is also of high quality.\nDuring the Middle Ages Southwell was part of the large diocese of York, and the archbishop maintained a palace adjacent to the minster. Although it was not a cathedral, the minster acted as the mother church of the surrounding area; Ripon Cathedral and Beverley Minster fulfilled a similar function in other parts of the diocese. The church was collegiate from its foundation until 1841, although the college was twice dissolved and re-founded during the English Reformation. It was a parish church from 1841 until 1884, when it became the cathedral of a new diocese covering Nottinghamshire and Derbyshire; in 1927 the diocese was divided by the creation of the Diocese of Derby.\n\n\n== History ==\n\n\n=== Middle Ages ===\nThe earliest church on the site is believed to have been founded in 627 by Paulinus, the first Archbishop of York, when he visited the area while baptising believers in the River Trent. The legend is commemorated in the Minster's baptistry window.\nIn 956 King Eadwig gave land in Southwell to Oskytel, Archbishop of York, on which a minster church was established. The Domesd",
+    "title": "Southwell Minster"
+  },
+  "get_wiki_page::{\"title\": \"Truro Cathedral\"}": {
+    "summary": "The Cathedral of the Blessed Virgin Mary is a Church of England cathedral in the city of Truro, Cornwall. It was built between 1880 and 1910 to a Gothic Revival design by John Loughborough Pearson on the site of the parish church of St Mary.",
+    "text": "The Cathedral of the Blessed Virgin Mary is a Church of England cathedral in the city of Truro, Cornwall. It was built between 1880 and 1910 to a Gothic Revival design by John Loughborough Pearson on the site of the parish church of St Mary.\n\n\n== History and description ==\n\nThe Diocese of Truro was established in December 1876, and its first bishop, Edward White Benson, was consecrated on 25 April 1877 at St Paul's Cathedral.\nConstruction began in 1880 to a design by the leading Gothic Revival architect John Loughborough Pearson. Truro was the first Anglican cathedral to be built on a new site in England since Salisbury Cathedral in 1220. It was built on the site of the 16th-century parish church of St Mary the Virgin, a building in the Perpendicular style with a spire 128 feet (39 m) tall. The final services in St Mary's were held on Sunday 3 October 1880 and the church was demolished that month, leaving only the south aisle, which was retained to serve as the parish church. From 24 October 1880 until 1887 a temporary wooden building on an adjacent site served as the cathedral. The seats were free and unappropriated, accommodated fewer than 400 people and were extremely hot in summer and cold in winter. It was in this building that Benson introduced the new evening service of Nine Lessons and Carols on Christmas Eve, 1880. \nThe choir and transepts were complete by October 1887. The service of consecration took place on 3 November, performed by E. W. Benson, by then Archbishop of Canterbury. His successor as Bishop of Truro, George Wilkinson, and twenty other bishops were also present, together with civic representatives and diocesan clergy, and about 2,000 other people. The central tower was finished by 1905 and the building was completed with the opening of the two western towers in 1910. J. L. Pearson died in 1897 and his son Frank took over the project. Frank Loughborough Pearson's other works include St Matthew's, Auckland in New Zealand. \n\nPearson's design com",
+    "title": "Truro Cathedral"
+  },
+  "search_wikipedia::{\"query\": \"Southwell Minster\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Southwell Minster"
+      },
+      {
+        "snippet": "",
+        "title": "Southwell Minster School"
+      },
+      {
+        "snippet": "",
+        "title": "South Westminster"
+      }
+    ]
+  },
+  "search_wikipedia::{\"query\": \"Truro Cathedral\"}": {
+    "results": [
+      {
+        "snippet": "",
+        "title": "Truro Cathedral"
+      },
+      {
+        "snippet": "",
+        "title": "Truro Cathedral School"
+      },
+      {
+        "snippet": "",
+        "title": "Tours Cathedral"
+      }
+    ]
+  }
+}

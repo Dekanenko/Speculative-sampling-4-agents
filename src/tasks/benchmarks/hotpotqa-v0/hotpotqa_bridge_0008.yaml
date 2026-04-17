@@ -1,0 +1,24 @@
+task_id: hotpotqa_bridge_0008
+condition: multi_step
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Alternative facts is a phrase use by this U.S. Counselor to the President
+  born in what year?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: '1967'
+  supporting_titles:
+  - Alternative facts
+  - Kellyanne Conway
+  question_type: bridge
+metadata:
+  hotpot_qa_id: 5ae76e615542997ec2727647
+  difficulty: hard
+  perturbed_title: null

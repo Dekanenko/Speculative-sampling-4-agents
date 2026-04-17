@@ -1,0 +1,24 @@
+task_id: hotpotqa_comparison_0014
+condition: simple
+family: hotpotqa
+system_prompt: 'You are a research assistant. Use the wikipedia tools to answer the
+  user''s question. When you have the answer, call finish(answer=...).
+
+  '
+user_prompt: Which item spanned farther distances regarding sales, Interact Home Computer
+  or Sord M5?
+allowed_tools:
+- search_wikipedia
+- get_wiki_page
+- finish
+max_steps: 15
+expected:
+  answer: Sord M5
+  supporting_titles:
+  - Interact Home Computer
+  - Sord M5
+  question_type: comparison
+metadata:
+  hotpot_qa_id: 5ab73de755429928e1fe383b
+  difficulty: hard
+  perturbed_title: null
