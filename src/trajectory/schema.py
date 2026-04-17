@@ -92,7 +92,10 @@ class TrajectoryMetadata:
         profile_name: Name of the ``ModelProfile`` used.
         seed: Master seed.
         generation_kwargs: Full generation kwargs dict used for ``generate``.
-        dataset_version: Version tag of the task set this task came from.
+        family: Name of the ``TaskFamily`` the task came from.
+        dataset_split: Split identifier within the family (``"phase1-v0"``,
+            ``"dev_sample50"``, ...). Replaces the old ``dataset_version``
+            field; same concept, renamed for clarity.
         system_prompt: The system message passed to ``Agent.run``.
         user_prompt: The initial user message passed to ``Agent.run``.
         tool_schemas: The exact tool schema list that was rendered into
@@ -109,7 +112,8 @@ class TrajectoryMetadata:
     profile_name: str
     seed: int
     generation_kwargs: dict[str, Any]
-    dataset_version: str
+    family: str
+    dataset_split: str
     system_prompt: str
     user_prompt: str
     tool_schemas: list[dict[str, Any]]

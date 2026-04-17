@@ -1,15 +1,28 @@
-"""Deterministic mock tools for Phase 1 experiments.
+"""Mocks family: deterministic toy tools for Phase 1 / pipeline validation.
 
-These tools return fixed, in-process results so that trajectories are
-reproducible without network access or external APIs. Each tool's
-output is a pure function of its arguments.
+This is the original Phase 1 mock tool set (weather, calculator,
+search) wrapped behind the :class:`TaskFamily` interface. The tools
+are stateless pure functions, so ``build_env`` returns ``None`` and
+``build_tools`` ignores the env argument.
+
+``evaluate`` always reports ``success=True, score=1.0`` because the
+mocks have no intrinsic success criterion — they exist to exercise
+the measurement pipeline, not to be correct about anything. The
+runner still writes an ``.eval.json`` sidecar for uniformity.
 """
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
-from ..agent.tools import ToolSpec
+from ....agent.tools import ToolSpec
+from ...registry import load_task_set
+from ...schema import Task
+from ..base import EvaluationResult, Env, TaskFamily
+
+
+_BENCHMARKS_ROOT = Path(__file__).resolve().parents[3] / "tasks" / "benchmarks"
 
 
 _WEATHER_TABLE: dict[str, dict[str, Any]] = {
@@ -64,6 +77,9 @@ def _search(args: dict[str, Any]) -> dict[str, Any]:
 def build_mock_tools() -> list[ToolSpec]:
     """Return the standard Phase 1 mock tool list.
 
+    Kept at module level so external callers (older scripts, tests)
+    can import it without going through the family abstraction.
+
     Returns:
         A list of ``ToolSpec`` covering weather, calculator, and search.
     """
@@ -110,3 +126,55 @@ def build_mock_tools() -> list[ToolSpec]:
             fn=_search,
         ),
     ]
+
+
+class MocksFamily(TaskFamily):
+    """The Phase 1 pipeline-validation family.
+
+    Attributes:
+        name: ``"mocks"``.
+    """
+
+    name = "mocks"
+
+    def load_tasks(self, split: str) -> list[Task]:
+        """Load all mock tasks in a split.
+
+        Args:
+            split: Subdirectory under ``src/tasks/benchmarks/``
+                (e.g. ``"phase1-v0"``).
+
+        Returns:
+            All tasks from that directory, tagged with ``family="mocks"``.
+
+        Raises:
+            FileNotFoundError: If the split directory does not exist.
+        """
+        split_dir = _BENCHMARKS_ROOT / split
+        if not split_dir.is_dir():
+            raise FileNotFoundError(
+                f"Mocks split directory not found: {split_dir}"
+            )
+        return load_task_set(split_dir)
+
+    def build_env(self, task: Task) -> Env | None:
+        """Mocks are stateless — no env."""
+        return None
+
+    def build_tools(self, env: Env | None) -> list[ToolSpec]:
+        """Return the standard mock tool list, ignoring ``env``."""
+        return build_mock_tools()
+
+    def evaluate(
+        self,
+        task: Task,
+        trajectory: Any,
+        env: Env | None,
+    ) -> EvaluationResult:
+        """Always report success — mocks have no correctness criterion."""
+        return EvaluationResult(
+            task_id=task.task_id,
+            success=True,
+            score=1.0,
+            details={"note": "mocks family has no intrinsic success criterion"},
+        )

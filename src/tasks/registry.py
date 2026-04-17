@@ -1,9 +1,13 @@
 """YAML-backed task loader.
 
-Tasks live under ``src/tasks/benchmarks/<phase>/<task>.yaml``. Each
-YAML file maps 1:1 to a ``Task`` dataclass. Loading is deliberately
-simple — no schema validation library, just dict unpacking with
-explicit error messages on missing fields.
+Tasks live under ``src/tasks/benchmarks/<split>/<task>.yaml``. Each
+YAML file maps 1:1 to a :class:`~src.tasks.schema.Task` dataclass.
+Loading is deliberately simple — no schema validation library, just
+dict unpacking with explicit error messages on missing fields.
+
+The family-aware fields (``family``, ``expected``, ``metadata``) are
+optional; old Phase 1 YAMLs that omit them get the defaults defined
+on ``Task`` (``family="mocks"``, ``expected=None``, ``metadata={}``).
 """
 
 from __future__ import annotations
@@ -46,6 +50,9 @@ def load_task(path: str | Path) -> Task:
         user_prompt=raw["user_prompt"],
         allowed_tools=list(raw.get("allowed_tools", [])),
         max_steps=raw.get("max_steps"),
+        family=raw.get("family", "mocks"),
+        expected=raw.get("expected"),
+        metadata=dict(raw.get("metadata", {})),
     )
 
 

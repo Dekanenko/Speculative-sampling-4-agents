@@ -46,7 +46,7 @@ def test_load_task_set_returns_sorted(tmp_path: Path) -> None:
 
 
 def test_phase1_benchmark_tasks_load() -> None:
-    root = Path(__file__).parents[2] / "src" / "tasks" / "benchmarks" / "phase1"
+    root = Path(__file__).parents[2] / "src" / "tasks" / "benchmarks" / "phase1-v0"
     tasks = load_task_set(root)
     assert len(tasks) >= 3
     conditions = {t.condition for t in tasks}

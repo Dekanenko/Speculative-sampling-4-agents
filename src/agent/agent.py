@@ -37,6 +37,7 @@ from ..config import (
     DEFAULT_SEED,
     GenerationKwargs,
 )
+from ..tasks.schema import Task
 from ..trajectory.schema import (
     Trajectory,
     TrajectoryMetadata,
@@ -70,7 +71,6 @@ class Agent:
         self,
         model_name: str,
         profile_name: str,
-        tools: list[ToolSpec],
         seed: int = DEFAULT_SEED,
         max_steps: int = DEFAULT_MAX_STEPS,
         generation_kwargs: GenerationKwargs | None = None,
@@ -81,10 +81,13 @@ class Agent:
     ) -> None:
         """Load the target model and resolve the profile.
 
+        Tools are **not** passed here because they are built per task
+        by the active :class:`~src.tasks.families.base.TaskFamily`.
+        Supply them on each :meth:`run` call.
+
         Args:
             model_name: HF id of the target model.
             profile_name: Registered profile name (e.g., ``"qwen2.5"``).
-            tools: Tool specs exposed to the agent.
             seed: Master seed for torch/numpy/random.
             max_steps: Hard cap on agent loop iterations per task.
             generation_kwargs: Generation kwargs override. Defaults to
@@ -125,7 +128,8 @@ class Agent:
         self._model.eval()
 
         self._profile: ModelProfile = build_profile(profile_name, self._tokenizer)
-        self._tools = ToolRegistry.from_list(tools)
+        # Tools are installed per-run via :meth:`run`; start empty.
+        self._tools: ToolRegistry = ToolRegistry()
 
         self._eos_token_ids: list[int] = self._resolve_eos_ids()
         self._pad_token_id: int = self._resolve_pad_id()
@@ -181,36 +185,44 @@ class Agent:
 
     def run(
         self,
-        task_id: str,
-        condition: Condition,
-        system_prompt: str,
-        user_prompt: str,
-        dataset_version: str = "phase1-v0",
+        task: Task,
+        tools: list[ToolSpec],
+        dataset_split: str,
     ) -> Trajectory:
         """Execute the full agent loop for a single task.
 
+        Tools are installed fresh for each run so that stateful task
+        families (coding sandbox, Wikipedia cache) can bind per-task
+        env handles into their closures. Per-task ``max_steps``
+        override from the task is respected if set.
+
         Args:
-            task_id: Unique task identifier.
-            condition: Experimental condition label.
-            system_prompt: System message.
-            user_prompt: Initial user message.
-            dataset_version: Version tag of the task set.
+            task: The task to execute. Its ``system_prompt``,
+                ``user_prompt``, ``task_id``, ``condition``, and
+                ``family`` fields all flow into the trajectory.
+            tools: Tool specs built by the task family for this task.
+            dataset_split: Split identifier within the family (e.g.
+                ``"phase1-v0"``, ``"dev_sample50"``) — recorded into
+                the trajectory metadata.
 
         Returns:
-            A populated ``Trajectory``. The last step's ``error`` field
-            is set to ``"max_steps_reached"`` if the loop exited without
-            a tool-free final response.
+            A populated ``Trajectory``. The last step's ``error``
+            field is set to ``"max_steps_reached"`` if the loop exited
+            without a tool-free final response.
         """
+        self._tools = ToolRegistry.from_list(tools)
+
         metadata = TrajectoryMetadata(
-            task_id=task_id,
-            condition=condition,
+            task_id=task.task_id,
+            condition=task.condition,
             model_target=self.model_name,
             profile_name=self.profile_name,
             seed=self.seed,
             generation_kwargs=self.generation_kwargs.as_dict(),
-            dataset_version=dataset_version,
-            system_prompt=system_prompt,
-            user_prompt=user_prompt,
+            family=task.family,
+            dataset_split=dataset_split,
+            system_prompt=task.system_prompt,
+            user_prompt=task.user_prompt,
             tool_schemas=self._tools.schemas(
                 self._profile.tool_schema_formatter
             ),
@@ -219,11 +231,13 @@ class Agent:
 
         self._set_seed(self.seed)
         state = AgentState()
-        state.append_message("system", system_prompt)
-        state.append_message("user", user_prompt)
+        state.append_message("system", task.system_prompt)
+        state.append_message("user", task.user_prompt)
 
-        while not state.finished and state.step_index < self.max_steps:
-            step = self._step(state, task_id, condition)
+        max_steps = task.max_steps if task.max_steps is not None else self.max_steps
+
+        while not state.finished and state.step_index < max_steps:
+            step = self._step(state, task.task_id, task.condition)
             trajectory.append(step)
 
         if not state.finished and trajectory.steps:
