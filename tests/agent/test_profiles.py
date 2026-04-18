@@ -81,3 +81,32 @@ def test_parse_xml_tool_calls_extracts_multiple_calls_in_order() -> None:
     calls = parse_xml_tool_calls(text)
     assert [c.name for c in calls] == ["a", "b"]
     assert calls[1].arguments == {"x": 1}
+
+
+def test_parse_xml_tool_calls_ignores_calls_inside_complete_think() -> None:
+    text = (
+        '<think>I might use <tool_call>{"name": "fake", "arguments": {}}'
+        '</tool_call> here.</think>\n'
+        '<tool_call>{"name": "real", "arguments": {"x": 1}}</tool_call>'
+    )
+    calls = parse_xml_tool_calls(text)
+    assert [c.name for c in calls] == ["real"]
+
+
+def test_parse_xml_tool_calls_ignores_calls_inside_unterminated_think() -> None:
+    text = (
+        '<think>Maybe I call '
+        '<tool_call>{"name": "escaped", "arguments": {}}</tool_call> now'
+    )
+    # <think> never closes — everything after it is treated as reasoning
+    assert parse_xml_tool_calls(text) == []
+
+
+def test_parse_xml_tool_calls_extracts_calls_outside_think_around_think() -> None:
+    text = (
+        '<tool_call>{"name": "before", "arguments": {}}</tool_call>'
+        '<think>Reasoning here.</think>'
+        '<tool_call>{"name": "after", "arguments": {}}</tool_call>'
+    )
+    calls = parse_xml_tool_calls(text)
+    assert [c.name for c in calls] == ["before", "after"]

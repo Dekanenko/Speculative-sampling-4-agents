@@ -155,6 +155,44 @@ unused on the prior sweep; Qwen3 reasoning blocks alone can be
 1000–2000 tokens, so 512 would have produced
 `unterminated_reasoning` errors on most tasks.
 
+## Adversarial-think defence (bug found and fixed in audit)
+
+Red-team probe with a model that describes a tool call inside its
+`<think>` block:
+
+```text
+<think>I might use <tool_call>{"name": "fake", ...}</tool_call>.</think>
+<tool_call>{"name": "real", ...}</tool_call>
+```
+
+**Before the fix**: scanner labelled the inner `<tool_call>` tokens
+as `tool_call` (should be `reasoning`), and the parser extracted
+both the `fake` and `real` calls. The agent would have dispatched
+the fake tool from reasoning. Unterminated `<think>` (the model
+hit `max_new_tokens` mid-thought) leaked `<tool_call>` matches the
+same way.
+
+**Fix**:
+
+1. `src/agent/scanner.py` — only the outermost (`response`) mode
+   may open a new region. Once inside `tool_call` or `reasoning`,
+   only the matching close is recognised. An apparent `<tool_call>`
+   inside `<think>` is treated as literal reasoning content.
+2. `src/agent/profiles/_common.py` — `parse_xml_tool_calls` now
+   pre-strips complete `<think>...</think>` blocks and drops
+   everything after an unterminated `<think>` before running the
+   `<tool_call>` regex.
+
+Five new tests under `tests/agent/test_scanner.py` and
+`tests/agent/test_profiles.py` lock this in. 101/101 suite still
+green.
+
+Downstream evaluators were already robust: HotPotQA's
+`_strip_special_tokens` removes `<think>` blocks from fallback
+answer extraction, and MBPP's evaluator reads from
+`step.tool_calls` which is now built by the fixed parser. No
+change needed there.
+
 ## Is the stripping OK for divergence measurement?
 
 **Yes — and it is in fact required.** The argument:

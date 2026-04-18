@@ -66,6 +66,39 @@ _TOOL_CALL_RE = re.compile(
     re.DOTALL,
 )
 
+_COMPLETE_THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL)
+
+_UNTERMINATED_THINK_RE = re.compile(r"<think>.*$", re.DOTALL)
+
+
+def _strip_reasoning(text: str) -> str:
+    """Remove ``<think>...</think>`` blocks before tool-call extraction.
+
+    Qwen3 (and any future reasoning-capable model) emits ``<think>``
+    blocks whose content often **describes** tool calls the model is
+    considering. An example tool call embedded in reasoning text
+    would otherwise be extracted and dispatched by
+    :func:`parse_xml_tool_calls` as if it were a real call.
+
+    Stripping happens in two passes:
+
+    1. Complete ``<think>...</think>`` blocks are removed.
+    2. If an unterminated ``<think>`` remains (opened but never
+       closed — truncated generation or malformed output),
+       everything from that ``<think>`` onwards is removed. We would
+       rather drop a legitimate tool call that never terminated
+       cleanly than dispatch a spurious one.
+
+    Args:
+        text: Decoded assistant turn text.
+
+    Returns:
+        The same text with all reasoning regions stripped.
+    """
+    stripped = _COMPLETE_THINK_RE.sub("", text)
+    stripped = _UNTERMINATED_THINK_RE.sub("", stripped)
+    return stripped
+
 
 def parse_xml_tool_calls(text: str) -> list[ParsedToolCall]:
     """Parse ``<tool_call>{...}</tool_call>`` blocks from generated text.
@@ -73,8 +106,12 @@ def parse_xml_tool_calls(text: str) -> list[ParsedToolCall]:
     This is the format used by Qwen2.5 and Qwen3 chat templates. Each
     block contains a JSON object with ``name`` and ``arguments`` keys.
 
-    Malformed blocks (bad JSON, missing fields) are skipped silently
-    here; the caller is responsible for surfacing them as step errors.
+    Any ``<tool_call>`` appearing inside a ``<think>`` block is
+    ignored (the block is stripped before matching) — the agent must
+    not dispatch tool calls the model is only *describing* during
+    reasoning. Malformed blocks (bad JSON, missing fields) are also
+    skipped silently; the caller is responsible for surfacing them
+    as step errors.
 
     Args:
         text: Decoded assistant turn text.
@@ -82,8 +119,9 @@ def parse_xml_tool_calls(text: str) -> list[ParsedToolCall]:
     Returns:
         List of successfully parsed tool calls in order of appearance.
     """
+    stripped = _strip_reasoning(text)
     calls: list[ParsedToolCall] = []
-    for match in _TOOL_CALL_RE.finditer(text):
+    for match in _TOOL_CALL_RE.finditer(stripped):
         body = match.group("body")
         try:
             payload = json.loads(body)

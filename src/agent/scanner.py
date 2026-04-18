@@ -46,6 +46,16 @@ def label_tokens(
 ) -> ScanResult:
     """Label every token with its ``TokenType``.
 
+    Scanning rule: only the outermost (``"response"``) mode will
+    open a nested region. Once we are inside ``"tool_call"`` or
+    ``"reasoning"``, only the matching close is recognised — any
+    apparent opener is treated as literal content of the outer
+    region. This prevents a model that describes a tool call
+    inside a ``<think>`` block from having those tokens labelled
+    as ``tool_call`` (they should be ``reasoning``) and mirrors the
+    defence the tool-call parser uses to reject example calls
+    buried in reasoning.
+
     Args:
         token_ids: Flat list of token IDs to label.
         delimiters: Resolved delimiter set from a ``ModelProfile``.
@@ -59,43 +69,47 @@ def label_tokens(
     openers: list[tuple[list[int], TokenType]] = [
         (delimiters.tool_call_open, "tool_call"),
     ]
-    closers: list[tuple[list[int], TokenType]] = [
-        (delimiters.tool_call_close, "tool_call"),
-    ]
     if delimiters.has_reasoning():
         assert delimiters.think_open is not None
-        assert delimiters.think_close is not None
         openers.append((delimiters.think_open, "reasoning"))
-        closers.append((delimiters.think_close, "reasoning"))
+
+    closers_by_mode: dict[TokenType, list[int]] = {
+        "tool_call": delimiters.tool_call_close,
+    }
+    if delimiters.has_reasoning():
+        assert delimiters.think_close is not None
+        closers_by_mode["reasoning"] = delimiters.think_close
 
     i = 0
     n = len(token_ids)
     while i < n:
-        matched = False
+        current = mode_stack[-1]
 
-        for close_seq, close_mode in closers:
-            if _matches_at(token_ids, i, close_seq) and mode_stack[-1] == close_mode:
+        if current == "response":
+            # In the outer mode we may open a new region.
+            matched = False
+            for open_seq, open_mode in openers:
+                if _matches_at(token_ids, i, open_seq):
+                    for j in range(len(open_seq)):
+                        labels[i + j] = open_mode
+                    mode_stack.append(open_mode)
+                    i += len(open_seq)
+                    matched = True
+                    break
+            if matched:
+                continue
+        else:
+            # Inside tool_call or reasoning — only the matching close
+            # exits this region. Any apparent opener is literal content.
+            close_seq = closers_by_mode[current]
+            if _matches_at(token_ids, i, close_seq):
                 for j in range(len(close_seq)):
-                    labels[i + j] = close_mode
+                    labels[i + j] = current
                 mode_stack.pop()
                 i += len(close_seq)
-                matched = True
-                break
-        if matched:
-            continue
+                continue
 
-        for open_seq, open_mode in openers:
-            if _matches_at(token_ids, i, open_seq):
-                for j in range(len(open_seq)):
-                    labels[i + j] = open_mode
-                mode_stack.append(open_mode)
-                i += len(open_seq)
-                matched = True
-                break
-        if matched:
-            continue
-
-        labels[i] = mode_stack[-1]
+        labels[i] = current
         i += 1
 
     unterminated: TokenType | None = None
