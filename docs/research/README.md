@@ -34,6 +34,16 @@ changelog and `docs/progress.md`, not here.
 
 <!-- Newest first. One line per note: date, title, one-line hook. -->
 
+- [2026-04-18-qwen3-reasoning-sweep.md](2026-04-18-qwen3-reasoning-sweep.md) —
+  First full Qwen3 pair (8B target, 1.7B draft) sweep across
+  mocks, HotPotQA, and MBPP. **Reasoning tokens are their own
+  distribution**: on MBPP reasoning, 10–11% fall below 0.9
+  acceptance (vs 3.8% for Qwen2.5 response) and `p1` is 0.554.
+  Simulated K=4 speedup drops from 4.90× (Qwen2.5) to 4.72×
+  (Qwen3) on MBPP — a 4% loss, concentrated on common English
+  discourse words inside `<think>` blocks. This is the
+  hypothesis-confirming signal the Qwen2.5 pair did not expose,
+  and it defines a sharp target for Phase 4 distillation.
 - [2026-04-17-qwen3-readiness-audit.md](2026-04-17-qwen3-readiness-audit.md) —
   Pre-flight audit confirming the pipeline supports Qwen3
   reasoning tokens out of the box. Three Qwen3-specific
