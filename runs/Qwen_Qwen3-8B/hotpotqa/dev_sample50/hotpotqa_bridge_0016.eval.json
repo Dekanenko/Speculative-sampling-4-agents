@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0016",
+  "success": false,
+  "score": 0.14285714285714285,
+  "details": {
+    "em": 0.0,
+    "f1": 0.14285714285714285,
+    "predicted_answer": "The scientists who discovered Tedatioxetine were from the Danish pharmaceutical company **H. Lundbeck A/S** (commonly referred to as Lundbeck). The drug was developed by Lundbeck and was part of a partnership with Takeda Pharmaceuticals, but Lundbeck was the primary developer. \n\nfinish(answer=H. Lundbeck A/S)",
+    "gold_answer": "Danish international pharmaceutical company"
+  }
+}

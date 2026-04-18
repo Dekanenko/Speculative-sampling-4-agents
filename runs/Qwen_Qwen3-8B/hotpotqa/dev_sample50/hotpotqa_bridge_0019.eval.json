@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0019",
+  "success": false,
+  "score": 0.23529411764705882,
+  "details": {
+    "em": 0.0,
+    "f1": 0.23529411764705882,
+    "predicted_answer": "The host of Tosh.0, James 'Jimmy' Tosh, conducts comedy tours featuring stand-up performances and special events.",
+    "gold_answer": "stand-up comedy"
+  }
+}

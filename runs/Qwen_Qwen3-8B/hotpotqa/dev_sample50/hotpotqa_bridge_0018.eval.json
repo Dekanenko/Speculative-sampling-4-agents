@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0018",
+  "success": true,
+  "score": 1.0,
+  "details": {
+    "em": 1.0,
+    "f1": 1.0,
+    "predicted_answer": "Love Drunk",
+    "gold_answer": "Love Drunk"
+  }
+}

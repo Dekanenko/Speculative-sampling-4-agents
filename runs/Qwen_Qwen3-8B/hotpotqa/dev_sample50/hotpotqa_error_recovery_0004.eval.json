@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0004",
+  "success": false,
+  "score": 0.1,
+  "details": {
+    "em": 0.0,
+    "f1": 0.1,
+    "predicted_answer": "C.J. Hunter tested positive for stanozolol, a type of anabolic steroid, before competing in the 2000 Summer Olympic Games.",
+    "gold_answer": "anabolic–androgenic steroid (AAS)"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0015",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The trade between the Chicago Bulls and Philadelphia 76ers during the 1999-2000 midseason involved Ron Artest (later known as Metta World Peace). Artest was born in the Philippines but played college basketball in the United States, making him a naturalized American citizen at the time of the trade.",
+    "gold_answer": "Croatian"
+  }
+}

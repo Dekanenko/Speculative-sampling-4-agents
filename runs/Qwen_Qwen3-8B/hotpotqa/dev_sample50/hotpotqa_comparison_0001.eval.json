@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0001",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "finish(answer=\"No, Horace Ové is a photographer, but A. Edward Sutherland was a film director and actor, not a photographer.\")",
+    "gold_answer": "no"
+  }
+}

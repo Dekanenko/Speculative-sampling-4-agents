@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0020",
+  "success": false,
+  "score": 0.07142857142857142,
+  "details": {
+    "em": 0.0,
+    "f1": 0.07142857142857142,
+    "predicted_answer": "The answer is Yuen Woo-ping. He is a renowned martial arts choreographer known for his work in Hong Kong cinema and Hollywood films like *The Matrix* and *Crouching Tiger, Hidden Dragon*. Basil Dean, on the other hand, was an English actor, writer, producer, and director, primarily known for his contributions to theatre and film direction, not choreography. \n\nfinish(answer=Yuen Woo-ping)",
+    "gold_answer": "Yuen Woo-ping"
+  }
+}

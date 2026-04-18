@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0019",
+  "success": false,
+  "score": 0.1142857142857143,
+  "details": {
+    "em": 0.0,
+    "f1": 0.1142857142857143,
+    "predicted_answer": "The composer who was also a teacher is Franz Schreker. His Wikipedia page explicitly lists him as a \"composer, conductor, librettist, teacher, and administrator,\" whereas Philip Glass's page does not mention teaching as a role. \n\nfinish(answer=Franz Schreker)",
+    "gold_answer": "Franz Schreker"
+  }
+}

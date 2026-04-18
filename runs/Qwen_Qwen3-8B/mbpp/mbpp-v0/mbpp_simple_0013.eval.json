@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0013",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": "",
+    "n_tool_calls_total": 1,
+    "final_solution": "def rotate_list(lst, k):\n    if not lst:\n        return lst\n    n = len(lst)\n    k = k % n\n    return lst[-k:] + lst[:-k]"
+  }
+}

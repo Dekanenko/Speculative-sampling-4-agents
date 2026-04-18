@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0001",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The position of the winner of the MVP in Pool C of the 2017 WBC is not explicitly documented in available sources. However, the overall 2017 WBC MVP was Marcus Stroman, a pitcher for the United States team.",
+    "gold_answer": "third baseman"
+  }
+}

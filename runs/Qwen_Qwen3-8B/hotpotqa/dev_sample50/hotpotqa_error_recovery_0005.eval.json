@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0005",
+  "success": false,
+  "score": 0.33333333333333337,
+  "details": {
+    "em": 0.0,
+    "f1": 0.33333333333333337,
+    "predicted_answer": "The train serves two termini: Chicago and a terminal in the Pacific Northwest.",
+    "gold_answer": "two termini"
+  }
+}

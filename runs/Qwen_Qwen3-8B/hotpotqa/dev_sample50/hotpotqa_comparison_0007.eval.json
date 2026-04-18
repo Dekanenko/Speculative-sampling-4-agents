@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0007",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "Both Markus Feehily and Bobby Fuller were lead singers in popular music groups. Feehily was a member of the pop vocal group Westlife, while Fuller was the frontman of the rock band the Bobby Fuller Four. \n\nfinish(answer=\"Both were lead singers in popular music groups: Feehily in Westlife and Fuller in the Bobby Fuller Four.\")",
+    "gold_answer": "songwriter"
+  }
+}

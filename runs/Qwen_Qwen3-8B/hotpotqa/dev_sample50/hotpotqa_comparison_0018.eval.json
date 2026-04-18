@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0018",
+  "success": false,
+  "score": 0.25,
+  "details": {
+    "em": 0.0,
+    "f1": 0.25,
+    "predicted_answer": "Ibn Taymiyyah died second, as he died in 1328, while Averroes died in 1198.",
+    "gold_answer": "ibn Taymiyyah"
+  }
+}

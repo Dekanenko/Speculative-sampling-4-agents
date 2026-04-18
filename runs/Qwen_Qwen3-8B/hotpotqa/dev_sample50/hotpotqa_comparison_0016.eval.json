@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0016",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The commonality between Matt Vasgersian and Michael Casey (unionist) is their association with **team-related roles**. Matt Vasgersian is a sports broadcaster known for covering baseball teams and events, while Michael Casey was a labor leader involved with the San Francisco Teamsters' Union, which represents workers in transportation and logistics. Both are linked to \"teams\" albeit in distinct contexts: Vasgersian with sports teams and Casey with labor unions. \n\n**Answer:**  \nBoth Matt Vasgersian and Michael Casey (unionist) are associated with \"teams\"—Vasgersian through sports broadcasting and Casey through labor union leadership.",
+    "gold_answer": "American"
+  }
+}

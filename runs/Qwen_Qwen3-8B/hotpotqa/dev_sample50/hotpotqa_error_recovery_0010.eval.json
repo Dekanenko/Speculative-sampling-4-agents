@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0010",
+  "success": false,
+  "score": 0.5,
+  "details": {
+    "em": 0.0,
+    "f1": 0.5,
+    "predicted_answer": "The Tusker beer brand is owned by East African Breweries Limited, a Kenya-based company.",
+    "gold_answer": "East African Breweries Limited"
+  }
+}

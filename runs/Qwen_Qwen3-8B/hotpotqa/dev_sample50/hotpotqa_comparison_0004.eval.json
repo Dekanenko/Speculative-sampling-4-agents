@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0004",
+  "success": false,
+  "score": 0.07407407407407407,
+  "details": {
+    "em": 0.0,
+    "f1": 0.07407407407407407,
+    "predicted_answer": "Yes, both 'The Writer' and 'Jewish Currents' are magazines. 'The Writer' is a monthly magazine for writers, while 'Jewish Currents' is a quarterly magazine focusing on Jewish culture and politics.",
+    "gold_answer": "yes"
+  }
+}

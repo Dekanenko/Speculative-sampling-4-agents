@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0008",
+  "success": true,
+  "score": 1.0,
+  "details": {
+    "em": 1.0,
+    "f1": 1.0,
+    "predicted_answer": "1967",
+    "gold_answer": "1967"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0003",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "There is no widely known portable media player that was distributed through HP. HP has primarily focused on laptops, printers, and other computing devices, though they have partnered with various companies for different products.",
+    "gold_answer": "iPod+HP"
+  }
+}

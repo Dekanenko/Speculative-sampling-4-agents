@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0011",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The information about a pioneer with a park dedicated to him near Lexington, North Carolina, could not be found using available resources.",
+    "gold_answer": "Wilderness Road"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0009",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": "",
+    "n_tool_calls_total": 0,
+    "final_solution": "def get_Pairs_Count(arr, n, sum):\n    raise NotImplementedError\n"
+  }
+}

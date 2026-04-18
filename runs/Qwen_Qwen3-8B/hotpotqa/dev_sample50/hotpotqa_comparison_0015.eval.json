@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0015",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "Gevork Minaskanian and George Stambolian both pursued academic and research careers, with Minaskanian focusing on pharmaceutical chemistry and drug development, while Stambolian contributed to literature and education, particularly through editing LGBTQ+ anthologies and teaching French literature.",
+    "gold_answer": "American educator, writer,"
+  }
+}

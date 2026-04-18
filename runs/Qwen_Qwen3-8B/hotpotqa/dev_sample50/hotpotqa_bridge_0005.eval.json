@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0005",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "<think>\nOkay, the search for \"Microwave Jenny\" returned a Wikipedia page titled \"Microwave Jenny\". Now I need to fetch the content of that page to find out where Tessa grew up. Let me use the get_wiki_page tool with the title \"Microwave Jenny\".",
+    "gold_answer": "Umina Beach, New South Wales"
+  }
+}

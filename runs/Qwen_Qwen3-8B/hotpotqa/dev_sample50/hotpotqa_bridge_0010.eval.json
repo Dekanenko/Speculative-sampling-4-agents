@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0010",
+  "success": false,
+  "score": 0.07142857142857142,
+  "details": {
+    "em": 0.0,
+    "f1": 0.07142857142857142,
+    "predicted_answer": "Butautas tried to depose his uncle, Stepas Butautas, who was in power between 1947 and 1954 as a Soviet and Lithuanian basketball player and coach.",
+    "gold_answer": "from 1345 to 1377"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0006",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": "",
+    "n_tool_calls_total": 0,
+    "final_solution": "def find_Points(l1, r1, l2, r2):\n    raise NotImplementedError\n"
+  }
+}

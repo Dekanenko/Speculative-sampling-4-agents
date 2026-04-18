@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0002",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": "",
+    "n_tool_calls_total": 1,
+    "final_solution": "def cumulative_sum(tuples_list):\n    total = 0\n    for t in tuples_list:\n        for num in t:\n            total += num\n    return total\n"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0004",
+  "success": true,
+  "score": 1.0,
+  "details": {
+    "passed": 1,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": ".                                                                        [100%]\n1 passed in 0.00s\n",
+    "n_tool_calls_total": 6,
+    "final_solution": "def move_last(lst):\n    if not lst:\n        return lst\n    return lst[1:] + lst[:1]"
+  }
+}

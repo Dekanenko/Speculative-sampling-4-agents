@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_error_recovery_0007",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The 2014 special election to replace Bill Young in Florida's 1st district was won by Democrat Patrick Murphy.",
+    "gold_answer": "David Jolly"
+  }
+}

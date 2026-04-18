@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0004",
+  "success": false,
+  "score": 0.38095238095238093,
+  "details": {
+    "em": 0.0,
+    "f1": 0.38095238095238093,
+    "predicted_answer": "The film \"This Is England\" (2006), in which Stephen Graham starred, was directed by Shane Meadows. \n\nfinish(answer=Shane Meadows)",
+    "gold_answer": "directed by Shane Meadows"
+  }
+}

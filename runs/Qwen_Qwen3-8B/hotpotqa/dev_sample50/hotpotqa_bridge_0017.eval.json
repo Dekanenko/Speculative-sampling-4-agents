@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0017",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The information about the wrestler's training age and friendship with Trevor Mann in Brookport, Illinois CPW is not found in available Wikipedia resources. Please verify the details or consult other sources for this specific information.",
+    "gold_answer": "15"
+  }
+}

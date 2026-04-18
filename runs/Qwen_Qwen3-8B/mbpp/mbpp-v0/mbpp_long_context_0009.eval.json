@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_long_context_0009",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": "",
+    "n_tool_calls_total": 1,
+    "final_solution": "import math\n\ndef smallest_multiple(n: int) -> int:\n    if n == 0:\n        return 0\n    result = 1\n    for i in range(2, n + 1):\n        gcd = math.gcd(result, i)\n        result = (result * i) // gcd\n    return result"
+  }
+}

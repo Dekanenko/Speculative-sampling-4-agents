@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_comparison_0014",
+  "success": false,
+  "score": 0.05555555555555556,
+  "details": {
+    "em": 0.0,
+    "f1": 0.05555555555555556,
+    "predicted_answer": "The Sord M5 spanned farther distances regarding sales. While the Interact Home Computer was primarily sold in the United States (e.g., Detroit, Ann Arbor, Houston), the Sord M5 was distributed in multiple international markets, including the UK, Ireland, Spain, Netherlands, Singapore, Malaysia, Sweden, Norway, Denmark, Canada, New Zealand, Australia, Greece, Turkey, Israel, and Hong Kong. This broader geographic reach indicates the Sord M5 had a more extensive sales distribution. \n\n**Answer:** The Sord M5 spanned farther distances regarding sales.",
+    "gold_answer": "Sord M5"
+  }
+}

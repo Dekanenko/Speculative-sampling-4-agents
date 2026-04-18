@@ -1,0 +1,11 @@
+{
+  "task_id": "hotpotqa_bridge_0014",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "em": 0.0,
+    "f1": 0.0,
+    "predicted_answer": "The common profession of Alex Beard (as the former chief executive of the Royal Opera House) and Tony Hall, Baron Hall of Birkenhead (as Director-General of the BBC and chairman of the National Gallery) is **leadership in cultural and media institutions**. \n\nfinish(answer=\"Both are leaders in cultural and media institutions, with Alex Beard serving as CEO of the Royal Opera House and Tony Hall as Director-General of the BBC.\")",
+    "gold_answer": "director"
+  }
+}

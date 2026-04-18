@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_simple_0010",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": "",
+    "n_tool_calls_total": 1,
+    "final_solution": "def add_lists(list1, list2):\n    return list(map(lambda x, y: x + y, list1, list2))"
+  }
+}

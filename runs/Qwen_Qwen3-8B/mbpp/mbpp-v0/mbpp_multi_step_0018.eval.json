@@ -1,0 +1,13 @@
+{
+  "task_id": "mbpp_multi_step_0018",
+  "success": false,
+  "score": 0.0,
+  "details": {
+    "passed": 0,
+    "failed": 0,
+    "timed_out": false,
+    "last_run_tests_output": "",
+    "n_tool_calls_total": 1,
+    "final_solution": "import re\n\ndef is_ab_pattern(s):\n    return bool(re.fullmatch(r'^a.*b$', s))"
+  }
+}

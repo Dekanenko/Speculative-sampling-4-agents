@@ -1,0 +1,8 @@
+{
+  "task_id": "error_recovery_unknown_city",
+  "success": true,
+  "score": 1.0,
+  "details": {
+    "note": "mocks family has no intrinsic success criterion"
+  }
+}
